@@ -1,14 +1,14 @@
 <!doctype html>
 <html>
 <head>
-​
+
     <link rel="stylesheet" href="visualPlayer.css" />
     
     
 	<title>Our Funky HTML Page</title>
-​
+
 </head>
-​
+
 <body>
     <div class='player'>
         <div class='player_inner'>
@@ -51,15 +51,14 @@
             </div>           
             <div class='options'>
               <i class='fa fa-repeat'></i>
-              <i class='fa fa-random'></i>
+              <i class='fa fa-random'></i>:
             </div>
             <div class='playbar'>
               <div class='playbar_inner'></div>
               <div class='playbar_left'>
-                <span>1:47</span>
               </div>
               <div class='playbar_right'>
-                <span>3:49</span>
+                <span>1:00:00</span>
               </div>
             </div>
             <div class='controls'>
@@ -79,6 +78,48 @@
       </div>
 
 </body>
-​
+
 <script src="DJSchedule.js"></script>
+
+<br><br>
+<div id=n1 style="
+position: relative;
+top: 634px;
+right: 147px;
+color: white;
+text-align: center; 
+font-size: 10px; 
+font-family: Open Sans, sans-serif; "></div>
+
+<script language=javascript>
+  var minutes=0;
+  var seconds=0;
+
+  tm=window.setInterval('disp()',1000);
+  
+  function disp(){
+  // Format the output by adding 0 if it is single digit //
+    if(seconds<10){var s1='0' + seconds;}
+    else{var s1=seconds;}
+    if(minutes<10){var m1='0' + minutes;}
+    else{var m1=minutes;}
+
+    // Display the output //
+    str= m1 +':' + s1 ;
+    document.getElementById('n1').innerHTML=str;
+    // Calculate the stop watch // 
+    if(seconds<59){ 
+      seconds=seconds+1;
+    }else{
+      seconds=0;
+      minutes=minutes+1;
+    if(minutes==60){
+      minutes=0;
+      seconds=0;
+    } // end if  minutes == 60
+    }// end if else seconds < 59
+    // end of calculation for next display
+  }
+  </script>
+
 </html>
