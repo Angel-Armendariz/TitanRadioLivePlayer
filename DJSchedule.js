@@ -2,8 +2,7 @@ function DJSchedule() {
     var nextDate = new Date();
     var pst = nextDate.toLocaleString('en-US', {
         timeZone: 'America/Los_Angeles',
-      });
-      
+      });     
     nextDate = new Date(pst);
     switch(nextDate.getDay()) {
         case 0:
@@ -323,8 +322,9 @@ function DJSchedule() {
                     if(document.getElementById("bio").innerHTML !== text10)
                         document.getElementById("bio").innerHTML = text10;
                     let logo10 = document.getElementById("logo");
-                    if (logo10.src !== "https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png")
-                        document.getElementById("logo").src = "https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png";
+                    logo10.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (logo10.src !== "https://titanradio.org/wp-content/uploads/2021/11/yvette-de-wit-NYrVisodQ2M-unsplash-1024x683.jpg")
+                        document.getElementById("logo").src = "https://titanradio.org/wp-content/uploads/2021/11/yvette-de-wit-NYrVisodQ2M-unsplash-1024x683.jpg";
                     break
                 case 11:
                     let text11 = "this works at 11am";
@@ -332,8 +332,9 @@ function DJSchedule() {
                     if(document.getElementById("bio").innerHTML !== text11)
                         document.getElementById("bio").innerHTML = text11;
                     let logo11 = document.getElementById("logo");
-                    if (logo11.src !== "https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png")
-                        document.getElementById("logo").src = "https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png";
+                    logo11.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    let logo111 = document.getElementById("bars");
+                    logo111.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
                     break
                 case 12:
                     let text12 = "this works at 12pm";
@@ -1565,8 +1566,10 @@ var btn = document.getElementById("DJ_button");
 var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks the button, open the modal
-btn.onclick = function() {
+btn.addEventListener("click", popupWindow);
+function popupWindow() {
     modal.style.display = "block";
+    console.log("button clicked");
 }
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {

@@ -732,8 +732,7 @@ body .player_inner__middle .cube_inner__front .bars_bar {
   float: left;
   width: 10%;
 }
-body .player_inner__middle .cube_inner__front {
-  background: url("https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg") !important;
+.cube_inner__front {
   background-size: 100% !important; 
   /* background-size: contain !important; */
   background-repeat: no-repeat !important;
@@ -1327,6 +1326,12 @@ body .player_inner__bottom .playbar span {
   font-family: nunito;
   color: #ffffffff;
 }
+#logo {
+  background-size: 100% !important; 
+  background-size: contain !important; 
+  background-repeat: no-repeat !important;
+}
+
 
 /* for Firefox */
 @-moz-keyframes my-animation {
