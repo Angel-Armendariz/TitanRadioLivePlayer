@@ -1419,3 +1419,15 @@ body .player_inner__bottom .playbar span {
   text-decoration: none;
   cursor: pointer;
 }
+
+
+#songTimer{
+  position: relative;
+  top: -110px;
+  right: 145px;
+  color: white;
+  text-align: center; 
+  font-size: 10px; 
+  font-family: Open Sans, sans-serif;
+}
+
