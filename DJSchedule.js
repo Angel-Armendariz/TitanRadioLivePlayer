@@ -3094,7 +3094,6 @@ var span = document.getElementsByClassName("close")[0];
 btn.addEventListener("click", popupWindow);
 function popupWindow() {
     modal.style.display = "block";
-    console.log("button clicked");
 }
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
