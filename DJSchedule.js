@@ -4,6 +4,7 @@ function DJSchedule() {
         timeZone: 'America/Los_Angeles',
       });     
     nextDate = new Date(pst);
+    console.log(nextDate.getDay());
     switch(nextDate.getDay()) {
         case 0:
             switch(nextDate.getHours()) {
@@ -441,6 +442,7 @@ function DJSchedule() {
                         document.getElementById("logo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
                     break
             }
+            break
         case 1:
             switch(nextDate.getHours()) {
                 case 0:
@@ -877,6 +879,7 @@ function DJSchedule() {
                         document.getElementById("logo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
                     break
             }
+            break
         case 2:
             switch(nextDate.getHours()) {
                 case 0:
@@ -1075,8 +1078,7 @@ function DJSchedule() {
                         DJbio10.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio10.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio10.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (logo10.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    logo10.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    logo10.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack-300x240.png')";
                     break
                 case 11:
                     let text11 = "this works at 11am";
@@ -1313,6 +1315,7 @@ function DJSchedule() {
                         document.getElementById("logo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
                     break
             }
+            break   
         case 3:
             switch(nextDate.getHours()) {
                 case 0:
@@ -1749,6 +1752,7 @@ function DJSchedule() {
                         document.getElementById("logo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
                     break
             }
+            break
         case 4:
             switch(nextDate.getHours()) {
                 case 0:
@@ -2185,6 +2189,7 @@ function DJSchedule() {
                         document.getElementById("logo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
                     break
             }
+            break
         case 5:
             switch(nextDate.getHours()) {
                 case 0:
@@ -2621,6 +2626,7 @@ function DJSchedule() {
                         document.getElementById("logo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
                     break
             }
+            break
         case 6:
             switch(nextDate.getHours()) {
                 case 0:
@@ -3056,7 +3062,8 @@ function DJSchedule() {
                     if (logo23.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
                         document.getElementById("logo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
                     break
-            }                                                            
+            } 
+            break                                                           
 
     }
     if (nextDate.getMinutes() !== 0) { // You can check for seconds here too

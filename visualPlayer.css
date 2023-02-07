@@ -592,16 +592,6 @@ body .player_inner__middle {
 body .player_inner__middle .empty {
   display: none;
 }
-body .player_inner__middle input {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  background: transparent !important;
-  outline: none;
-  transition: all 0.3s;
-  width: 60px !important;
-  height: 50px !important;
-  line-height: 16px;
-}
 body .player_inner__middle input:hover {
   background: #00000061 !important;
 }
@@ -706,7 +696,7 @@ body .player_inner__middle .cube_inner {
   transform-style: preserve-3D;
 }
 body .player_inner__middle .cube_inner > div:nth-of-type(1) {
-  background: #ffb6c3;
+  background: white;
 }
 body .player_inner__middle .cube_inner > div:nth-of-type(2) {
   background: #ffacba;
@@ -735,7 +725,7 @@ body .player_inner__middle .cube_inner__front .bars_bar {
 .cube_inner__front {
   background-size: 100% !important; 
   /* background-size: contain !important; */
-  background-repeat: no-repeat !important;
+  
   /* background-position-y: -71px !important; */
 }
 body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(1) {
