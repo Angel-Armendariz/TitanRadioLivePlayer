@@ -4,7 +4,6 @@ function DJSchedule() {
         timeZone: 'America/Los_Angeles',
       });     
     nextDate = new Date(pst);
-    console.log(nextDate.getDay());
     switch(nextDate.getDay()) {
         case 0:
             switch(nextDate.getHours()) {
