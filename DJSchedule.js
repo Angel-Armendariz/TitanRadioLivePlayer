@@ -1078,6 +1078,8 @@ function DJSchedule() {
                     if(DJshowBio10.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio10.innerHTML = "DJ Sam's show is a show where he plays music.";
                     logo10.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack-300x240.png')";
+                    if (logo10.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack-300x240.png')")
+                        document.getElementById("logo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack-300x240.png')";                    
                     break
                 case 11:
                     let text11 = "this works at 11am";
