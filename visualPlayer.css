@@ -1243,9 +1243,9 @@ body .player_inner__bottom .playbar {
   position: relative;
   border-radius: 10px;
 }
-body .player_inner__bottom .playbar_inner {
+body .player_inner__bottom #playbar_inner {
   position: absolute;
-  width: 40%;
+  width: 1%;
   height: 100%;
   border-radius: 10px;
   background: #44f5b7;
