@@ -1497,11 +1497,11 @@ function DJSchedule() {
                         DJbio9.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio9.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio9.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (logo9.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    logo9.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (logo9.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/10/djTeal.png')")
+                    logo9.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/10/djTeal.png')";
                     break
                 case 10:
-                    let text10 = "this works at 10am";
+                    let text10 = "Sam's Space";
                     //change innerHTML of bio to text
                     if(document.getElementById("bio").innerHTML !== text10)
                         document.getElementById("bio").innerHTML = text10;
