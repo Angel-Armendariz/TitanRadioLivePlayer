@@ -695,11 +695,11 @@ body .player_inner__bottom .playbar span {
 
 #songTimer{
   position: relative;
-  top: -115px;
-  right: 145px;
+  top: -117px;
+  right: 141px;
   color: white;
   text-align: center; 
-  font-size: 15px; 
+  font-size: 14px; 
   font-family: Open Sans, sans-serif;
 }
 
