@@ -1,15 +1,14 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Nunito:600");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
-* {
-  box-sizing: border-box;
+
+.player{
+  padding-top:15rem;
+  padding-bottom:15rem;
+  padding-left:3rem;
+  padding-right:3rem;
 }
 
-body {
-  background: #cbded8;
-  margin: 0;
-  overflow: hidden;
-}
 
 .bar {
   background: white;
@@ -33,7 +32,7 @@ body {
   z-index: 2;
 }
 
-body .player_inner__middle .cube, body .player_inner {
+ .player_inner__middle .cube,  .player_inner {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -42,22 +41,22 @@ body .player_inner__middle .cube, body .player_inner {
   margin: auto;
 }
 
-body .player_inner__middle .cube_inner > div {
+ .player_inner__middle .cube_inner > div {
   width: 380px;
   height: 380px;
-  background: pink;
+  background: #b8b8b8;
   position: absolute;
   transform-style: preserve-3D;
 }
 
-body .player_inner {
+ .player_inner {
   background: #3a4e47;
   width: 380px;
   height: 640px;
   border-radius: 6px;
   perspective: 800px;
 }
-body .player_inner__top {
+ .player_inner__top {
   height: 70px;
   padding: 24px;
   background-size: 103% !important;
@@ -66,18 +65,18 @@ body .player_inner__top {
   border-top-right-radius: 10px;
 }
 
-body .player_inner__middle {
+ .player_inner__middle {
   position: relative;
   height: 380px;
   background: #40555f;
   box-shadow: 0px 0px 110px #181f23 inset;
 }
 
-body .player_inner__middle .cube_inner {
+ .player_inner__middle .cube_inner {
   height: 380px;
   transform-style: preserve-3D;
 }
-body .player_inner__middle .cube_inner__front .bars {
+ .player_inner__middle .cube_inner__front .bars {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -85,7 +84,7 @@ body .player_inner__middle .cube_inner__front .bars {
   width: 100%;
   z-index: 1;
 }
-body .player_inner__middle .cube_inner__front .bars_bar {
+ .player_inner__middle .cube_inner__front .bars_bar {
   width: 10px;
   background: white;
   opacity: 0.1;
@@ -98,409 +97,409 @@ body .player_inner__middle .cube_inner__front .bars_bar {
   
   /* background-position-y: -71px !important; */
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(1) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(1) {
   -webkit-animation: eq 1s 16ms infinite ease-in-out;
           animation: eq 1s 16ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(2) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(2) {
   -webkit-animation: eq 1s 44ms infinite ease-in-out;
           animation: eq 1s 44ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(3) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(3) {
   -webkit-animation: eq 1s 36ms infinite ease-in-out;
           animation: eq 1s 36ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(4) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(4) {
   -webkit-animation: eq 1s 28ms infinite ease-in-out;
           animation: eq 1s 28ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(5) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(5) {
   -webkit-animation: eq 1s 35ms infinite ease-in-out;
           animation: eq 1s 35ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(6) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(6) {
   -webkit-animation: eq 1s 186ms infinite ease-in-out;
           animation: eq 1s 186ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(7) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(7) {
   -webkit-animation: eq 1s 210ms infinite ease-in-out;
           animation: eq 1s 210ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(8) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(8) {
   -webkit-animation: eq 1s 232ms infinite ease-in-out;
           animation: eq 1s 232ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(9) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(9) {
   -webkit-animation: eq 1s 297ms infinite ease-in-out;
           animation: eq 1s 297ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(10) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(10) {
   -webkit-animation: eq 1s 140ms infinite ease-in-out;
           animation: eq 1s 140ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(11) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(11) {
   -webkit-animation: eq 1s 253ms infinite ease-in-out;
           animation: eq 1s 253ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(12) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(12) {
   -webkit-animation: eq 1s 72ms infinite ease-in-out;
           animation: eq 1s 72ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(13) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(13) {
   -webkit-animation: eq 1s 247ms infinite ease-in-out;
           animation: eq 1s 247ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(14) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(14) {
   -webkit-animation: eq 1s 448ms infinite ease-in-out;
           animation: eq 1s 448ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(15) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(15) {
   -webkit-animation: eq 1s 15ms infinite ease-in-out;
           animation: eq 1s 15ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(16) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(16) {
   -webkit-animation: eq 1s 352ms infinite ease-in-out;
           animation: eq 1s 352ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(17) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(17) {
   -webkit-animation: eq 1s 85ms infinite ease-in-out;
           animation: eq 1s 85ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(18) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(18) {
   -webkit-animation: eq 1s 486ms infinite ease-in-out;
           animation: eq 1s 486ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(19) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(19) {
   -webkit-animation: eq 1s 494ms infinite ease-in-out;
           animation: eq 1s 494ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(20) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(20) {
   -webkit-animation: eq 1s 400ms infinite ease-in-out;
           animation: eq 1s 400ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(21) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(21) {
   -webkit-animation: eq 1s 126ms infinite ease-in-out;
           animation: eq 1s 126ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(22) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(22) {
   -webkit-animation: eq 1s 792ms infinite ease-in-out;
           animation: eq 1s 792ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(23) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(23) {
   -webkit-animation: eq 1s 138ms infinite ease-in-out;
           animation: eq 1s 138ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(24) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(24) {
   -webkit-animation: eq 1s 72ms infinite ease-in-out;
           animation: eq 1s 72ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(25) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(25) {
   -webkit-animation: eq 1s 325ms infinite ease-in-out;
           animation: eq 1s 325ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(26) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(26) {
   -webkit-animation: eq 1s 1014ms infinite ease-in-out;
           animation: eq 1s 1014ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(27) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(27) {
   -webkit-animation: eq 1s 756ms infinite ease-in-out;
           animation: eq 1s 756ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(28) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(28) {
   -webkit-animation: eq 1s 560ms infinite ease-in-out;
           animation: eq 1s 560ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(29) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(29) {
   -webkit-animation: eq 1s 899ms infinite ease-in-out;
           animation: eq 1s 899ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(30) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(30) {
   -webkit-animation: eq 1s 1140ms infinite ease-in-out;
           animation: eq 1s 1140ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(31) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(31) {
   -webkit-animation: eq 1s 806ms infinite ease-in-out;
           animation: eq 1s 806ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(32) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(32) {
   -webkit-animation: eq 1s 192ms infinite ease-in-out;
           animation: eq 1s 192ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(33) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(33) {
   -webkit-animation: eq 1s 792ms infinite ease-in-out;
           animation: eq 1s 792ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(34) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(34) {
   -webkit-animation: eq 1s 306ms infinite ease-in-out;
           animation: eq 1s 306ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(35) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(35) {
   -webkit-animation: eq 1s 1365ms infinite ease-in-out;
           animation: eq 1s 1365ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(36) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(36) {
   -webkit-animation: eq 1s 36ms infinite ease-in-out;
           animation: eq 1s 36ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(37) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(37) {
   -webkit-animation: eq 1s 518ms infinite ease-in-out;
           animation: eq 1s 518ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(38) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(38) {
   -webkit-animation: eq 1s 1254ms infinite ease-in-out;
           animation: eq 1s 1254ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(39) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(39) {
   -webkit-animation: eq 1s 975ms infinite ease-in-out;
           animation: eq 1s 975ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(40) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(40) {
   -webkit-animation: eq 1s 200ms infinite ease-in-out;
           animation: eq 1s 200ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(41) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(41) {
   -webkit-animation: eq 1s 1025ms infinite ease-in-out;
           animation: eq 1s 1025ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(42) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(42) {
   -webkit-animation: eq 1s 630ms infinite ease-in-out;
           animation: eq 1s 630ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(43) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(43) {
   -webkit-animation: eq 1s 1634ms infinite ease-in-out;
           animation: eq 1s 1634ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(44) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(44) {
   -webkit-animation: eq 1s 396ms infinite ease-in-out;
           animation: eq 1s 396ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(45) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(45) {
   -webkit-animation: eq 1s 1395ms infinite ease-in-out;
           animation: eq 1s 1395ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(46) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(46) {
   -webkit-animation: eq 1s 874ms infinite ease-in-out;
           animation: eq 1s 874ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(47) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(47) {
   -webkit-animation: eq 1s 658ms infinite ease-in-out;
           animation: eq 1s 658ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(48) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(48) {
   -webkit-animation: eq 1s 1632ms infinite ease-in-out;
           animation: eq 1s 1632ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(49) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(49) {
   -webkit-animation: eq 1s 1029ms infinite ease-in-out;
           animation: eq 1s 1029ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(50) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(50) {
   -webkit-animation: eq 1s 600ms infinite ease-in-out;
           animation: eq 1s 600ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(51) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(51) {
   -webkit-animation: eq 1s 357ms infinite ease-in-out;
           animation: eq 1s 357ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(52) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(52) {
   -webkit-animation: eq 1s 1664ms infinite ease-in-out;
           animation: eq 1s 1664ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(53) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(53) {
   -webkit-animation: eq 1s 954ms infinite ease-in-out;
           animation: eq 1s 954ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(54) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(54) {
   -webkit-animation: eq 1s 1512ms infinite ease-in-out;
           animation: eq 1s 1512ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(55) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(55) {
   -webkit-animation: eq 1s 825ms infinite ease-in-out;
           animation: eq 1s 825ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(56) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(56) {
   -webkit-animation: eq 1s 392ms infinite ease-in-out;
           animation: eq 1s 392ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(57) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(57) {
   -webkit-animation: eq 1s 627ms infinite ease-in-out;
           animation: eq 1s 627ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(58) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(58) {
   -webkit-animation: eq 1s 2204ms infinite ease-in-out;
           animation: eq 1s 2204ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(59) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(59) {
   -webkit-animation: eq 1s 1770ms infinite ease-in-out;
           animation: eq 1s 1770ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(60) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(60) {
   -webkit-animation: eq 1s 2280ms infinite ease-in-out;
           animation: eq 1s 2280ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(61) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(61) {
   -webkit-animation: eq 1s 793ms infinite ease-in-out;
           animation: eq 1s 793ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(62) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(62) {
   -webkit-animation: eq 1s 310ms infinite ease-in-out;
           animation: eq 1s 310ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(63) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(63) {
   -webkit-animation: eq 1s 1638ms infinite ease-in-out;
           animation: eq 1s 1638ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(64) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(64) {
   -webkit-animation: eq 1s 1152ms infinite ease-in-out;
           animation: eq 1s 1152ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(65) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(65) {
   -webkit-animation: eq 1s 1430ms infinite ease-in-out;
           animation: eq 1s 1430ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(66) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(66) {
   -webkit-animation: eq 1s 792ms infinite ease-in-out;
           animation: eq 1s 792ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(67) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(67) {
   -webkit-animation: eq 1s 2010ms infinite ease-in-out;
           animation: eq 1s 2010ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(68) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(68) {
   -webkit-animation: eq 1s 1564ms infinite ease-in-out;
           animation: eq 1s 1564ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(69) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(69) {
   -webkit-animation: eq 1s 2760ms infinite ease-in-out;
           animation: eq 1s 2760ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(70) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(70) {
   -webkit-animation: eq 1s 350ms infinite ease-in-out;
           animation: eq 1s 350ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(71) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(71) {
   -webkit-animation: eq 1s 1633ms infinite ease-in-out;
           animation: eq 1s 1633ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(72) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(72) {
   -webkit-animation: eq 1s 72ms infinite ease-in-out;
           animation: eq 1s 72ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(73) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(73) {
   -webkit-animation: eq 1s 2628ms infinite ease-in-out;
           animation: eq 1s 2628ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(74) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(74) {
   -webkit-animation: eq 1s 370ms infinite ease-in-out;
           animation: eq 1s 370ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(75) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(75) {
   -webkit-animation: eq 1s 2025ms infinite ease-in-out;
           animation: eq 1s 2025ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(76) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(76) {
   -webkit-animation: eq 1s 684ms infinite ease-in-out;
           animation: eq 1s 684ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(77) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(77) {
   -webkit-animation: eq 1s 1771ms infinite ease-in-out;
           animation: eq 1s 1771ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(78) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(78) {
   -webkit-animation: eq 1s 2574ms infinite ease-in-out;
           animation: eq 1s 2574ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(79) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(79) {
   -webkit-animation: eq 1s 1738ms infinite ease-in-out;
           animation: eq 1s 1738ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(80) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(80) {
   -webkit-animation: eq 1s 1840ms infinite ease-in-out;
           animation: eq 1s 1840ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(81) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(81) {
   -webkit-animation: eq 1s 1377ms infinite ease-in-out;
           animation: eq 1s 1377ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(82) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(82) {
   -webkit-animation: eq 1s 1558ms infinite ease-in-out;
           animation: eq 1s 1558ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(83) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(83) {
   -webkit-animation: eq 1s 1079ms infinite ease-in-out;
           animation: eq 1s 1079ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(84) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(84) {
   -webkit-animation: eq 1s 2856ms infinite ease-in-out;
           animation: eq 1s 2856ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(85) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(85) {
   -webkit-animation: eq 1s 1700ms infinite ease-in-out;
           animation: eq 1s 1700ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(86) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(86) {
   -webkit-animation: eq 1s 2236ms infinite ease-in-out;
           animation: eq 1s 2236ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(87) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(87) {
   -webkit-animation: eq 1s 2088ms infinite ease-in-out;
           animation: eq 1s 2088ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(88) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(88) {
   -webkit-animation: eq 1s 2992ms infinite ease-in-out;
           animation: eq 1s 2992ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(89) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(89) {
   -webkit-animation: eq 1s 3204ms infinite ease-in-out;
           animation: eq 1s 3204ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(90) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(90) {
   -webkit-animation: eq 1s 1440ms infinite ease-in-out;
           animation: eq 1s 1440ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(91) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(91) {
   -webkit-animation: eq 1s 910ms infinite ease-in-out;
           animation: eq 1s 910ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(92) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(92) {
   -webkit-animation: eq 1s 1656ms infinite ease-in-out;
           animation: eq 1s 1656ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(93) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(93) {
   -webkit-animation: eq 1s 3348ms infinite ease-in-out;
           animation: eq 1s 3348ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(94) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(94) {
   -webkit-animation: eq 1s 1786ms infinite ease-in-out;
           animation: eq 1s 1786ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(95) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(95) {
   -webkit-animation: eq 1s 1045ms infinite ease-in-out;
           animation: eq 1s 1045ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(96) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(96) {
   -webkit-animation: eq 1s 2112ms infinite ease-in-out;
           animation: eq 1s 2112ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(97) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(97) {
   -webkit-animation: eq 1s 1649ms infinite ease-in-out;
           animation: eq 1s 1649ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(98) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(98) {
   -webkit-animation: eq 1s 3136ms infinite ease-in-out;
           animation: eq 1s 3136ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(99) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(99) {
   -webkit-animation: eq 1s 3366ms infinite ease-in-out;
           animation: eq 1s 3366ms infinite ease-in-out;
 }
-body .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(100) {
+ .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(100) {
   -webkit-animation: eq 1s 3500ms infinite ease-in-out;
           animation: eq 1s 3500ms infinite ease-in-out;
 }
 
 
-body .player_inner__bottom {
+ .player_inner__bottom {
   height: 190px;
   padding-left: 30px;
   padding-right: 30px;
@@ -508,31 +507,31 @@ body .player_inner__bottom {
   padding-bottom: 10px;
 }
 
-body .player_inner__bottom .playbar {
+ .player_inner__bottom .playbar {
   width: 100%;
   background: #2c3e38;
   height: 4px;
   position: relative;
   border-radius: 10px;
 }
-body .player_inner__bottom #playbar_inner {
+ .player_inner__bottom #playbar_inner {
   position: absolute;
   width: 1%;
   height: 100%;
   border-radius: 10px;
   background: #44f5b7;
 }
-body .player_inner__bottom .playbar_left {
+ .player_inner__bottom .playbar_left {
   float: left;
   position: relative;
   top: 8px;
 }
-body .player_inner__bottom .playbar_right {
+ .player_inner__bottom .playbar_right {
   position: relative;
   top: 8px;
   float: right;
 }
-body .player_inner__bottom .playbar span {
+ .player_inner__bottom .playbar span {
   color: white;
   font-size: 15px;
 }
@@ -585,7 +584,7 @@ body .player_inner__bottom .playbar span {
   text-align: center;
   font-size: x-large;
   margin:0.5rem;
-  font-family: 'nunito';
+  font-family: "Nunito", sans-serif;
   color: #ffffffff;
 }
 #logo {
@@ -610,7 +609,7 @@ body .player_inner__bottom .playbar span {
   text-align: center;
   font-size: x-large;
   margin:0.5rem;
-  font-family: 'nunito';
+  font-family: "Nunito", sans-serif;
 }
 /* for Firefox */
 @-moz-keyframes my-animation {
@@ -675,7 +674,6 @@ body .player_inner__bottom .playbar span {
   padding: 20px;
   border: 1px solid #888;
   width: 80%; /* Could be more or less, depending on screen size */
-  border-radius: 20%;
 }
 
 .close {
@@ -703,9 +701,3 @@ body .player_inner__bottom .playbar span {
   font-family: Open Sans, sans-serif;
 }
 
-@media (max-width: 900px) {
-
-}
-@media (max-width: 764px) {
-
-}
