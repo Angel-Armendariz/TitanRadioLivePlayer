@@ -5,10 +5,15 @@
 .player{
   padding-top:15rem;
   padding-bottom:15rem;
-  padding-left:3rem;
-  padding-right:3rem;
 }
 
+.container-wrap, .project-title {
+        padding-right: 4rem;
+}
+
+.row .col img:not([srcset]) {
+        width: 50%;
+}
 
 .bar {
   background: white;
@@ -579,9 +584,9 @@
   -webkit-transform: translateX(-100%);
   transform: translateX(-100%);
   
-  -moz-animation: my-animation 15s linear infinite;
-  -webkit-animation: my-animation 15s linear infinite;
-  animation: my-animation 15s linear infinite;
+  -moz-animation: my-animation 7s linear infinite;
+  -webkit-animation: my-animation 7s linear infinite;
+  animation: my-animation 7s linear infinite;
 }
 
 #bio {
