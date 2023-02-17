@@ -2358,7 +2358,7 @@ function DJSchedule() {
                     DJshowLogo6.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 7:
-                    let text7 = "this works at 7am";
+                    let text7 = "Fairies On Air";
                     //change innerHTML of bio to text
                     if(document.getElementById("bio").innerHTML !== text7)
                         document.getElementById("bio").innerHTML = text7;
@@ -2366,14 +2366,14 @@ function DJSchedule() {
                     let DJname7 = document.getElementById("DJname");
                     let DJbio7 = document.getElementById("DJbio");
                     let DJshowBio7 = document.getElementById("DJshowBio");  
-                    if(DJname7.innerHTML !== "DJ Sam")
-                        DJname7.innerHTML = "DJ Sam";
-                    if(DJbio7.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio7.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio7.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio7.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo7.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo7.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname7.innerHTML !== "DJ Syd & DJ Dalia")
+                        DJname7.innerHTML = "DJ Syd & DJ Dalia";
+                    if(DJbio7.innerHTML !== "Although Syd and Dalia tend to be introverted at most times they love to express themselves through their taste in music which can speak to their character. Music is a form of self-expression that many people can utilize and we feel like by showing people new music we will be able to connect with our listeners on a different level.")
+                        DJbio7.innerHTML = "Although Syd and Dalia tend to be introverted at most times they love to express themselves through their taste in music which can speak to their character. Music is a form of self-expression that many people can utilize and we feel like by showing people new music we will be able to connect with our listeners on a different level.";
+                    if(DJshowBio7.innerHTML !== "DJ Syd and DJ Dalia would like to introduce Titan listeners to various amounts of genres and expand their musical palate. We would like to have a concentration on genres that include pop, alternative, r&b, and rock. Our goal is to show listeners music that they can immediately add to their playlist, music to study to, and definitely music to gatekeep!")
+                        DJshowBio7.innerHTML = "DJ Syd and DJ Dalia would like to introduce Titan listeners to various amounts of genres and expand their musical palate. We would like to have a concentration on genres that include pop, alternative, r&b, and rock. Our goal is to show listeners music that they can immediately add to their playlist, music to study to, and definitely music to gatekeep!";
+                    if (DJshowLogo7.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo7.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 8:
                     let text8 = "this works at 8am";
@@ -2430,7 +2430,7 @@ function DJSchedule() {
                     DJshowLogo10.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
                     break
                 case 11:
-                    let text11 = "this works at 11am";
+                    let text11 = "Top Down Radio";
                     //change innerHTML of bio to text
                     if(document.getElementById("bio").innerHTML !== text11)
                         document.getElementById("bio").innerHTML = text11;
@@ -2438,14 +2438,14 @@ function DJSchedule() {
                     let DJname11 = document.getElementById("DJname");
                     let DJbio11 = document.getElementById("DJbio");
                     let DJshowBio11 = document.getElementById("DJshowBio");
-                    if(DJname11.innerHTML !== "DJ Sam")
-                        DJname11.innerHTML = "DJ Sam";
-                    if(DJbio11.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio11.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio11.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio11.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo11.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname11.innerHTML !== "E.V.P.")
+                        DJname11.innerHTML = "E.V.P.";
+                    if(DJbio11.innerHTML !== "Emily is a third year student here at Cal State Fullerton who is a self proclaimed 'music dealer' for her friends and family. She has found creating playlists a strong passion of hers for many years and is ecstatic to share some of that with Titan Radio. E.V.P. (Acronym for Emily Valdez Princess)")
+                        DJbio11.innerHTML = "Emily is a third year student here at Cal State Fullerton who is a self proclaimed 'music dealer' for her friends and family. She has found creating playlists a strong passion of hers for many years and is ecstatic to share some of that with Titan Radio. E.V.P. (Acronym for Emily Valdez Princess)";
+                    if(DJshowBio11.innerHTML !== "Do you have a nice old convertible that you always drive with your friends down to the beach? I don't! But this radio station is perfect for emulating that fantasy everyone has. These songs are warm and upbeat for when you're missing summer or actually driving with the top down.")
+                        DJshowBio11.innerHTML = "Do you have a nice old convertible that you always drive with your friends down to the beach? I don't! But this radio station is perfect for emulating that fantasy everyone has. These songs are warm and upbeat for when you're missing summer or actually driving with the top down.";
+                    if (DJshowLogo11.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/topdownradio.jpeg')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/topdownradio.jpeg')";
                     break
                 case 12:
                     let text12 = "this works at 12pm";
