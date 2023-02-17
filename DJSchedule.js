@@ -8,131 +8,137 @@ function DJSchedule() {
         case 0:
             switch(nextDate.getHours()) {
                 case 0:
-                    let text0 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text0 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text0;
+                    if(document.getElementById("bio").innerHTML !== text0)
+                        document.getElementById("bio").innerHTML = text0;
                     //change the image to the DJ's image DJshowLogo
                     let DJshowLogo0 = document.getElementById("DJshowLogo");
                     let DJname0 = document.getElementById("DJname");
                     let DJbio0 = document.getElementById("DJbio");
                     let DJshowBio0 = document.getElementById("DJshowBio");
-                    if(DJname0.innerHTML !== "DJ Sam")
-                        DJname0.innerHTML = "DJ Sam";
-                    if(DJbio0.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio0.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio0.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio0.innerHTML = "DJ Sam's show is a show where he plays music."; 
-                    if (DJshowLogo0.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo0.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname0.innerHTML !== "TR Staff")
+                        DJname0.innerHTML = "TR Staff";
+                    if(DJbio0.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio0.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio0.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio0.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo0.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo0.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 1:
-                    let text1 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text1 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text1;
+                    if(document.getElementById("bio").innerHTML !== text1)
+                        document.getElementById("bio").innerHTML = text1;
                     //change the image to the DJ's image DJshowLogo
-                    let DJshowLogo1 = document.getElementById("DJshowLogo"); 
+                    let DJshowLogo1 = document.getElementById("DJshowLogo");
                     let DJname1 = document.getElementById("DJname");
                     let DJbio1 = document.getElementById("DJbio");
                     let DJshowBio1 = document.getElementById("DJshowBio");
-                    if(DJname1.innerHTML !== "DJ Sam")
-                        DJname1.innerHTML = "DJ Sam";
-                    if(DJbio1.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio1.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio1.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio1.innerHTML = "DJ Sam's show is a show where he plays music."; 
-                    if (DJshowLogo1.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo1.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname1.innerHTML !== "TR Staff")
+                        DJname1.innerHTML = "TR Staff";
+                    if(DJbio1.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio1.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio1.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio1.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo1.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo1.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 2:
-                    let text2 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text2 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text2;
+                    if(document.getElementById("bio").innerHTML !== text2)
+                        document.getElementById("bio").innerHTML = text2;
                     //change the image to the DJ's image DJshowLogo
-                    let DJshowLogo2 = document.getElementById("DJshowLogo"); 
+                    let DJshowLogo2 = document.getElementById("DJshowLogo");
                     let DJname2 = document.getElementById("DJname");
                     let DJbio2 = document.getElementById("DJbio");
                     let DJshowBio2 = document.getElementById("DJshowBio");
-                    if(DJname2.innerHTML !== "DJ Sam")
-                        DJname2.innerHTML = "DJ Sam";
-                    if(DJbio2.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio2.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio2.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio2.innerHTML = "DJ Sam's show is a show where he plays music.";
-
-                    if (DJshowLogo2.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo2.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname2.innerHTML !== "TR Staff")
+                        DJname2.innerHTML = "TR Staff";
+                    if(DJbio2.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio2.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio2.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio2.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo2.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo2.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 3:
-                    let text3 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text3 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text3;
+                    if(document.getElementById("bio").innerHTML !== text3)
+                        document.getElementById("bio").innerHTML = text3;
                     //change the image to the DJ's image DJshowLogo
                     let DJshowLogo3 = document.getElementById("DJshowLogo");
                     let DJname3 = document.getElementById("DJname");
                     let DJbio3 = document.getElementById("DJbio");
-                    let DJshowBio3 = document.getElementById("DJshowBio");  
-                    if(DJname3.innerHTML !== "DJ Sam")
-                        DJname3.innerHTML = "DJ Sam";
-                    if(DJbio3.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio3.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio3.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio3.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo3.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo3.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    let DJshowBio3 = document.getElementById("DJshowBio");
+                    if(DJname3.innerHTML !== "TR Staff")
+                        DJname3.innerHTML = "TR Staff";
+                    if(DJbio3.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio3.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio3.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio3.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo3.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo3.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 4:
-                    let text4 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text4 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text4;
+                    if(document.getElementById("bio").innerHTML !== text4)
+                        document.getElementById("bio").innerHTML = text4;
                     //change the image to the DJ's image DJshowLogo
                     let DJshowLogo4 = document.getElementById("DJshowLogo");
                     let DJname4 = document.getElementById("DJname");
                     let DJbio4 = document.getElementById("DJbio");
                     let DJshowBio4 = document.getElementById("DJshowBio");
-                    if(DJname4.innerHTML !== "DJ Sam")
-                        DJname4.innerHTML = "DJ Sam";
-                    if(DJbio4.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio4.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio4.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio4.innerHTML = "DJ Sam's show is a show where he plays music."; 
-                    if (DJshowLogo4.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo4.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname4.innerHTML !== "TR Staff")
+                        DJname4.innerHTML = "TR Staff";
+                    if(DJbio4.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio4.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio4.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio4.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo4.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo4.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 5:
-                    let text5 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text5 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text5;
+                    if(document.getElementById("bio").innerHTML !== text5)
+                        document.getElementById("bio").innerHTML = text5;
                     //change the image to the DJ's image DJshowLogo
                     let DJshowLogo5 = document.getElementById("DJshowLogo");
                     let DJname5 = document.getElementById("DJname");
                     let DJbio5 = document.getElementById("DJbio");
                     let DJshowBio5 = document.getElementById("DJshowBio");
-                    if(DJname5.innerHTML !== "DJ Sam")
-                        DJname5.innerHTML = "DJ Sam";
-                    if(DJbio5.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio5.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio5.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio5.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo5.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo5.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname5.innerHTML !== "TR Staff")
+                        DJname5.innerHTML = "TR Staff";
+                    if(DJbio5.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio5.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio5.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio5.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo5.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo5.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 6:
-                    let text6 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text6 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text6;
+                    if(document.getElementById("bio").innerHTML !== text6)
+                        document.getElementById("bio").innerHTML = text6;
                     //change the image to the DJ's image DJshowLogo
                     let DJshowLogo6 = document.getElementById("DJshowLogo");
                     let DJname6 = document.getElementById("DJname");
                     let DJbio6 = document.getElementById("DJbio");
                     let DJshowBio6 = document.getElementById("DJshowBio");
-                    if(DJname6.innerHTML !== "DJ Sam")
-                        DJname6.innerHTML = "DJ Sam";
-                    if(DJbio6.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio6.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio6.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio6.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo6.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo6.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname6.innerHTML !== "TR Staff")
+                        DJname6.innerHTML = "TR Staff";
+                    if(DJbio6.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio6.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio6.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio6.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo6.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo6.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 7:
                     let text7 = "this works at 7am";
@@ -445,131 +451,137 @@ function DJSchedule() {
         case 1:
             switch(nextDate.getHours()) {
                 case 0:
-                    let text0 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text0 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text0;
+                    if(document.getElementById("bio").innerHTML !== text0)
+                        document.getElementById("bio").innerHTML = text0;
                     //change the image to the DJ's image DJshowLogo
                     let DJshowLogo0 = document.getElementById("DJshowLogo");
                     let DJname0 = document.getElementById("DJname");
                     let DJbio0 = document.getElementById("DJbio");
                     let DJshowBio0 = document.getElementById("DJshowBio");
-                    if(DJname0.innerHTML !== "DJ Sam")
-                        DJname0.innerHTML = "DJ Sam";
-                    if(DJbio0.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio0.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio0.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio0.innerHTML = "DJ Sam's show is a show where he plays music."; 
-                    if (DJshowLogo0.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo0.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname0.innerHTML !== "TR Staff")
+                        DJname0.innerHTML = "TR Staff";
+                    if(DJbio0.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio0.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio0.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio0.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo0.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo0.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 1:
-                    let text1 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text1 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text1;
+                    if(document.getElementById("bio").innerHTML !== text1)
+                        document.getElementById("bio").innerHTML = text1;
                     //change the image to the DJ's image DJshowLogo
-                    let DJshowLogo1 = document.getElementById("DJshowLogo"); 
+                    let DJshowLogo1 = document.getElementById("DJshowLogo");
                     let DJname1 = document.getElementById("DJname");
                     let DJbio1 = document.getElementById("DJbio");
                     let DJshowBio1 = document.getElementById("DJshowBio");
-                    if(DJname1.innerHTML !== "DJ Sam")
-                        DJname1.innerHTML = "DJ Sam";
-                    if(DJbio1.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio1.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio1.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio1.innerHTML = "DJ Sam's show is a show where he plays music."; 
-                    if (DJshowLogo1.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo1.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname1.innerHTML !== "TR Staff")
+                        DJname1.innerHTML = "TR Staff";
+                    if(DJbio1.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio1.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio1.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio1.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo1.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo1.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 2:
-                    let text2 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text2 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text2;
+                    if(document.getElementById("bio").innerHTML !== text2)
+                        document.getElementById("bio").innerHTML = text2;
                     //change the image to the DJ's image DJshowLogo
-                    let DJshowLogo2 = document.getElementById("DJshowLogo"); 
+                    let DJshowLogo2 = document.getElementById("DJshowLogo");
                     let DJname2 = document.getElementById("DJname");
                     let DJbio2 = document.getElementById("DJbio");
                     let DJshowBio2 = document.getElementById("DJshowBio");
-                    if(DJname2.innerHTML !== "DJ Sam")
-                        DJname2.innerHTML = "DJ Sam";
-                    if(DJbio2.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio2.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio2.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio2.innerHTML = "DJ Sam's show is a show where he plays music.";
-
-                    if (DJshowLogo2.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo2.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname2.innerHTML !== "TR Staff")
+                        DJname2.innerHTML = "TR Staff";
+                    if(DJbio2.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio2.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio2.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio2.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo2.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo2.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 3:
-                    let text3 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text3 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text3;
+                    if(document.getElementById("bio").innerHTML !== text3)
+                        document.getElementById("bio").innerHTML = text3;
                     //change the image to the DJ's image DJshowLogo
                     let DJshowLogo3 = document.getElementById("DJshowLogo");
                     let DJname3 = document.getElementById("DJname");
                     let DJbio3 = document.getElementById("DJbio");
-                    let DJshowBio3 = document.getElementById("DJshowBio");  
-                    if(DJname3.innerHTML !== "DJ Sam")
-                        DJname3.innerHTML = "DJ Sam";
-                    if(DJbio3.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio3.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio3.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio3.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo3.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo3.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    let DJshowBio3 = document.getElementById("DJshowBio");
+                    if(DJname3.innerHTML !== "TR Staff")
+                        DJname3.innerHTML = "TR Staff";
+                    if(DJbio3.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio3.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio3.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio3.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo3.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo3.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 4:
-                    let text4 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text4 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text4;
+                    if(document.getElementById("bio").innerHTML !== text4)
+                        document.getElementById("bio").innerHTML = text4;
                     //change the image to the DJ's image DJshowLogo
                     let DJshowLogo4 = document.getElementById("DJshowLogo");
                     let DJname4 = document.getElementById("DJname");
                     let DJbio4 = document.getElementById("DJbio");
                     let DJshowBio4 = document.getElementById("DJshowBio");
-                    if(DJname4.innerHTML !== "DJ Sam")
-                        DJname4.innerHTML = "DJ Sam";
-                    if(DJbio4.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio4.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio4.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio4.innerHTML = "DJ Sam's show is a show where he plays music."; 
-                    if (DJshowLogo4.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo4.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname4.innerHTML !== "TR Staff")
+                        DJname4.innerHTML = "TR Staff";
+                    if(DJbio4.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio4.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio4.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio4.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo4.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo4.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 5:
-                    let text5 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text5 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text5;
+                    if(document.getElementById("bio").innerHTML !== text5)
+                        document.getElementById("bio").innerHTML = text5;
                     //change the image to the DJ's image DJshowLogo
                     let DJshowLogo5 = document.getElementById("DJshowLogo");
                     let DJname5 = document.getElementById("DJname");
                     let DJbio5 = document.getElementById("DJbio");
                     let DJshowBio5 = document.getElementById("DJshowBio");
-                    if(DJname5.innerHTML !== "DJ Sam")
-                        DJname5.innerHTML = "DJ Sam";
-                    if(DJbio5.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio5.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio5.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio5.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo5.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo5.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname5.innerHTML !== "TR Staff")
+                        DJname5.innerHTML = "TR Staff";
+                    if(DJbio5.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio5.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio5.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio5.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo5.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo5.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 6:
-                    let text6 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text6 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text6;
+                    if(document.getElementById("bio").innerHTML !== text6)
+                        document.getElementById("bio").innerHTML = text6;
                     //change the image to the DJ's image DJshowLogo
                     let DJshowLogo6 = document.getElementById("DJshowLogo");
                     let DJname6 = document.getElementById("DJname");
                     let DJbio6 = document.getElementById("DJbio");
                     let DJshowBio6 = document.getElementById("DJshowBio");
-                    if(DJname6.innerHTML !== "DJ Sam")
-                        DJname6.innerHTML = "DJ Sam";
-                    if(DJbio6.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio6.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio6.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio6.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo6.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo6.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname6.innerHTML !== "TR Staff")
+                        DJname6.innerHTML = "TR Staff";
+                    if(DJbio6.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio6.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio6.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio6.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo6.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo6.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 7:
                     let text7 = "this works at 7am";
@@ -882,131 +894,137 @@ function DJSchedule() {
         case 2:
             switch(nextDate.getHours()) {
                 case 0:
-                    let text0 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text0 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text0;
+                    if(document.getElementById("bio").innerHTML !== text0)
+                        document.getElementById("bio").innerHTML = text0;
                     //change the image to the DJ's image DJshowLogo
                     let DJshowLogo0 = document.getElementById("DJshowLogo");
                     let DJname0 = document.getElementById("DJname");
                     let DJbio0 = document.getElementById("DJbio");
                     let DJshowBio0 = document.getElementById("DJshowBio");
-                    if(DJname0.innerHTML !== "DJ Sam")
-                        DJname0.innerHTML = "DJ Sam";
-                    if(DJbio0.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio0.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio0.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio0.innerHTML = "DJ Sam's show is a show where he plays music."; 
-                    if (DJshowLogo0.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo0.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname0.innerHTML !== "TR Staff")
+                        DJname0.innerHTML = "TR Staff";
+                    if(DJbio0.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio0.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio0.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio0.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo0.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo0.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 1:
-                    let text1 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text1 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text1;
+                    if(document.getElementById("bio").innerHTML !== text1)
+                        document.getElementById("bio").innerHTML = text1;
                     //change the image to the DJ's image DJshowLogo
-                    let DJshowLogo1 = document.getElementById("DJshowLogo"); 
+                    let DJshowLogo1 = document.getElementById("DJshowLogo");
                     let DJname1 = document.getElementById("DJname");
                     let DJbio1 = document.getElementById("DJbio");
                     let DJshowBio1 = document.getElementById("DJshowBio");
-                    if(DJname1.innerHTML !== "DJ Sam")
-                        DJname1.innerHTML = "DJ Sam";
-                    if(DJbio1.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio1.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio1.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio1.innerHTML = "DJ Sam's show is a show where he plays music."; 
-                    if (DJshowLogo1.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo1.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname1.innerHTML !== "TR Staff")
+                        DJname1.innerHTML = "TR Staff";
+                    if(DJbio1.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio1.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio1.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio1.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo1.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo1.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 2:
-                    let text2 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text2 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text2;
+                    if(document.getElementById("bio").innerHTML !== text2)
+                        document.getElementById("bio").innerHTML = text2;
                     //change the image to the DJ's image DJshowLogo
-                    let DJshowLogo2 = document.getElementById("DJshowLogo"); 
+                    let DJshowLogo2 = document.getElementById("DJshowLogo");
                     let DJname2 = document.getElementById("DJname");
                     let DJbio2 = document.getElementById("DJbio");
                     let DJshowBio2 = document.getElementById("DJshowBio");
-                    if(DJname2.innerHTML !== "DJ Sam")
-                        DJname2.innerHTML = "DJ Sam";
-                    if(DJbio2.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio2.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio2.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio2.innerHTML = "DJ Sam's show is a show where he plays music.";
-
-                    if (DJshowLogo2.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo2.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname2.innerHTML !== "TR Staff")
+                        DJname2.innerHTML = "TR Staff";
+                    if(DJbio2.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio2.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio2.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio2.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo2.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo2.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 3:
-                    let text3 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text3 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text3;
+                    if(document.getElementById("bio").innerHTML !== text3)
+                        document.getElementById("bio").innerHTML = text3;
                     //change the image to the DJ's image DJshowLogo
                     let DJshowLogo3 = document.getElementById("DJshowLogo");
                     let DJname3 = document.getElementById("DJname");
                     let DJbio3 = document.getElementById("DJbio");
-                    let DJshowBio3 = document.getElementById("DJshowBio");  
-                    if(DJname3.innerHTML !== "DJ Sam")
-                        DJname3.innerHTML = "DJ Sam";
-                    if(DJbio3.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio3.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio3.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio3.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo3.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo3.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    let DJshowBio3 = document.getElementById("DJshowBio");
+                    if(DJname3.innerHTML !== "TR Staff")
+                        DJname3.innerHTML = "TR Staff";
+                    if(DJbio3.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio3.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio3.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio3.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo3.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo3.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 4:
-                    let text4 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text4 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text4;
+                    if(document.getElementById("bio").innerHTML !== text4)
+                        document.getElementById("bio").innerHTML = text4;
                     //change the image to the DJ's image DJshowLogo
                     let DJshowLogo4 = document.getElementById("DJshowLogo");
                     let DJname4 = document.getElementById("DJname");
                     let DJbio4 = document.getElementById("DJbio");
                     let DJshowBio4 = document.getElementById("DJshowBio");
-                    if(DJname4.innerHTML !== "DJ Sam")
-                        DJname4.innerHTML = "DJ Sam";
-                    if(DJbio4.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio4.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio4.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio4.innerHTML = "DJ Sam's show is a show where he plays music."; 
-                    if (DJshowLogo4.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo4.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname4.innerHTML !== "TR Staff")
+                        DJname4.innerHTML = "TR Staff";
+                    if(DJbio4.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio4.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio4.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio4.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo4.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo4.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 5:
-                    let text5 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text5 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text5;
+                    if(document.getElementById("bio").innerHTML !== text5)
+                        document.getElementById("bio").innerHTML = text5;
                     //change the image to the DJ's image DJshowLogo
                     let DJshowLogo5 = document.getElementById("DJshowLogo");
                     let DJname5 = document.getElementById("DJname");
                     let DJbio5 = document.getElementById("DJbio");
                     let DJshowBio5 = document.getElementById("DJshowBio");
-                    if(DJname5.innerHTML !== "DJ Sam")
-                        DJname5.innerHTML = "DJ Sam";
-                    if(DJbio5.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio5.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio5.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio5.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo5.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo5.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname5.innerHTML !== "TR Staff")
+                        DJname5.innerHTML = "TR Staff";
+                    if(DJbio5.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio5.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio5.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio5.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo5.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo5.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 6:
-                    let text6 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text6 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text6;
+                    if(document.getElementById("bio").innerHTML !== text6)
+                        document.getElementById("bio").innerHTML = text6;
                     //change the image to the DJ's image DJshowLogo
                     let DJshowLogo6 = document.getElementById("DJshowLogo");
                     let DJname6 = document.getElementById("DJname");
                     let DJbio6 = document.getElementById("DJbio");
                     let DJshowBio6 = document.getElementById("DJshowBio");
-                    if(DJname6.innerHTML !== "DJ Sam")
-                        DJname6.innerHTML = "DJ Sam";
-                    if(DJbio6.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio6.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio6.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio6.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo6.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo6.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname6.innerHTML !== "TR Staff")
+                        DJname6.innerHTML = "TR Staff";
+                    if(DJbio6.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio6.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio6.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio6.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo6.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo6.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 7:
                     let text7 = "this works at 7am";
@@ -1320,131 +1338,137 @@ function DJSchedule() {
         case 3:
             switch(nextDate.getHours()) {
                 case 0:
-                    let text0 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text0 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text0;
+                    if(document.getElementById("bio").innerHTML !== text0)
+                        document.getElementById("bio").innerHTML = text0;
                     //change the image to the DJ's image DJshowLogo
                     let DJshowLogo0 = document.getElementById("DJshowLogo");
                     let DJname0 = document.getElementById("DJname");
                     let DJbio0 = document.getElementById("DJbio");
                     let DJshowBio0 = document.getElementById("DJshowBio");
-                    if(DJname0.innerHTML !== "DJ Sam")
-                        DJname0.innerHTML = "DJ Sam";
-                    if(DJbio0.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio0.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio0.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio0.innerHTML = "DJ Sam's show is a show where he plays music."; 
-                    if (DJshowLogo0.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo0.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname0.innerHTML !== "TR Staff")
+                        DJname0.innerHTML = "TR Staff";
+                    if(DJbio0.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio0.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio0.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio0.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo0.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo0.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 1:
-                    let text1 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text1 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text1;
+                    if(document.getElementById("bio").innerHTML !== text1)
+                        document.getElementById("bio").innerHTML = text1;
                     //change the image to the DJ's image DJshowLogo
-                    let DJshowLogo1 = document.getElementById("DJshowLogo"); 
+                    let DJshowLogo1 = document.getElementById("DJshowLogo");
                     let DJname1 = document.getElementById("DJname");
                     let DJbio1 = document.getElementById("DJbio");
                     let DJshowBio1 = document.getElementById("DJshowBio");
-                    if(DJname1.innerHTML !== "DJ Sam")
-                        DJname1.innerHTML = "DJ Sam";
-                    if(DJbio1.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio1.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio1.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio1.innerHTML = "DJ Sam's show is a show where he plays music."; 
-                    if (DJshowLogo1.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo1.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname1.innerHTML !== "TR Staff")
+                        DJname1.innerHTML = "TR Staff";
+                    if(DJbio1.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio1.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio1.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio1.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo1.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo1.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 2:
-                    let text2 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text2 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text2;
+                    if(document.getElementById("bio").innerHTML !== text2)
+                        document.getElementById("bio").innerHTML = text2;
                     //change the image to the DJ's image DJshowLogo
-                    let DJshowLogo2 = document.getElementById("DJshowLogo"); 
+                    let DJshowLogo2 = document.getElementById("DJshowLogo");
                     let DJname2 = document.getElementById("DJname");
                     let DJbio2 = document.getElementById("DJbio");
                     let DJshowBio2 = document.getElementById("DJshowBio");
-                    if(DJname2.innerHTML !== "DJ Sam")
-                        DJname2.innerHTML = "DJ Sam";
-                    if(DJbio2.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio2.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio2.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio2.innerHTML = "DJ Sam's show is a show where he plays music.";
-
-                    if (DJshowLogo2.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo2.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname2.innerHTML !== "TR Staff")
+                        DJname2.innerHTML = "TR Staff";
+                    if(DJbio2.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio2.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio2.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio2.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo2.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo2.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 3:
-                    let text3 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text3 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text3;
+                    if(document.getElementById("bio").innerHTML !== text3)
+                        document.getElementById("bio").innerHTML = text3;
                     //change the image to the DJ's image DJshowLogo
                     let DJshowLogo3 = document.getElementById("DJshowLogo");
                     let DJname3 = document.getElementById("DJname");
                     let DJbio3 = document.getElementById("DJbio");
-                    let DJshowBio3 = document.getElementById("DJshowBio");  
-                    if(DJname3.innerHTML !== "DJ Sam")
-                        DJname3.innerHTML = "DJ Sam";
-                    if(DJbio3.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio3.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio3.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio3.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo3.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo3.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    let DJshowBio3 = document.getElementById("DJshowBio");
+                    if(DJname3.innerHTML !== "TR Staff")
+                        DJname3.innerHTML = "TR Staff";
+                    if(DJbio3.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio3.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio3.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio3.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo3.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo3.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 4:
-                    let text4 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text4 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text4;
+                    if(document.getElementById("bio").innerHTML !== text4)
+                        document.getElementById("bio").innerHTML = text4;
                     //change the image to the DJ's image DJshowLogo
                     let DJshowLogo4 = document.getElementById("DJshowLogo");
                     let DJname4 = document.getElementById("DJname");
                     let DJbio4 = document.getElementById("DJbio");
                     let DJshowBio4 = document.getElementById("DJshowBio");
-                    if(DJname4.innerHTML !== "DJ Sam")
-                        DJname4.innerHTML = "DJ Sam";
-                    if(DJbio4.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio4.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio4.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio4.innerHTML = "DJ Sam's show is a show where he plays music."; 
-                    if (DJshowLogo4.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo4.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname4.innerHTML !== "TR Staff")
+                        DJname4.innerHTML = "TR Staff";
+                    if(DJbio4.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio4.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio4.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio4.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo4.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo4.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 5:
-                    let text5 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text5 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text5;
+                    if(document.getElementById("bio").innerHTML !== text5)
+                        document.getElementById("bio").innerHTML = text5;
                     //change the image to the DJ's image DJshowLogo
                     let DJshowLogo5 = document.getElementById("DJshowLogo");
                     let DJname5 = document.getElementById("DJname");
                     let DJbio5 = document.getElementById("DJbio");
                     let DJshowBio5 = document.getElementById("DJshowBio");
-                    if(DJname5.innerHTML !== "DJ Sam")
-                        DJname5.innerHTML = "DJ Sam";
-                    if(DJbio5.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio5.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio5.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio5.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo5.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo5.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname5.innerHTML !== "TR Staff")
+                        DJname5.innerHTML = "TR Staff";
+                    if(DJbio5.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio5.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio5.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio5.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo5.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo5.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 6:
-                    let text6 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text6 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text6;
+                    if(document.getElementById("bio").innerHTML !== text6)
+                        document.getElementById("bio").innerHTML = text6;
                     //change the image to the DJ's image DJshowLogo
                     let DJshowLogo6 = document.getElementById("DJshowLogo");
                     let DJname6 = document.getElementById("DJname");
                     let DJbio6 = document.getElementById("DJbio");
                     let DJshowBio6 = document.getElementById("DJshowBio");
-                    if(DJname6.innerHTML !== "DJ Sam")
-                        DJname6.innerHTML = "DJ Sam";
-                    if(DJbio6.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio6.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio6.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio6.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo6.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo6.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname6.innerHTML !== "TR Staff")
+                        DJname6.innerHTML = "TR Staff";
+                    if(DJbio6.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio6.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio6.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio6.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo6.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo6.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 7:
                     let text7 = "this works at 7am";
@@ -1757,131 +1781,137 @@ function DJSchedule() {
         case 4:
             switch(nextDate.getHours()) {
                 case 0:
-                    let text0 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text0 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text0;
+                    if(document.getElementById("bio").innerHTML !== text0)
+                        document.getElementById("bio").innerHTML = text0;
                     //change the image to the DJ's image DJshowLogo
                     let DJshowLogo0 = document.getElementById("DJshowLogo");
                     let DJname0 = document.getElementById("DJname");
                     let DJbio0 = document.getElementById("DJbio");
                     let DJshowBio0 = document.getElementById("DJshowBio");
-                    if(DJname0.innerHTML !== "DJ Sam")
-                        DJname0.innerHTML = "DJ Sam";
-                    if(DJbio0.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio0.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio0.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio0.innerHTML = "DJ Sam's show is a show where he plays music."; 
-                    if (DJshowLogo0.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo0.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname0.innerHTML !== "TR Staff")
+                        DJname0.innerHTML = "TR Staff";
+                    if(DJbio0.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio0.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio0.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio0.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo0.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo0.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 1:
-                    let text1 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text1 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text1;
+                    if(document.getElementById("bio").innerHTML !== text1)
+                        document.getElementById("bio").innerHTML = text1;
                     //change the image to the DJ's image DJshowLogo
-                    let DJshowLogo1 = document.getElementById("DJshowLogo"); 
+                    let DJshowLogo1 = document.getElementById("DJshowLogo");
                     let DJname1 = document.getElementById("DJname");
                     let DJbio1 = document.getElementById("DJbio");
                     let DJshowBio1 = document.getElementById("DJshowBio");
-                    if(DJname1.innerHTML !== "DJ Sam")
-                        DJname1.innerHTML = "DJ Sam";
-                    if(DJbio1.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio1.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio1.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio1.innerHTML = "DJ Sam's show is a show where he plays music."; 
-                    if (DJshowLogo1.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo1.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname1.innerHTML !== "TR Staff")
+                        DJname1.innerHTML = "TR Staff";
+                    if(DJbio1.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio1.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio1.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio1.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo1.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo1.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 2:
-                    let text2 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text2 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text2;
+                    if(document.getElementById("bio").innerHTML !== text2)
+                        document.getElementById("bio").innerHTML = text2;
                     //change the image to the DJ's image DJshowLogo
-                    let DJshowLogo2 = document.getElementById("DJshowLogo"); 
+                    let DJshowLogo2 = document.getElementById("DJshowLogo");
                     let DJname2 = document.getElementById("DJname");
                     let DJbio2 = document.getElementById("DJbio");
                     let DJshowBio2 = document.getElementById("DJshowBio");
-                    if(DJname2.innerHTML !== "DJ Sam")
-                        DJname2.innerHTML = "DJ Sam";
-                    if(DJbio2.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio2.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio2.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio2.innerHTML = "DJ Sam's show is a show where he plays music.";
-
-                    if (DJshowLogo2.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo2.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname2.innerHTML !== "TR Staff")
+                        DJname2.innerHTML = "TR Staff";
+                    if(DJbio2.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio2.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio2.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio2.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo2.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo2.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 3:
-                    let text3 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text3 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text3;
+                    if(document.getElementById("bio").innerHTML !== text3)
+                        document.getElementById("bio").innerHTML = text3;
                     //change the image to the DJ's image DJshowLogo
                     let DJshowLogo3 = document.getElementById("DJshowLogo");
                     let DJname3 = document.getElementById("DJname");
                     let DJbio3 = document.getElementById("DJbio");
-                    let DJshowBio3 = document.getElementById("DJshowBio");  
-                    if(DJname3.innerHTML !== "DJ Sam")
-                        DJname3.innerHTML = "DJ Sam";
-                    if(DJbio3.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio3.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio3.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio3.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo3.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo3.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    let DJshowBio3 = document.getElementById("DJshowBio");
+                    if(DJname3.innerHTML !== "TR Staff")
+                        DJname3.innerHTML = "TR Staff";
+                    if(DJbio3.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio3.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio3.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio3.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo3.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo3.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 4:
-                    let text4 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text4 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text4;
+                    if(document.getElementById("bio").innerHTML !== text4)
+                        document.getElementById("bio").innerHTML = text4;
                     //change the image to the DJ's image DJshowLogo
                     let DJshowLogo4 = document.getElementById("DJshowLogo");
                     let DJname4 = document.getElementById("DJname");
                     let DJbio4 = document.getElementById("DJbio");
                     let DJshowBio4 = document.getElementById("DJshowBio");
-                    if(DJname4.innerHTML !== "DJ Sam")
-                        DJname4.innerHTML = "DJ Sam";
-                    if(DJbio4.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio4.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio4.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio4.innerHTML = "DJ Sam's show is a show where he plays music."; 
-                    if (DJshowLogo4.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo4.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname4.innerHTML !== "TR Staff")
+                        DJname4.innerHTML = "TR Staff";
+                    if(DJbio4.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio4.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio4.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio4.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo4.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo4.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 5:
-                    let text5 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text5 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text5;
+                    if(document.getElementById("bio").innerHTML !== text5)
+                        document.getElementById("bio").innerHTML = text5;
                     //change the image to the DJ's image DJshowLogo
                     let DJshowLogo5 = document.getElementById("DJshowLogo");
                     let DJname5 = document.getElementById("DJname");
                     let DJbio5 = document.getElementById("DJbio");
                     let DJshowBio5 = document.getElementById("DJshowBio");
-                    if(DJname5.innerHTML !== "DJ Sam")
-                        DJname5.innerHTML = "DJ Sam";
-                    if(DJbio5.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio5.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio5.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio5.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo5.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo5.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname5.innerHTML !== "TR Staff")
+                        DJname5.innerHTML = "TR Staff";
+                    if(DJbio5.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio5.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio5.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio5.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo5.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo5.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 6:
-                    let text6 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text6 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text6;
+                    if(document.getElementById("bio").innerHTML !== text6)
+                        document.getElementById("bio").innerHTML = text6;
                     //change the image to the DJ's image DJshowLogo
                     let DJshowLogo6 = document.getElementById("DJshowLogo");
                     let DJname6 = document.getElementById("DJname");
                     let DJbio6 = document.getElementById("DJbio");
                     let DJshowBio6 = document.getElementById("DJshowBio");
-                    if(DJname6.innerHTML !== "DJ Sam")
-                        DJname6.innerHTML = "DJ Sam";
-                    if(DJbio6.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio6.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio6.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio6.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo6.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo6.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname6.innerHTML !== "TR Staff")
+                        DJname6.innerHTML = "TR Staff";
+                    if(DJbio6.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio6.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio6.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio6.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo6.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo6.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 7:
                     let text7 = "this works at 7am";
@@ -2194,131 +2224,137 @@ function DJSchedule() {
         case 5:
             switch(nextDate.getHours()) {
                 case 0:
-                    let text0 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text0 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text0;
+                    if(document.getElementById("bio").innerHTML !== text0)
+                        document.getElementById("bio").innerHTML = text0;
                     //change the image to the DJ's image DJshowLogo
                     let DJshowLogo0 = document.getElementById("DJshowLogo");
                     let DJname0 = document.getElementById("DJname");
                     let DJbio0 = document.getElementById("DJbio");
                     let DJshowBio0 = document.getElementById("DJshowBio");
-                    if(DJname0.innerHTML !== "DJ Sam")
-                        DJname0.innerHTML = "DJ Sam";
-                    if(DJbio0.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio0.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio0.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio0.innerHTML = "DJ Sam's show is a show where he plays music."; 
-                    if (DJshowLogo0.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo0.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname0.innerHTML !== "TR Staff")
+                        DJname0.innerHTML = "TR Staff";
+                    if(DJbio0.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio0.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio0.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio0.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo0.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo0.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 1:
-                    let text1 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text1 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text1;
+                    if(document.getElementById("bio").innerHTML !== text1)
+                        document.getElementById("bio").innerHTML = text1;
                     //change the image to the DJ's image DJshowLogo
-                    let DJshowLogo1 = document.getElementById("DJshowLogo"); 
+                    let DJshowLogo1 = document.getElementById("DJshowLogo");
                     let DJname1 = document.getElementById("DJname");
                     let DJbio1 = document.getElementById("DJbio");
                     let DJshowBio1 = document.getElementById("DJshowBio");
-                    if(DJname1.innerHTML !== "DJ Sam")
-                        DJname1.innerHTML = "DJ Sam";
-                    if(DJbio1.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio1.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio1.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio1.innerHTML = "DJ Sam's show is a show where he plays music."; 
-                    if (DJshowLogo1.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo1.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname1.innerHTML !== "TR Staff")
+                        DJname1.innerHTML = "TR Staff";
+                    if(DJbio1.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio1.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio1.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio1.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo1.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo1.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 2:
-                    let text2 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text2 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text2;
+                    if(document.getElementById("bio").innerHTML !== text2)
+                        document.getElementById("bio").innerHTML = text2;
                     //change the image to the DJ's image DJshowLogo
-                    let DJshowLogo2 = document.getElementById("DJshowLogo"); 
+                    let DJshowLogo2 = document.getElementById("DJshowLogo");
                     let DJname2 = document.getElementById("DJname");
                     let DJbio2 = document.getElementById("DJbio");
                     let DJshowBio2 = document.getElementById("DJshowBio");
-                    if(DJname2.innerHTML !== "DJ Sam")
-                        DJname2.innerHTML = "DJ Sam";
-                    if(DJbio2.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio2.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio2.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio2.innerHTML = "DJ Sam's show is a show where he plays music.";
-
-                    if (DJshowLogo2.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo2.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname2.innerHTML !== "TR Staff")
+                        DJname2.innerHTML = "TR Staff";
+                    if(DJbio2.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio2.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio2.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio2.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo2.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo2.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 3:
-                    let text3 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text3 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text3;
+                    if(document.getElementById("bio").innerHTML !== text3)
+                        document.getElementById("bio").innerHTML = text3;
                     //change the image to the DJ's image DJshowLogo
                     let DJshowLogo3 = document.getElementById("DJshowLogo");
                     let DJname3 = document.getElementById("DJname");
                     let DJbio3 = document.getElementById("DJbio");
-                    let DJshowBio3 = document.getElementById("DJshowBio");  
-                    if(DJname3.innerHTML !== "DJ Sam")
-                        DJname3.innerHTML = "DJ Sam";
-                    if(DJbio3.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio3.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio3.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio3.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo3.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo3.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    let DJshowBio3 = document.getElementById("DJshowBio");
+                    if(DJname3.innerHTML !== "TR Staff")
+                        DJname3.innerHTML = "TR Staff";
+                    if(DJbio3.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio3.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio3.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio3.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo3.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo3.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 4:
-                    let text4 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text4 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text4;
+                    if(document.getElementById("bio").innerHTML !== text4)
+                        document.getElementById("bio").innerHTML = text4;
                     //change the image to the DJ's image DJshowLogo
                     let DJshowLogo4 = document.getElementById("DJshowLogo");
                     let DJname4 = document.getElementById("DJname");
                     let DJbio4 = document.getElementById("DJbio");
                     let DJshowBio4 = document.getElementById("DJshowBio");
-                    if(DJname4.innerHTML !== "DJ Sam")
-                        DJname4.innerHTML = "DJ Sam";
-                    if(DJbio4.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio4.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio4.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio4.innerHTML = "DJ Sam's show is a show where he plays music."; 
-                    if (DJshowLogo4.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo4.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname4.innerHTML !== "TR Staff")
+                        DJname4.innerHTML = "TR Staff";
+                    if(DJbio4.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio4.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio4.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio4.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo4.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo4.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 5:
-                    let text5 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text5 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text5;
+                    if(document.getElementById("bio").innerHTML !== text5)
+                        document.getElementById("bio").innerHTML = text5;
                     //change the image to the DJ's image DJshowLogo
                     let DJshowLogo5 = document.getElementById("DJshowLogo");
                     let DJname5 = document.getElementById("DJname");
                     let DJbio5 = document.getElementById("DJbio");
                     let DJshowBio5 = document.getElementById("DJshowBio");
-                    if(DJname5.innerHTML !== "DJ Sam")
-                        DJname5.innerHTML = "DJ Sam";
-                    if(DJbio5.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio5.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio5.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio5.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo5.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo5.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname5.innerHTML !== "TR Staff")
+                        DJname5.innerHTML = "TR Staff";
+                    if(DJbio5.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio5.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio5.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio5.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo5.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo5.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 6:
-                    let text6 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text6 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text6;
+                    if(document.getElementById("bio").innerHTML !== text6)
+                        document.getElementById("bio").innerHTML = text6;
                     //change the image to the DJ's image DJshowLogo
                     let DJshowLogo6 = document.getElementById("DJshowLogo");
                     let DJname6 = document.getElementById("DJname");
                     let DJbio6 = document.getElementById("DJbio");
                     let DJshowBio6 = document.getElementById("DJshowBio");
-                    if(DJname6.innerHTML !== "DJ Sam")
-                        DJname6.innerHTML = "DJ Sam";
-                    if(DJbio6.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio6.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio6.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio6.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo6.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo6.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname6.innerHTML !== "TR Staff")
+                        DJname6.innerHTML = "TR Staff";
+                    if(DJbio6.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio6.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio6.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio6.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo6.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo6.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 7:
                     let text7 = "this works at 7am";
@@ -2631,131 +2667,137 @@ function DJSchedule() {
         case 6:
             switch(nextDate.getHours()) {
                 case 0:
-                    let text0 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text0 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text0;
+                    if(document.getElementById("bio").innerHTML !== text0)
+                        document.getElementById("bio").innerHTML = text0;
                     //change the image to the DJ's image DJshowLogo
                     let DJshowLogo0 = document.getElementById("DJshowLogo");
                     let DJname0 = document.getElementById("DJname");
                     let DJbio0 = document.getElementById("DJbio");
                     let DJshowBio0 = document.getElementById("DJshowBio");
-                    if(DJname0.innerHTML !== "DJ Sam")
-                        DJname0.innerHTML = "DJ Sam";
-                    if(DJbio0.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio0.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio0.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio0.innerHTML = "DJ Sam's show is a show where he plays music."; 
-                    if (DJshowLogo0.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo0.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname0.innerHTML !== "TR Staff")
+                        DJname0.innerHTML = "TR Staff";
+                    if(DJbio0.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio0.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio0.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio0.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo0.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo0.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 1:
-                    let text1 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text1 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text1;
+                    if(document.getElementById("bio").innerHTML !== text1)
+                        document.getElementById("bio").innerHTML = text1;
                     //change the image to the DJ's image DJshowLogo
-                    let DJshowLogo1 = document.getElementById("DJshowLogo"); 
+                    let DJshowLogo1 = document.getElementById("DJshowLogo");
                     let DJname1 = document.getElementById("DJname");
                     let DJbio1 = document.getElementById("DJbio");
                     let DJshowBio1 = document.getElementById("DJshowBio");
-                    if(DJname1.innerHTML !== "DJ Sam")
-                        DJname1.innerHTML = "DJ Sam";
-                    if(DJbio1.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio1.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio1.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio1.innerHTML = "DJ Sam's show is a show where he plays music."; 
-                    if (DJshowLogo1.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo1.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname1.innerHTML !== "TR Staff")
+                        DJname1.innerHTML = "TR Staff";
+                    if(DJbio1.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio1.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio1.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio1.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo1.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo1.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 2:
-                    let text2 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text2 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text2;
+                    if(document.getElementById("bio").innerHTML !== text2)
+                        document.getElementById("bio").innerHTML = text2;
                     //change the image to the DJ's image DJshowLogo
-                    let DJshowLogo2 = document.getElementById("DJshowLogo"); 
+                    let DJshowLogo2 = document.getElementById("DJshowLogo");
                     let DJname2 = document.getElementById("DJname");
                     let DJbio2 = document.getElementById("DJbio");
                     let DJshowBio2 = document.getElementById("DJshowBio");
-                    if(DJname2.innerHTML !== "DJ Sam")
-                        DJname2.innerHTML = "DJ Sam";
-                    if(DJbio2.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio2.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio2.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio2.innerHTML = "DJ Sam's show is a show where he plays music.";
-
-                    if (DJshowLogo2.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo2.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname2.innerHTML !== "TR Staff")
+                        DJname2.innerHTML = "TR Staff";
+                    if(DJbio2.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio2.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio2.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio2.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo2.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo2.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 3:
-                    let text3 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text3 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text3;
+                    if(document.getElementById("bio").innerHTML !== text3)
+                        document.getElementById("bio").innerHTML = text3;
                     //change the image to the DJ's image DJshowLogo
                     let DJshowLogo3 = document.getElementById("DJshowLogo");
                     let DJname3 = document.getElementById("DJname");
                     let DJbio3 = document.getElementById("DJbio");
-                    let DJshowBio3 = document.getElementById("DJshowBio");  
-                    if(DJname3.innerHTML !== "DJ Sam")
-                        DJname3.innerHTML = "DJ Sam";
-                    if(DJbio3.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio3.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio3.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio3.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo3.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo3.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    let DJshowBio3 = document.getElementById("DJshowBio");
+                    if(DJname3.innerHTML !== "TR Staff")
+                        DJname3.innerHTML = "TR Staff";
+                    if(DJbio3.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio3.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio3.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio3.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo3.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo3.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 4:
-                    let text4 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text4 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text4;
+                    if(document.getElementById("bio").innerHTML !== text4)
+                        document.getElementById("bio").innerHTML = text4;
                     //change the image to the DJ's image DJshowLogo
                     let DJshowLogo4 = document.getElementById("DJshowLogo");
                     let DJname4 = document.getElementById("DJname");
                     let DJbio4 = document.getElementById("DJbio");
                     let DJshowBio4 = document.getElementById("DJshowBio");
-                    if(DJname4.innerHTML !== "DJ Sam")
-                        DJname4.innerHTML = "DJ Sam";
-                    if(DJbio4.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio4.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio4.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio4.innerHTML = "DJ Sam's show is a show where he plays music."; 
-                    if (DJshowLogo4.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo4.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname4.innerHTML !== "TR Staff")
+                        DJname4.innerHTML = "TR Staff";
+                    if(DJbio4.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio4.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio4.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio4.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo4.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo4.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 5:
-                    let text5 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text5 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text5;
+                    if(document.getElementById("bio").innerHTML !== text5)
+                        document.getElementById("bio").innerHTML = text5;
                     //change the image to the DJ's image DJshowLogo
                     let DJshowLogo5 = document.getElementById("DJshowLogo");
                     let DJname5 = document.getElementById("DJname");
                     let DJbio5 = document.getElementById("DJbio");
                     let DJshowBio5 = document.getElementById("DJshowBio");
-                    if(DJname5.innerHTML !== "DJ Sam")
-                        DJname5.innerHTML = "DJ Sam";
-                    if(DJbio5.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio5.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio5.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio5.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo5.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo5.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname5.innerHTML !== "TR Staff")
+                        DJname5.innerHTML = "TR Staff";
+                    if(DJbio5.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio5.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio5.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio5.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo5.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo5.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 6:
-                    let text6 = "There is no show at this time. Please check back later. If you want something to listen to, check out TR2 for our 24/7 stream.";
+                    let text6 = "TR2";
                     //change innerHTML of bio to text
-                    document.getElementById("bio").innerHTML = text6;
+                    if(document.getElementById("bio").innerHTML !== text6)
+                        document.getElementById("bio").innerHTML = text6;
                     //change the image to the DJ's image DJshowLogo
                     let DJshowLogo6 = document.getElementById("DJshowLogo");
                     let DJname6 = document.getElementById("DJname");
                     let DJbio6 = document.getElementById("DJbio");
                     let DJshowBio6 = document.getElementById("DJshowBio");
-                    if(DJname6.innerHTML !== "DJ Sam")
-                        DJname6.innerHTML = "DJ Sam";
-                    if(DJbio6.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio6.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio6.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio6.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo6.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo6.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname6.innerHTML !== "TR Staff")
+                        DJname6.innerHTML = "TR Staff";
+                    if(DJbio6.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio6.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio6.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
+                        DJshowBio6.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff."; 
+                    if (DJshowLogo6.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')")
+                    DJshowLogo6.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023.jpg')";
                     break
                 case 7:
                     let text7 = "this works at 7am";
