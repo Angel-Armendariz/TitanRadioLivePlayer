@@ -1946,8 +1946,9 @@ function DJSchedule() {
                         DJbio8.innerHTML = "Maxx is a 3rd year at CSUF. They love discovering new music that matches how they feel. They also love movies and pop culture, so you can expect to hear about what's going on in hollywood while discovering some great songs.";
                     if(DJshowBio8.innerHTML !== "A mix of music that feels like a cozy coffee shop with my thoughts sprinkled between.")
                         DJshowBio8.innerHTML = "A mix of music that feels like a cozy coffee shop with my thoughts sprinkled between.";
-                    if (DJshowLogo8.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo8.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo8.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/08/TItan-Radio-Mobile-Logo.png')")
+                    DJshowLogo8.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/08/TItan-Radio-Mobile-Logo.png')";
+
                     break
                 case 9:
                     let text9 = "Listen Before You Speak";
@@ -1964,8 +1965,8 @@ function DJSchedule() {
                         DJbio9.innerHTML = "Isaiah is a quiet soul, he keeps it real and simple. He doesn't try to shine brighter than others, but if there ever was a case for that to happen it would be when he plays his music. Listening to music is what makes him whole.";
                     if(DJshowBio9.innerHTML !== "This show is all about listening, a lot of times people tend to speak before even sitting down and listening to what they're hearing. I want this show to speak volumes about how important music is and how it has an infinite hold on everybody in the universe.")
                         DJshowBio9.innerHTML = "This show is all about listening, a lot of times people tend to speak before even sitting down and listening to what they're hearing. I want this show to speak volumes about how important music is and how it has an infinite hold on everybody in the universe.";
-                    if (DJshowLogo9.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo9.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo9.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/08/TItan-Radio-Mobile-Logo.png')")
+                    DJshowLogo9.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/08/TItan-Radio-Mobile-Logo.png')";
                     break
                 case 10:
                     let text10 = "The Chill Pill";
