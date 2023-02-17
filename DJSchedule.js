@@ -2517,8 +2517,8 @@ function DJSchedule() {
                         DJbio15.innerHTML = "Bashar loves music maybe a little too much. He has a song for every emotion and every scenario. He can go from genre to genre in a second. He really loves sounds.";
                     if(DJshowBio15.innerHTML !== "An eclectic mix of all my favorite songs. A little bit of everything from beyonce to bad brains. Just an hour of good stuff.")
                         DJshowBio15.innerHTML = "An eclectic mix of all my favorite songs. A little bit of everything from beyonce to bad brains. Just an hour of good stuff.";
-                    if (DJshowLogo15.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/BashCashLogo.png)")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/BashCashLogo.png')";
+                    if (DJshowLogo15.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/bash.jpeg')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/bash.jpeg')";
                     break
                 case 16:
                     let text16 = "EKB";
@@ -2571,8 +2571,8 @@ function DJSchedule() {
                         DJbio18.innerHTML = "Kiki knows that it's music that makes the world go round! From everything to classic R&B to todays hip-hop, Kiki plays the tunes that are perfect for a night in or night out on the town! It's always a vibe when Kiki is around to play the best songs to start your night off right!";
                     if(DJshowBio18.innerHTML !== "Trying to find the right tunes for studying, driving, or just hanging out with friends? Then look no further to Yeah, It's a Vibe with Kiki. Playing everything from today's hip-hop hits to yesterday's R&B classics! Tune in for music that really brings out the VIBE!")
                         DJshowBio18.innerHTML = "Trying to find the right tunes for studying, driving, or just hanging out with friends? Then look no further to Yeah, It's a Vibe with Kiki. Playing everything from today's hip-hop hits to yesterday's R&B classics! Tune in for music that really brings out the VIBE!";
-                    if (DJshowLogo18.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/yeah-its-a-vibe-DJ-show-logo-2022.png')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/yeah-its-a-vibe-DJ-show-logo-2022.png')";
+                    if (DJshowLogo18.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/vibe.jpeg')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/vibe.jpeg')";
                     break
                 case 19:
                     let text19 = "Libra Hour";
