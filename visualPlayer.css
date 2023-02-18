@@ -580,9 +580,9 @@
   text-align: right;
   color: white;
   /* animation properties */
-  -moz-transform: translateX(-100%);
-  -webkit-transform: translateX(-100%);
-  transform: translateX(-100%);
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
   
   -moz-animation: my-animation 7s linear infinite;
   -webkit-animation: my-animation 7s linear infinite;
@@ -622,26 +622,26 @@
 }
 /* for Firefox */
 @-moz-keyframes my-animation {
-  from { -moz-transform: translateX(-100%); }
-  to { -moz-transform: translateX(100%); }
+  from { -moz-transform: translateX(100%); }
+  to { -moz-transform: translateX(-100%); }
 }
 
 /* for Chrome */
 @-webkit-keyframes my-animation {
-  from { -webkit-transform: translateX(-100%); }
-  to { -webkit-transform: translateX(100%); }
+  from { -webkit-transform: translateX(100%); }
+  to { -webkit-transform: translateX(-100%); }
 }
 
 @keyframes my-animation {
   from {
-    -moz-transform: translateX(-100%);
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%);
-  }
-  to {
     -moz-transform: translateX(100%);
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
   }
 }
 #DJ_button {
