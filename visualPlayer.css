@@ -649,19 +649,18 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        clip-path: inset(0 round 50%);
         margin: 0 auto;
         margin-bottom: 0.5rem;
-        min-width: 300px;
-        min-height: 60px;
+        min-width: 19.5rem;
+        height: 4rem;
         font-family: 'Nunito', sans-serif;
         font-weight: 700;
         color: #313133;
         background: #4FD1C5;
         background: linear-gradient(90deg, #8224E3 0%, #F84F85 100%);
         border: none;
-        border-radius: 1000px;
-        box-shadow: 12px 12px 24px #25afb8;
+        border-radius: 1000px !important;
+        box-shadow: 0px 0px 24px 8px #25afb8;
         transition: all 0.3s ease-in-out 0s;
         cursor: pointer;
         outline: none;
@@ -673,7 +672,6 @@ content: '';
   border-radius: 1000px;
   min-width: calc(300px + 12px);
   min-height: calc(60px + 12px);
-  box-shadow: 0 0 60px rgba(0,255,203,.64);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -701,7 +699,7 @@ z-index: -1;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
-animation: ring 1.5s infinite;
+animation: ring 1.5s 5;
 }
 
 #DJ_button:hover::after, #DJ_button:focus::after {
