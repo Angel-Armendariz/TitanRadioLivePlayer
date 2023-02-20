@@ -156,8 +156,8 @@ function DJSchedule() {
                         DJbio7.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio7.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio7.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo7.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo7.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo7.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                    DJshowLogo7.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 8:
                     let text8 = "this works at 8am";
@@ -174,8 +174,8 @@ function DJSchedule() {
                         DJbio8.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio8.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio8.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo8.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo8.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo8.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                    DJshowLogo8.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 9:
                     let text9 = "this works at 9am";
@@ -192,8 +192,8 @@ function DJSchedule() {
                         DJbio9.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio9.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio9.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo9.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo9.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo9.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                    DJshowLogo9.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 10:
                     let text10 = "this works at 10am";
@@ -210,8 +210,8 @@ function DJSchedule() {
                         DJbio10.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio10.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio10.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo10.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo10.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo10.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                    DJshowLogo10.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 11:
                     let text11 = "this works at 11am";
@@ -228,8 +228,8 @@ function DJSchedule() {
                         DJbio11.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio11.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio11.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo11.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo11.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 12:
                     let text12 = "this works at 12pm";
@@ -246,8 +246,8 @@ function DJSchedule() {
                         DJbio12.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio12.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio12.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo12.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo12.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 13:
                     let text13 = "this works at 1pm";
@@ -264,8 +264,8 @@ function DJSchedule() {
                         DJbio13.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio13.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio13.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo13.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo13.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 14:
                     let text14 = "this works at 2pm";
@@ -300,8 +300,8 @@ function DJSchedule() {
                         DJbio15.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio15.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio15.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo15.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo15.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 16:
                     let text16 = "this works at 4pm";
@@ -318,8 +318,8 @@ function DJSchedule() {
                         DJbio16.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio16.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio16.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo16.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo16.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 17:
                     let text17 = "this works at 5pm";
@@ -336,8 +336,8 @@ function DJSchedule() {
                         DJbio17.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio17.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio17.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo17.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo17.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 18:
                     let text18 = "this works at 6pm";
@@ -354,8 +354,8 @@ function DJSchedule() {
                         DJbio18.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio18.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio18.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo18.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo18.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 19:
                     let text19 = "this works at 7pm";
@@ -372,8 +372,8 @@ function DJSchedule() {
                         DJbio19.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio19.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio19.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo19.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo19.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 20:
                     let text20 = "this works at 8pm";
@@ -390,8 +390,8 @@ function DJSchedule() {
                         DJbio20.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio20.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio20.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo20.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo20.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 21:
                     let text21 = "this works at 9pm";
@@ -408,8 +408,8 @@ function DJSchedule() {
                         DJbio21.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio21.innerHTML !== "DJ Sam's show is a show where he plays music.")   
                         DJshowBio21.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo21.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo21.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 22:
                     let text22 = "this works at 10pm";
@@ -426,8 +426,8 @@ function DJSchedule() {
                         DJbio22.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio22.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio22.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo22.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo22.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 23:
                     let text23 = "this works at 11pm";
@@ -444,8 +444,8 @@ function DJSchedule() {
                         DJbio23.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio23.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio23.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo23.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo23.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
             }
             break
@@ -1028,7 +1028,7 @@ function DJSchedule() {
                     DJshowLogo6.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023-1.jpg')";
                     break
                 case 7:
-                    let text7 = "this works at 7am";
+                    let text7 = "Everything Entertainment";
                     //change innerHTML of bio to text
                     if(document.getElementById("bio").innerHTML !== text7)
                         document.getElementById("bio").innerHTML = text7;
@@ -1036,17 +1036,17 @@ function DJSchedule() {
                     let DJname7 = document.getElementById("DJname");
                     let DJbio7 = document.getElementById("DJbio");
                     let DJshowBio7 = document.getElementById("DJshowBio");  
-                    if(DJname7.innerHTML !== "DJ Sam")
-                        DJname7.innerHTML = "DJ Sam";
-                    if(DJbio7.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio7.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio7.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio7.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo7.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo7.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname7.innerHTML !== "Maria")
+                        DJname7.innerHTML = "Maria";
+                    if(DJbio7.innerHTML !== "She has been part of The Union newspaper and magazine as a reporter from El Camino College. She also has part been of broadcast. She like to continue doing things like broadcasting or anything with communications.")
+                        DJbio7.innerHTML = "She has been part of The Union newspaper and magazine as a reporter from El Camino College. She also has part been of broadcast. She like to continue doing things like broadcasting or anything with communications.";
+                    if(DJshowBio7.innerHTML !== "I also like know how to put out a radio show. I also like know you put music on radio and play music.")
+                        DJshowBio7.innerHTML = "I also like know how to put out a radio show. I also like know you put music on radio and play music.";
+                    if (DJshowLogo7.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                    DJshowLogo7.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 8:
-                    let text8 = "this works at 8am";
+                    let text8 = "Operation: Electric Relaxation";
                     //change innerHTML of bio to text
                     if(document.getElementById("bio").innerHTML !== text8)
                         document.getElementById("bio").innerHTML = text8;
@@ -1054,17 +1054,17 @@ function DJSchedule() {
                     let DJname8 = document.getElementById("DJname");
                     let DJbio8 = document.getElementById("DJbio");
                     let DJshowBio8 = document.getElementById("DJshowBio");
-                    if(DJname8.innerHTML !== "DJ Sam")
-                        DJname8.innerHTML = "DJ Sam";
-                    if(DJbio8.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio8.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio8.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio8.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo8.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo8.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname8.innerHTML !== "Maryann")
+                        DJname8.innerHTML = "Maryann";
+                    if(DJbio8.innerHTML !== "Operation: Electric Relaxation's host, Maryann, loves all things music! Her hobbies include collecting CDs and vinyl records of all genres and going to concerts to see her favorite musicians perform live. She loves music from all decades and all genres, and is happy to share her passion for music with other CSUF Titans!")
+                        DJbio8.innerHTML = "Operation: Electric Relaxation's host, Maryann, loves all things music! Her hobbies include collecting CDs and vinyl records of all genres and going to concerts to see her favorite musicians perform live. She loves music from all decades and all genres, and is happy to share her passion for music with other CSUF Titans!";
+                    if(DJshowBio8.innerHTML !== "Welcome to Operation: Electric Relaxation - a place where everyone is invited to listen and explore various genres of music! Listen along to wind-down to diverse styles of music from the R&B, hip-hop, and indie realm.")
+                        DJshowBio8.innerHTML = "Welcome to Operation: Electric Relaxation - a place where everyone is invited to listen and explore various genres of music! Listen along to wind-down to diverse styles of music from the R&B, hip-hop, and indie realm.";
+                    if (DJshowLogo8.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                    DJshowLogo8.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 9:
-                    let text9 = "this works at 9am";
+                    let text9 = "The Morning Show";
                     //change innerHTML of bio to text
                     if(document.getElementById("bio").innerHTML !== text9)
                         document.getElementById("bio").innerHTML = text9;
@@ -1072,17 +1072,17 @@ function DJSchedule() {
                     let DJname9 = document.getElementById("DJname");
                     let DJbio9 = document.getElementById("DJbio");
                     let DJshowBio9 = document.getElementById("DJshowBio");
-                    if(DJname9.innerHTML !== "DJ Sam")
-                        DJname9.innerHTML = "DJ Sam";
-                    if(DJbio9.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio9.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio9.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio9.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo9.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo9.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname9.innerHTML !== "Abby Mornhinweg")
+                        DJname9.innerHTML = "Abby Mornhinweg";
+                    if(DJbio9.innerHTML !== "Abby's a second-year English major at CSUF. outside of the radio station, you can find her listening to new music, reading her favorite books, or hanging out with friends")
+                        DJbio9.innerHTML = "Abby's a second-year English major at CSUF. outside of the radio station, you can find her listening to new music, reading her favorite books, or hanging out with friends";
+                    if(DJshowBio9.innerHTML !== "Back for its third season, the morning show is a talk show hosted by Abby Mornhinweg. With topics ranging from problems in academia to social niceties. Abby's here to talk about it!")
+                        DJshowBio9.innerHTML = "Back for its third season, the morning show is a talk show hosted by Abby Mornhinweg. With topics ranging from problems in academia to social niceties. Abby's here to talk about it!";
+                    if (DJshowLogo9.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/the-morning-show-DJ-show-logo-2022.jpeg')")
+                    DJshowLogo9.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/the-morning-show-DJ-show-logo-2022.jpeg')";
                     break
                 case 10:
-                    let text10 = "this works at 10am";
+                    let text10 = "Indie Encounters";
                     //change innerHTML of bio to text
                     if(document.getElementById("bio").innerHTML !== text10)
                         document.getElementById("bio").innerHTML = text10;
@@ -1090,18 +1090,17 @@ function DJSchedule() {
                     let DJname10 = document.getElementById("DJname");
                     let DJbio10 = document.getElementById("DJbio");
                     let DJshowBio10 = document.getElementById("DJshowBio");
-                    if(DJname10.innerHTML !== "DJ Sam")
-                        DJname10.innerHTML = "DJ Sam";
-                    if(DJbio10.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio10.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio10.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio10.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    DJshowLogo10.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRDJshowLogo_Stacked_ColorBlack-300x240.png')";
-                    if (DJshowLogo10.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRDJshowLogo_Stacked_ColorBlack-300x240.png')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRDJshowLogo_Stacked_ColorBlack-300x240.png')";                    
+                    if(DJname10.innerHTML !== "DJ Raniel")
+                        DJname10.innerHTML = "DJ Raniel";
+                    if(DJbio10.innerHTML !== "DJ Raniel (RAN-yel) is an aspiring music critic and first-time DJ. To him, there's no such thing as a guilty pleasure. Overall, he loves talking about whatever he's listening to and wants to share it with others.")
+                        DJbio10.innerHTML = "DJ Raniel (RAN-yel) is an aspiring music critic and first-time DJ. To him, there's no such thing as a guilty pleasure. Overall, he loves talking about whatever he's listening to and wants to share it with others.";
+                    if(DJshowBio10.innerHTML !== "A mainly modern mix of indie and alternative with dashes of pop and rock. The sets won't always be the same, but hopefully they help you get through the day.")
+                        DJshowBio10.innerHTML = "A mainly modern mix of indie and alternative with dashes of pop and rock. The sets won't always be the same, but hopefully they help you get through the day.";
+                    if (DJshowLogo10.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/indieencounters.jpeg')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/indieencounters.jpeg')";                    
                     break
                 case 11:
-                    let text11 = "this works at 11am";
+                    let text11 = "Complete Mess";
                     //change innerHTML of bio to text
                     if(document.getElementById("bio").innerHTML !== text11)
                         document.getElementById("bio").innerHTML = text11;
@@ -1109,17 +1108,17 @@ function DJSchedule() {
                     let DJname11 = document.getElementById("DJname");
                     let DJbio11 = document.getElementById("DJbio");
                     let DJshowBio11 = document.getElementById("DJshowBio");
-                    if(DJname11.innerHTML !== "DJ Sam")
-                        DJname11.innerHTML = "DJ Sam";
-                    if(DJbio11.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio11.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio11.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio11.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo11.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname11.innerHTML !== "Claire")
+                        DJname11.innerHTML = "Claire";
+                    if(DJbio11.innerHTML !== "Claire is a third year at CSUF and hopes to go into publishing one day. She goes to as many concerts as her bank account will let her and loves discovering new music.")
+                        DJbio11.innerHTML = "Claire is a third year at CSUF and hopes to go into publishing one day. She goes to as many concerts as her bank account will let her and loves discovering new music.";
+                    if(DJshowBio11.innerHTML !== "Music has always been a place for people to escape. Here, we can escape together and be complete messes with one another.")
+                        DJshowBio11.innerHTML = "Music has always been a place for people to escape. Here, we can escape together and be complete messes with one another.";
+                    if (DJshowLogo11.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 12:
-                    let text12 = "this works at 12pm";
+                    let text12 = "Recess";
                     //change innerHTML of bio to text
                     if(document.getElementById("bio").innerHTML !== text12)
                         document.getElementById("bio").innerHTML = text12;
@@ -1127,17 +1126,17 @@ function DJSchedule() {
                     let DJname12 = document.getElementById("DJname");
                     let DJbio12 = document.getElementById("DJbio");
                     let DJshowBio12 = document.getElementById("DJshowBio");
-                    if(DJname12.innerHTML !== "DJ Sam")
-                        DJname12.innerHTML = "DJ Sam";
-                    if(DJbio12.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio12.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio12.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio12.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo12.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname12.innerHTML !== "Arianna")
+                        DJname12.innerHTML = "Arianna";
+                    if(DJbio12.innerHTML !== "DJ Arianna is the host of Recess which airs on Tuesdays at 12.")
+                        DJbio12.innerHTML = "DJ Arianna is the host of Recess which airs on Tuesdays at 12.";
+                    if(DJshowBio12.innerHTML !== "Recess airing Tuesdays at 12pm is my hour to have fun and play whatever music I'm feeling that week.")
+                        DJshowBio12.innerHTML = "Recess airing Tuesdays at 12pm is my hour to have fun and play whatever music I'm feeling that week.";
+                    if (DJshowLogo12.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 13:
-                    let text13 = "this works at 1pm";
+                    let text13 = "Next Door Neighbor Radio";
                     //change innerHTML of bio to text
                     if(document.getElementById("bio").innerHTML !== text13)
                         document.getElementById("bio").innerHTML = text13;
@@ -1145,17 +1144,17 @@ function DJSchedule() {
                     let DJname13 = document.getElementById("DJname");
                     let DJbio13 = document.getElementById("DJbio");
                     let DJshowBio13 = document.getElementById("DJshowBio");
-                    if(DJname13.innerHTML !== "DJ Sam")
-                        DJname13.innerHTML = "DJ Sam";
-                    if(DJbio13.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio13.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio13.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio13.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo13.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname13.innerHTML !== "Maya Desai")
+                        DJname13.innerHTML = "Maya Desai";
+                    if(DJbio13.innerHTML !== "Maya is a third-year Marketing major who has had a passion for music for as long as she can remember. She hopes to utilize her social media and marketing skills in the music industry one day to get others as excited about music as she is. Maya has been a diehard Harry Styles fan since 2011 and a lover of music since 2001.")
+                        DJbio13.innerHTML = "Maya is a third-year Marketing major who has had a passion for music for as long as she can remember. She hopes to utilize her social media and marketing skills in the music industry one day to get others as excited about music as she is. Maya has been a diehard Harry Styles fan since 2011 and a lover of music since 2001.";
+                    if(DJshowBio13.innerHTML !== "Welcome back to Season 2 of Next Door Neighbor Radio, where I bring you music of the manic pixie dream girl next door! You'll find music ranging from indie pop to alternative to pop rock to straight-up pop. With artists as mainstream as Harry Styles, Taylor Swift, and Phoebe Bridgers to lesser known musicians like Lizzy McAlpine, Ethel Cain, and Lexi Jayde, Next Door Neighbor Radio is here to provide you with the best sounds from the self-proclaimed cool girl's bedroom.")
+                        DJshowBio13.innerHTML = "Welcome back to Season 2 of Next Door Neighbor Radio, where I bring you music of the manic pixie dream girl next door! You'll find music ranging from indie pop to alternative to pop rock to straight-up pop. With artists as mainstream as Harry Styles, Taylor Swift, and Phoebe Bridgers to lesser known musicians like Lizzy McAlpine, Ethel Cain, and Lexi Jayde, Next Door Neighbor Radio is here to provide you with the best sounds from the self-proclaimed cool girl's bedroom.";
+                    if (DJshowLogo13.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/next-door-neighbor-DJ-show-logo-2022.jpeg')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/next-door-neighbor-DJ-show-logo-2022.jpeg')";
                     break
                 case 14:
-                    let text14 = "this works at 2pm";
+                    let text14 = "Strange Daze";
                     //change innerHTML of bio to text
                     if(document.getElementById("bio").innerHTML !== text14)
                         document.getElementById("bio").innerHTML = text14;
@@ -1163,17 +1162,17 @@ function DJSchedule() {
                     let DJname14 = document.getElementById("DJname");
                     let DJbio14 = document.getElementById("DJbio");
                     let DJshowBio14 = document.getElementById("DJshowBio");
-                    if(DJname14.innerHTML !== "DJ Teal")
-                        DJname14.innerHTML = "DJ Teal";
-                    if(DJbio14.innerHTML !== "DJ Teal is a DJ who likes to play music.")
-                        DJbio14.innerHTML = "DJ Teal is a DJ who likes to play music.";
-                    if(DJshowBio14.innerHTML !== "DJ Teal's show is a show where he plays music.")
-                        DJshowBio14.innerHTML = "DJ Teal's show is a show where he plays music.";
-                    if (DJshowLogo14.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/10/djTeal.png')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/10/djTeal.png')";
+                    if(DJname14.innerHTML !== "Michael")
+                        DJname14.innerHTML = "Michael";
+                    if(DJbio14.innerHTML !== "Michael has been a DJ at Titan Radio since the fall semester of 2021 and has been playing heavy rock music from the 70s, other heavy rock music or metal that is inspired from the 70s, and various selections from his record collection ever since on his show Strange Daze. Frequently, or at least every once in a while, Michael purchases records to play on the show and also talks about records he wants and can only wish he can had since certain selections of records are rare and expensive.")
+                        DJbio14.innerHTML = "Michael has been a DJ at Titan Radio since the fall semester of 2021 and has been playing heavy rock music from the 70s, other heavy rock music or metal that is inspired from the 70s, and various selections from his record collection ever since on his show Strange Daze. Frequently, or at least every once in a while, Michael purchases records to play on the show and also talks about records he wants and can only wish he can had since certain selections of records are rare and expensive.";
+                    if(DJshowBio14.innerHTML !== "Strange Daze is a show that plays obscure heavy psych, prog rock, and doom metal. It is also a show that has music played from my personal record collection that has over 200 albums.")
+                        DJshowBio14.innerHTML = "Strange Daze is a show that plays obscure heavy psych, prog rock, and doom metal. It is also a show that has music played from my personal record collection that has over 200 albums.";
+                    if (DJshowLogo14.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/Strange-Daze-DJ-show-logo-2022.jpg')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/Strange-Daze-DJ-show-logo-2022.jpg')";
                     break
                 case 15:
-                    let text15 = "this works at 3pm";
+                    let text15 = "Live On Mars";
                     //change innerHTML of bio to text
                     if(document.getElementById("bio").innerHTML !== text15)
                         document.getElementById("bio").innerHTML = text15;
@@ -1181,17 +1180,17 @@ function DJSchedule() {
                     let DJname15 = document.getElementById("DJname");
                     let DJbio15 = document.getElementById("DJbio");
                     let DJshowBio15 = document.getElementById("DJshowBio");
-                    if(DJname15.innerHTML !== "DJ Sam")
-                        DJname15.innerHTML = "DJ Sam";
-                    if(DJbio15.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio15.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio15.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio15.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo15.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname15.innerHTML !== "Mars")
+                        DJname15.innerHTML = "Mars";
+                    if(DJbio15.innerHTML !== "Mars has a wide range taste but will get obsessed with one for a week then switch to another. She loves underground bands and knows a lot of random facts about anything for no reason…mostly because they're bored.")
+                        DJbio15.innerHTML = "Mars has a wide range taste but will get obsessed with one for a week then switch to another. She loves underground bands and knows a lot of random facts about anything for no reason…mostly because they're bored.";
+                    if(DJshowBio15.innerHTML !== "I play lots of stuff depending on the mood of the day while ranting every now and then. I like to play and introduce new unknown or upcoming artists/ bands as well sooo lemme know and I'll most likely play it")
+                        DJshowBio15.innerHTML = "I play lots of stuff depending on the mood of the day while ranting every now and then. I like to play and introduce new unknown or upcoming artists/ bands as well sooo lemme know and I'll most likely play it";
+                    if (DJshowLogo15.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/live-on-mars-DJ-show-logo-2022.jpeg')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/live-on-mars-DJ-show-logo-2022.jpeg')";
                     break
                 case 16:
-                    let text16 = "this works at 4pm";
+                    let text16 = "Blowfish";
                     //change innerHTML of bio to text
                     if(document.getElementById("bio").innerHTML !== text16)
                         document.getElementById("bio").innerHTML = text16;
@@ -1199,17 +1198,17 @@ function DJSchedule() {
                     let DJname16 = document.getElementById("DJname");
                     let DJbio16 = document.getElementById("DJbio");
                     let DJshowBio16 = document.getElementById("DJshowBio");
-                    if(DJname16.innerHTML !== "DJ Sam")
-                        DJname16.innerHTML = "DJ Sam";
-                    if(DJbio16.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio16.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio16.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio16.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo16.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname16.innerHTML !== "Hiccups")
+                        DJname16.innerHTML = "Hiccups";
+                    if(DJbio16.innerHTML !== "Hiccups is your typical, college student who chats on the airwaves with chill vibes. Join him as he explores different artists and different life stories. Hiccups is a DJ that'll keep you listening week after week!")
+                        DJbio16.innerHTML = "Hiccups is your typical, college student who chats on the airwaves with chill vibes. Join him as he explores different artists and different life stories. Hiccups is a DJ that'll keep you listening week after week!";
+                    if(DJshowBio16.innerHTML !== "Goodbye Hiccups! It's the last season of the show you know and love, Blowfish! Prepare for good songs and deep talks; catch you on the airwaves!")
+                        DJshowBio16.innerHTML = "Goodbye Hiccups! It's the last season of the show you know and love, Blowfish! Prepare for good songs and deep talks; catch you on the airwaves!";
+                    if (DJshowLogo16.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/blowfish-DJ-show-logo-2022.jpeg')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/blowfish-DJ-show-logo-2022.jpeg')";
                     break
                 case 17:
-                    let text17 = "this works at 5pm";
+                    let text17 = "The Feed";
                     //change innerHTML of bio to text
                     if(document.getElementById("bio").innerHTML !== text17)
                         document.getElementById("bio").innerHTML = text17;
@@ -1217,17 +1216,17 @@ function DJSchedule() {
                     let DJname17 = document.getElementById("DJname");
                     let DJbio17 = document.getElementById("DJbio");
                     let DJshowBio17 = document.getElementById("DJshowBio");
-                    if(DJname17.innerHTML !== "DJ Sam")
-                        DJname17.innerHTML = "DJ Sam";
-                    if(DJbio17.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio17.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio17.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio17.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo17.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname17.innerHTML !== "TR Staff")
+                        DJname17.innerHTML = "TR Staff";
+                    if(DJbio17.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio17.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if(DJshowBio17.innerHTML !== "Join us every week for an exciting and dynamic radio show produced entirely by our talented team here at Titan Radio. Our show features a mix of engaging conversations, great music, and thought-provoking segments on a wide range of topics, from current events to entertainment and beyond. Tune in and join the conversation as we explore the world around us and connect with our listeners on a deeper level. Don't miss out on this unique opportunity to experience the best in student-led radio programming.")
+                        DJshowBio17.innerHTML = "Join us every week for an exciting and dynamic radio show produced entirely by our talented team here at Titan Radio. Our show features a mix of engaging conversations, great music, and thought-provoking segments on a wide range of topics, from current events to entertainment and beyond. Tune in and join the conversation as we explore the world around us and connect with our listeners on a deeper level. Don't miss out on this unique opportunity to experience the best in student-led radio programming.";
+                    if (DJshowLogo17.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/The-Feed-Header-Recolor.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/The-Feed-Header-Recolor.png')";
                     break
                 case 18:
-                    let text18 = "this works at 6pm";
+                    let text18 = "Mom Jeans and Caffeine";
                     //change innerHTML of bio to text
                     if(document.getElementById("bio").innerHTML !== text18)
                         document.getElementById("bio").innerHTML = text18;
@@ -1235,14 +1234,14 @@ function DJSchedule() {
                     let DJname18 = document.getElementById("DJname");
                     let DJbio18 = document.getElementById("DJbio");
                     let DJshowBio18 = document.getElementById("DJshowBio");
-                    if(DJname18.innerHTML !== "DJ Sam")
-                        DJname18.innerHTML = "DJ Sam";
-                    if(DJbio18.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio18.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio18.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio18.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo18.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if(DJname18.innerHTML !== "Queen E")
+                        DJname18.innerHTML = "Queen E";
+                    if(DJbio18.innerHTML !== "QueenE is the loudest introvert you'll meet! She always has random or unique ideas and uses music as her escape. She's always willing to have a conversation, but you'll have to speak first")
+                        DJbio18.innerHTML = "QueenE is the loudest introvert you'll meet! She always has random or unique ideas and uses music as her escape. She's always willing to have a conversation, but you'll have to speak first";
+                    if(DJshowBio18.innerHTML !== "Discovering new artists and replaying the favs! Carve your own way in life with a coming of age soundtrack. Put a kick in your step with transformative music!")
+                        DJshowBio18.innerHTML = "Discovering new artists and replaying the favs! Carve your own way in life with a coming of age soundtrack. Put a kick in your step with transformative music!";
+                    if (DJshowLogo18.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 19:
                     let text19 = "this works at 7pm";
@@ -1259,8 +1258,8 @@ function DJSchedule() {
                         DJbio19.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio19.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio19.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo19.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo19.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 20:
                     let text20 = "this works at 8pm";
@@ -1277,8 +1276,8 @@ function DJSchedule() {
                         DJbio20.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio20.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio20.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo20.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo20.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 21:
                     let text21 = "this works at 9pm";
@@ -1295,8 +1294,8 @@ function DJSchedule() {
                         DJbio21.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio21.innerHTML !== "DJ Sam's show is a show where he plays music.")   
                         DJshowBio21.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo21.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo21.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 22:
                     let text22 = "this works at 10pm";
@@ -1313,8 +1312,8 @@ function DJSchedule() {
                         DJbio22.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio22.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio22.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo22.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo22.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 23:
                     let text23 = "this works at 11pm";
@@ -1331,8 +1330,8 @@ function DJSchedule() {
                         DJbio23.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio23.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio23.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo23.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo23.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
             }
             break   
@@ -1486,8 +1485,8 @@ function DJSchedule() {
                         DJbio7.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio7.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio7.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo7.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo7.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo7.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                    DJshowLogo7.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 8:
                     let text8 = "this works at 8am";
@@ -1504,8 +1503,8 @@ function DJSchedule() {
                         DJbio8.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio8.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio8.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo8.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo8.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo8.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                    DJshowLogo8.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 9:
                     let text9 = "this works at 9am";
@@ -1540,8 +1539,8 @@ function DJSchedule() {
                         DJbio10.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio10.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio10.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo10.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo10.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo10.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                    DJshowLogo10.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 11:
                     let text11 = "this works at 11am";
@@ -1558,8 +1557,8 @@ function DJSchedule() {
                         DJbio11.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio11.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio11.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo11.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo11.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 12:
                     let text12 = "this works at 12pm";
@@ -1576,8 +1575,8 @@ function DJSchedule() {
                         DJbio12.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio12.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio12.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo12.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo12.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 13:
                     let text13 = "this works at 1pm";
@@ -1594,8 +1593,8 @@ function DJSchedule() {
                         DJbio13.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio13.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio13.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo13.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo13.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 14:
                     let text14 = "this works at 2pm";
@@ -1630,8 +1629,8 @@ function DJSchedule() {
                         DJbio15.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio15.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio15.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo15.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo15.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 16:
                     let text16 = "this works at 4pm";
@@ -1648,8 +1647,8 @@ function DJSchedule() {
                         DJbio16.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio16.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio16.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo16.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo16.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 17:
                     let text17 = "this works at 5pm";
@@ -1666,8 +1665,8 @@ function DJSchedule() {
                         DJbio17.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio17.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio17.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo17.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo17.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 18:
                     let text18 = "Izzy's Inner Thoughts";
@@ -1702,8 +1701,8 @@ function DJSchedule() {
                         DJbio19.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio19.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio19.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo19.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo19.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 20:
                     let text20 = "The Vibe";
@@ -1738,8 +1737,8 @@ function DJSchedule() {
                         DJbio21.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio21.innerHTML !== "DJ Sam's show is a show where he plays music.")   
                         DJshowBio21.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo21.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo21.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 22:
                     let text22 = "this works at 10pm";
@@ -1756,8 +1755,8 @@ function DJSchedule() {
                         DJbio22.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio22.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio22.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo22.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo22.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 23:
                     let text23 = "this works at 11pm";
@@ -1774,8 +1773,8 @@ function DJSchedule() {
                         DJbio23.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio23.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio23.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo23.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo23.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
             }
             break
@@ -1929,8 +1928,8 @@ function DJSchedule() {
                         DJbio7.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio7.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio7.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo7.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo7.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo7.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                    DJshowLogo7.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 8:
                     let text8 = "Maxxed Out";
@@ -2553,8 +2552,8 @@ function DJSchedule() {
                         DJbio17.innerHTML = "TR Staff";
                     if(DJshowBio17.innerHTML !== "Introducing The Feed by Titan Radio! This weekly radio show is the culmination of our entire student staff team. Each episode features several 5-10 minute segments on a variety of topics including sports, music, news, interviews, and skits. Tune in every Monday through Friday at 5!")
                         DJshowBio17.innerHTML = "Introducing The Feed by Titan Radio! This weekly radio show is the culmination of our entire student staff team. Each episode features several 5-10 minute segments on a variety of topics including sports, music, news, interviews, and skits. Tune in every Monday through Friday at 5!";
-                    if (DJshowLogo17.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo17.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 18:
                     let text18 = "Yeah It's A Vibe";
@@ -2816,8 +2815,8 @@ function DJSchedule() {
                         DJbio7.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio7.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio7.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo7.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo7.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo7.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                    DJshowLogo7.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 8:
                     let text8 = "this works at 8am";
@@ -2834,8 +2833,8 @@ function DJSchedule() {
                         DJbio8.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio8.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio8.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo8.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo8.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo8.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                    DJshowLogo8.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 9:
                     let text9 = "this works at 9am";
@@ -2852,8 +2851,8 @@ function DJSchedule() {
                         DJbio9.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio9.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio9.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo9.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo9.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo9.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                    DJshowLogo9.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 10:
                     let text10 = "this works at 10am";
@@ -2870,8 +2869,8 @@ function DJSchedule() {
                         DJbio10.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio10.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio10.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo10.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                    DJshowLogo10.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo10.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                    DJshowLogo10.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 11:
                     let text11 = "this works at 11am";
@@ -2888,8 +2887,8 @@ function DJSchedule() {
                         DJbio11.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio11.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio11.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo11.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo11.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 12:
                     let text12 = "this works at 12pm";
@@ -2906,8 +2905,8 @@ function DJSchedule() {
                         DJbio12.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio12.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio12.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo12.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo12.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 13:
                     let text13 = "this works at 1pm";
@@ -2924,8 +2923,8 @@ function DJSchedule() {
                         DJbio13.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio13.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio13.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo13.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo13.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 14:
                     let text14 = "this works at 2pm";
@@ -2960,8 +2959,8 @@ function DJSchedule() {
                         DJbio15.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio15.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio15.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo15.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo15.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 16:
                     let text16 = "this works at 4pm";
@@ -2978,8 +2977,8 @@ function DJSchedule() {
                         DJbio16.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio16.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio16.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo16.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo16.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 17:
                     let text17 = "this works at 5pm";
@@ -2996,8 +2995,8 @@ function DJSchedule() {
                         DJbio17.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio17.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio17.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo17.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo17.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 18:
                     let text18 = "this works at 6pm";
@@ -3014,8 +3013,8 @@ function DJSchedule() {
                         DJbio18.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio18.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio18.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo18.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo18.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 19:
                     let text19 = "this works at 7pm";
@@ -3032,8 +3031,8 @@ function DJSchedule() {
                         DJbio19.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio19.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio19.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo19.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo19.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 20:
                     let text20 = "this works at 8pm";
@@ -3050,8 +3049,8 @@ function DJSchedule() {
                         DJbio20.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio20.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio20.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo20.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo20.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 21:
                     let text21 = "this works at 9pm";
@@ -3068,8 +3067,8 @@ function DJSchedule() {
                         DJbio21.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio21.innerHTML !== "DJ Sam's show is a show where he plays music.")   
                         DJshowBio21.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo21.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo21.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 22:
                     let text22 = "this works at 10pm";
@@ -3086,8 +3085,8 @@ function DJSchedule() {
                         DJbio22.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio22.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio22.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo22.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo22.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 23:
                     let text23 = "this works at 11pm";
@@ -3104,8 +3103,8 @@ function DJSchedule() {
                         DJbio23.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio23.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio23.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo23.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/sams-space-DJ-show-logo-2022.jpeg')";
+                    if (DJshowLogo23.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
                     break
             } 
             break                                                           
