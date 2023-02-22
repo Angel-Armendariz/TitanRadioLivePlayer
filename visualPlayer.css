@@ -60,6 +60,7 @@
   height: 640px;
   border-radius: 6px;
   perspective: 800px;
+  margin-top: 5rem;
 }
  .player_inner__top {
   height: 70px;
@@ -98,6 +99,9 @@
 }
 .cube_inner__front {
   background-size: 100% !important; 
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-attachment: fixed !important;
   /* background-size: contain !important; */
   
   /* background-position-y: -71px !important; */
@@ -596,11 +600,6 @@
   font-family: "Nunito", sans-serif;
   color: #ffffffff;
 }
-#DJshowLogo {
-  background-size: 100% !important; 
-  background-size: contain !important; 
-  background-repeat: no-repeat !important;
-}
 
 .DJimg{
   /* style small DJ image */
@@ -763,3 +762,12 @@ animation: ring 1.5s 5;
   font-family: Open Sans, sans-serif;
 }
 
+#schedule{
+margin-top:10rem;
+margin:0 auto;
+}
+
+#liveStream{
+max-width:50rem;
+margin:0 auto;
+}

@@ -240,14 +240,14 @@ function DJSchedule() {
                     let DJname12 = document.getElementById("DJname");
                     let DJbio12 = document.getElementById("DJbio");
                     let DJshowBio12 = document.getElementById("DJshowBio");
-                    if(DJname12.innerHTML !== "TR Staff")
-                        DJname12.innerHTML = "TR Staff";
-                    if(DJbio12.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
-                        DJbio12.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
-                    if(DJshowBio12.innerHTML !== "Join us every week for an exciting and dynamic radio show produced entirely by our talented team here at Titan Radio. Our show features a mix of engaging conversations, great music, and thought-provoking segments on a wide range of topics, from current events to entertainment and beyond. Tune in and join the conversation as we explore the world around us and connect with our listeners on a deeper level. Don't miss out on this unique opportunity to experience the best in student-led radio programming.")
-                        DJshowBio12.innerHTML = "Join us every week for an exciting and dynamic radio show produced entirely by our talented team here at Titan Radio. Our show features a mix of engaging conversations, great music, and thought-provoking segments on a wide range of topics, from current events to entertainment and beyond. Tune in and join the conversation as we explore the world around us and connect with our listeners on a deeper level. Don't miss out on this unique opportunity to experience the best in student-led radio programming.";
-                    if (DJshowLogo12.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/The-Feed-Header-Recolor.png')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/The-Feed-Header-Recolor.png')";
+                    if(DJname12.innerHTML !== "CSUF")
+                        DJname12.innerHTML = "CSUF";
+                    if(DJbio12.innerHTML !== "")
+                        DJbio12.innerHTML = "";
+                    if(DJshowBio12.innerHTML !== "This spot is reserved for CSUF programming, otherwise TR2 will play. This can be either for clubs or campus departments. If you are interested in having your programming on Titan Radio, please contact us at titanradio-gm@fullerton.edu")
+                        DJshowBio12.innerHTML = "This spot is reserved for CSUF programming, otherwise TR2 will play. This can be either for clubs or campus departments. If you are interested in having your programming on Titan Radio, please contact us at titanradio-gm@fullerton.edu";
+                    if (DJshowLogo12.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023-1.jpg')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023-1.jpg')";
                     break
                 case 13:
                     let text13 = "CSUF Programming";
@@ -258,14 +258,14 @@ function DJSchedule() {
                     let DJname13 = document.getElementById("DJname");
                     let DJbio13 = document.getElementById("DJbio");
                     let DJshowBio13 = document.getElementById("DJshowBio");
-                    if(DJname13.innerHTML !== "TR Staff")
-                        DJname13.innerHTML = "TR Staff";
-                    if(DJbio13.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
-                        DJbio13.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
-                    if(DJshowBio13.innerHTML !== "Join us every week for an exciting and dynamic radio show produced entirely by our talented team here at Titan Radio. Our show features a mix of engaging conversations, great music, and thought-provoking segments on a wide range of topics, from current events to entertainment and beyond. Tune in and join the conversation as we explore the world around us and connect with our listeners on a deeper level. Don't miss out on this unique opportunity to experience the best in student-led radio programming.")
-                        DJshowBio13.innerHTML = "Join us every week for an exciting and dynamic radio show produced entirely by our talented team here at Titan Radio. Our show features a mix of engaging conversations, great music, and thought-provoking segments on a wide range of topics, from current events to entertainment and beyond. Tune in and join the conversation as we explore the world around us and connect with our listeners on a deeper level. Don't miss out on this unique opportunity to experience the best in student-led radio programming.";
-                    if (DJshowLogo13.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/The-Feed-Header-Recolor.png')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/The-Feed-Header-Recolor.png')";
+                    if(DJname13.innerHTML !== "CSUF")
+                        DJname13.innerHTML = "CSUF";
+                    if(DJbio13.innerHTML !== "")
+                        DJbio13.innerHTML = "";
+                    if(DJshowBio13.innerHTML !== "This spot is reserved for CSUF programming, otherwise TR2 will play. This can be either for clubs or campus departments. If you are interested in having your programming on Titan Radio, please contact us at titanradio-gm@fullerton.edu")
+                        DJshowBio13.innerHTML = "This spot is reserved for CSUF programming, otherwise TR2 will play. This can be either for clubs or campus departments. If you are interested in having your programming on Titan Radio, please contact us at titanradio-gm@fullerton.edu";
+                    if (DJshowLogo13.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023-1.jpg')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023-1.jpg')";
                     break
                 case 14:
                     let text14 = "CSUF Programming";
@@ -276,14 +276,14 @@ function DJSchedule() {
                     let DJname14 = document.getElementById("DJname");
                     let DJbio14 = document.getElementById("DJbio");
                     let DJshowBio14 = document.getElementById("DJshowBio");
-                    if(DJname14.innerHTML !== "TR Staff")
-                        DJname14.innerHTML = "TR Staff";
-                    if(DJbio14.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
-                        DJbio14.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
-                    if(DJshowBio14.innerHTML !== "Join us every week for an exciting and dynamic radio show produced entirely by our talented team here at Titan Radio. Our show features a mix of engaging conversations, great music, and thought-provoking segments on a wide range of topics, from current events to entertainment and beyond. Tune in and join the conversation as we explore the world around us and connect with our listeners on a deeper level. Don't miss out on this unique opportunity to experience the best in student-led radio programming.")
-                        DJshowBio14.innerHTML = "Join us every week for an exciting and dynamic radio show produced entirely by our talented team here at Titan Radio. Our show features a mix of engaging conversations, great music, and thought-provoking segments on a wide range of topics, from current events to entertainment and beyond. Tune in and join the conversation as we explore the world around us and connect with our listeners on a deeper level. Don't miss out on this unique opportunity to experience the best in student-led radio programming.";
-                    if (DJshowLogo14.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/The-Feed-Header-Recolor.png')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/The-Feed-Header-Recolor.png')";
+                    if(DJname14.innerHTML !== "CSUF")
+                        DJname14.innerHTML = "CSUF";
+                    if(DJbio14.innerHTML !== "")
+                        DJbio14.innerHTML = "";
+                    if(DJshowBio14.innerHTML !== "This spot is reserved for CSUF programming, otherwise TR2 will play. This can be either for clubs or campus departments. If you are interested in having your programming on Titan Radio, please contact us at titanradio-gm@fullerton.edu")
+                        DJshowBio14.innerHTML = "This spot is reserved for CSUF programming, otherwise TR2 will play. This can be either for clubs or campus departments. If you are interested in having your programming on Titan Radio, please contact us at titanradio-gm@fullerton.edu";
+                    if (DJshowLogo14.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023-1.jpg')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023-1.jpg')";
                     break
                 case 15:
                     let text15 = "CSUF Programming";
@@ -294,14 +294,14 @@ function DJSchedule() {
                     let DJname15 = document.getElementById("DJname");
                     let DJbio15 = document.getElementById("DJbio");
                     let DJshowBio15 = document.getElementById("DJshowBio");
-                    if(DJname15.innerHTML !== "TR Staff")
-                        DJname15.innerHTML = "TR Staff";
-                    if(DJbio15.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
-                        DJbio15.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
-                    if(DJshowBio15.innerHTML !== "Join us every week for an exciting and dynamic radio show produced entirely by our talented team here at Titan Radio. Our show features a mix of engaging conversations, great music, and thought-provoking segments on a wide range of topics, from current events to entertainment and beyond. Tune in and join the conversation as we explore the world around us and connect with our listeners on a deeper level. Don't miss out on this unique opportunity to experience the best in student-led radio programming.")
-                        DJshowBio15.innerHTML = "Join us every week for an exciting and dynamic radio show produced entirely by our talented team here at Titan Radio. Our show features a mix of engaging conversations, great music, and thought-provoking segments on a wide range of topics, from current events to entertainment and beyond. Tune in and join the conversation as we explore the world around us and connect with our listeners on a deeper level. Don't miss out on this unique opportunity to experience the best in student-led radio programming.";
-                    if (DJshowLogo15.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/The-Feed-Header-Recolor.png')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/The-Feed-Header-Recolor.png')";
+                    if(DJname15.innerHTML !== "CSUF")
+                        DJname15.innerHTML = "CSUF";
+                    if(DJbio15.innerHTML !== "")
+                        DJbio15.innerHTML = "";
+                    if(DJshowBio15.innerHTML !== "This spot is reserved for CSUF programming, otherwise TR2 will play. This can be either for clubs or campus departments. If you are interested in having your programming on Titan Radio, please contact us at titanradio-gm@fullerton.edu")
+                        DJshowBio15.innerHTML = "This spot is reserved for CSUF programming, otherwise TR2 will play. This can be either for clubs or campus departments. If you are interested in having your programming on Titan Radio, please contact us at titanradio-gm@fullerton.edu";
+                    if (DJshowLogo15.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023-1.jpg')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023-1.jpg')";
                     break
                 case 16:
                     let text16 = "Playlisting With Blondie";
@@ -635,8 +635,8 @@ function DJSchedule() {
                         DJbio9.innerHTML = "Passionate New York sports fanatic";
                     if(DJshowBio9.innerHTML !== "On Ant's Analytics, it is the hotspot to discuss and debate any and all types of sporting events. Each show will have a new guest and will be accepting callers from everyone!")
                         DJshowBio9.innerHTML = "On Ant's Analytics, it is the hotspot to discuss and debate any and all types of sporting events. Each show will have a new guest and will be accepting callers from everyone!";
-                    if (DJshowLogo9.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
-                    DJshowLogo9.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
+                    if (DJshowLogo9.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')")
+                    DJshowLogo9.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')";
                     break
                 case 10:
                     let text10 = "Take A Hike!";
@@ -671,8 +671,8 @@ function DJSchedule() {
                         DJbio11.innerHTML = "Mélomanie dedicates his life to what he loves - immersing himself in music. Music exists because language can't fulfill everything that music expresses. Mélomanie hopes to share that very notion with the rest of the world with some of the most heartfelt music out there!";
                     if(DJshowBio11.innerHTML !== "Finifugal. (adj.) hating endings. Although albums may need conclusions, great music is timeless. This show examines some of the most influential tracks and artists in recent music history.")
                         DJshowBio11.innerHTML = "Finifugal. (adj.) hating endings. Although albums may need conclusions, great music is timeless. This show examines some of the most influential tracks and artists in recent music history.";
-                    if (DJshowLogo11.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
+                    if (DJshowLogo11.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')";
                     break
                 case 12:
                     let text12 = "The Buzz";
@@ -707,8 +707,8 @@ function DJSchedule() {
                         DJbio13.innerHTML = "DJ AJ is a huge fan of lots of artists and has a passion for music! She loves going to concerts and listening to music any chance she gets. She hopes to share some of her favorite music during her show!";
                     if(DJshowBio13.innerHTML !== "My show will be me playing my favorite music from my favorite artists such as One Direction, Harry Styles, Louis Tomlinson, Niall Horan, Taylor Swift, 5 Seconds of Summer, Big Time Rush, Olivia Rodrigo, and more!! ")
                         DJshowBio13.innerHTML = "My show will be me playing my favorite music from my favorite artists such as One Direction, Harry Styles, Louis Tomlinson, Niall Horan, Taylor Swift, 5 Seconds of Summer, Big Time Rush, Olivia Rodrigo, and more!! ";
-                    if (DJshowLogo13.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
+                    if (DJshowLogo13.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')";
                     break
                 case 14:
                     let text14 = "Rotten To The Core";
@@ -725,8 +725,8 @@ function DJSchedule() {
                         DJbio14.innerHTML = "DJ Teal is a DJ who likes to play music.";
                     if(DJshowBio14.innerHTML !== "DJ Teal's show is a show where he plays music.")
                         DJshowBio14.innerHTML = "DJ Teal's show is a show where he plays music.";
-                    if (DJshowLogo14.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
+                    if (DJshowLogo14.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')";
                     break
                 case 15:
                     let text15 = "Juke Jam";
@@ -761,8 +761,8 @@ function DJSchedule() {
                         DJbio16.innerHTML = "Great combination of song choice and laughing at his own jokes between songs. Always bringing a positive vibe and brightening days.";
                     if(DJshowBio16.innerHTML !== "Hip hop and R&B to expand your music taste in either genre. Lofi rap is what I mainly play but don't be surprised when I throw in some Afro beats or Pop.")
                         DJshowBio16.innerHTML = "Hip hop and R&B to expand your music taste in either genre. Lofi rap is what I mainly play but don't be surprised when I throw in some Afro beats or Pop.";
-                    if (DJshowLogo16.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
+                    if (DJshowLogo16.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')";
                     break
                 case 17:
                     let text17 = "The Feed";
@@ -779,8 +779,8 @@ function DJSchedule() {
                         DJbio17.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
                     if(DJshowBio17.innerHTML !== "Join us every week for an exciting and dynamic radio show produced entirely by our talented team here at Titan Radio. Our show features a mix of engaging conversations, great music, and thought-provoking segments on a wide range of topics, from current events to entertainment and beyond. Tune in and join the conversation as we explore the world around us and connect with our listeners on a deeper level. Don't miss out on this unique opportunity to experience the best in student-led radio programming.")
                         DJshowBio17.innerHTML = "Join us every week for an exciting and dynamic radio show produced entirely by our talented team here at Titan Radio. Our show features a mix of engaging conversations, great music, and thought-provoking segments on a wide range of topics, from current events to entertainment and beyond. Tune in and join the conversation as we explore the world around us and connect with our listeners on a deeper level. Don't miss out on this unique opportunity to experience the best in student-led radio programming.";
-                    if (DJshowLogo17.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/The-Feed-Header-Recolor.png')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/The-Feed-Header-Recolor.png')";
+                    if (DJshowLogo17.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TheFeedLogo.jpg')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TheFeedLogo.jpg')";
                     break
                 case 18:
                     let text18 = "Life With Lex";
@@ -815,8 +815,8 @@ function DJSchedule() {
                         DJbio19.innerHTML = "After being in the music scene since 14, JD has discovered the best of the local hardcore, punk, and experimental music. All music is connected if you look hard enough!";
                     if(DJshowBio19.innerHTML !== "Classic college radio: lots of post-punk, shoegaze, experimental, dnb, garage rock! No single genre- you'll definitely find new bands based off the current ones you already love.")
                         DJshowBio19.innerHTML = "Classic college radio: lots of post-punk, shoegaze, experimental, dnb, garage rock! No single genre- you'll definitely find new bands based off the current ones you already love.";
-                    if (DJshowLogo19.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
+                    if (DJshowLogo19.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')";
                     break
                 case 20:
                     let text20 = "Camp Lavender";
@@ -1042,8 +1042,8 @@ function DJSchedule() {
                         DJbio7.innerHTML = "She has been part of The Union newspaper and magazine as a reporter from El Camino College. She also has part been of broadcast. She like to continue doing things like broadcasting or anything with communications.";
                     if(DJshowBio7.innerHTML !== "I also like know how to put out a radio show. I also like know you put music on radio and play music.")
                         DJshowBio7.innerHTML = "I also like know how to put out a radio show. I also like know you put music on radio and play music.";
-                    if (DJshowLogo7.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
-                    DJshowLogo7.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
+                    if (DJshowLogo7.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')")
+                    DJshowLogo7.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')";
                     break
                 case 8:
                     let text8 = "Operation: Electric Relaxation";
@@ -1060,8 +1060,8 @@ function DJSchedule() {
                         DJbio8.innerHTML = "Operation: Electric Relaxation's host, Maryann, loves all things music! Her hobbies include collecting CDs and vinyl records of all genres and going to concerts to see her favorite musicians perform live. She loves music from all decades and all genres, and is happy to share her passion for music with other CSUF Titans!";
                     if(DJshowBio8.innerHTML !== "Welcome to Operation: Electric Relaxation - a place where everyone is invited to listen and explore various genres of music! Listen along to wind-down to diverse styles of music from the R&B, hip-hop, and indie realm.")
                         DJshowBio8.innerHTML = "Welcome to Operation: Electric Relaxation - a place where everyone is invited to listen and explore various genres of music! Listen along to wind-down to diverse styles of music from the R&B, hip-hop, and indie realm.";
-                    if (DJshowLogo8.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
-                    DJshowLogo8.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
+                    if (DJshowLogo8.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')")
+                    DJshowLogo8.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')";
                     break
                 case 9:
                     let text9 = "The Morning Show";
@@ -1114,8 +1114,8 @@ function DJSchedule() {
                         DJbio11.innerHTML = "Claire is a third year at CSUF and hopes to go into publishing one day. She goes to as many concerts as her bank account will let her and loves discovering new music.";
                     if(DJshowBio11.innerHTML !== "Music has always been a place for people to escape. Here, we can escape together and be complete messes with one another.")
                         DJshowBio11.innerHTML = "Music has always been a place for people to escape. Here, we can escape together and be complete messes with one another.";
-                    if (DJshowLogo11.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
+                    if (DJshowLogo11.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')";
                     break
                 case 12:
                     let text12 = "Recess";
@@ -1132,8 +1132,8 @@ function DJSchedule() {
                         DJbio12.innerHTML = "DJ Arianna is the host of Recess which airs on Tuesdays at 12.";
                     if(DJshowBio12.innerHTML !== "Recess airing Tuesdays at 12pm is my hour to have fun and play whatever music I'm feeling that week.")
                         DJshowBio12.innerHTML = "Recess airing Tuesdays at 12pm is my hour to have fun and play whatever music I'm feeling that week.";
-                    if (DJshowLogo12.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
+                    if (DJshowLogo12.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')";
                     break
                 case 13:
                     let text13 = "Next Door Neighbor Radio";
@@ -1222,8 +1222,8 @@ function DJSchedule() {
                         DJbio17.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
                     if(DJshowBio17.innerHTML !== "Join us every week for an exciting and dynamic radio show produced entirely by our talented team here at Titan Radio. Our show features a mix of engaging conversations, great music, and thought-provoking segments on a wide range of topics, from current events to entertainment and beyond. Tune in and join the conversation as we explore the world around us and connect with our listeners on a deeper level. Don't miss out on this unique opportunity to experience the best in student-led radio programming.")
                         DJshowBio17.innerHTML = "Join us every week for an exciting and dynamic radio show produced entirely by our talented team here at Titan Radio. Our show features a mix of engaging conversations, great music, and thought-provoking segments on a wide range of topics, from current events to entertainment and beyond. Tune in and join the conversation as we explore the world around us and connect with our listeners on a deeper level. Don't miss out on this unique opportunity to experience the best in student-led radio programming.";
-                    if (DJshowLogo17.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/The-Feed-Header-Recolor.png')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/The-Feed-Header-Recolor.png')";
+                    if (DJshowLogo17.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TheFeedLogo.jpg')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TheFeedLogo.jpg')";
                     break
                 case 18:
                     let text18 = "Mom Jeans and Caffeine";
@@ -1240,8 +1240,8 @@ function DJSchedule() {
                         DJbio18.innerHTML = "QueenE is the loudest introvert you'll meet! She always has random or unique ideas and uses music as her escape. She's always willing to have a conversation, but you'll have to speak first";
                     if(DJshowBio18.innerHTML !== "Discovering new artists and replaying the favs! Carve your own way in life with a coming of age soundtrack. Put a kick in your step with transformative music!")
                         DJshowBio18.innerHTML = "Discovering new artists and replaying the favs! Carve your own way in life with a coming of age soundtrack. Put a kick in your step with transformative music!";
-                    if (DJshowLogo18.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
+                    if (DJshowLogo18.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')";
                     break
                 case 19:
                     let text19 = "Your Jinji";
@@ -1312,8 +1312,8 @@ function DJSchedule() {
                         DJbio22.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio22.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio22.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo22.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
+                    if (DJshowLogo22.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')";
                     break
                 case 23:
                     let text23 = "Me 2 mp3";
@@ -1485,8 +1485,8 @@ function DJSchedule() {
                         DJbio7.innerHTML = "Paula love for music stems from listening to her dads band practice on the weekends. She loves to collect records and find new artists to share with others.";
                     if(DJshowBio7.innerHTML !== "A comfortable conversation with friends to share music and insight. Come together to listen and appreciate what others have to offer.")
                         DJshowBio7.innerHTML = "A comfortable conversation with friends to share music and insight. Come together to listen and appreciate what others have to offer.";
-                    if (DJshowLogo7.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
-                    DJshowLogo7.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
+                    if (DJshowLogo7.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')")
+                    DJshowLogo7.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')";
                     break
                 case 8:
                     let text8 = "this works at 8am";
@@ -1503,8 +1503,8 @@ function DJSchedule() {
                         DJbio8.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio8.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio8.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo8.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
-                    DJshowLogo8.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
+                    if (DJshowLogo8.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')")
+                    DJshowLogo8.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')";
                     break
                 case 9:
                     let text9 = "Music For Your Soul";
@@ -1539,8 +1539,8 @@ function DJSchedule() {
                         DJbio10.innerHTML = "Gabi is a second year here at CSUF, and she is ecstatic to be a Titan Radio DJ for the first time! She's loved music across all different genres, being inspired by artists like Joni Mitchell to Frank Ocean. She cannot wait to share her favorite tunes with you.";
                     if(DJshowBio10.innerHTML !== "With passion for LGBTQIA + visibility, the queer code explores what is means to be a queer person today through music from many genres. During this show, you'll hear music from queer artists, songs that are queer coded and songs loved by the queer community. You won't want to miss this opportunity to discover new music from artists of all different identities.")
                         DJshowBio10.innerHTML = "With passion for LGBTQIA + visibility, the queer code explores what is means to be a queer person today through music from many genres. During this show, you'll hear music from queer artists, songs that are queer coded and songs loved by the queer community. You won't want to miss this opportunity to discover new music from artists of all different identities.";
-                    if (DJshowLogo10.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
-                    DJshowLogo10.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
+                    if (DJshowLogo10.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')")
+                    DJshowLogo10.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')";
                     break
                 case 11:
                     let text11 = "The Isaiah Ruiz Show";
@@ -1557,8 +1557,8 @@ function DJSchedule() {
                         DJbio11.innerHTML = "What makes Isaiah a great DJ is that he is not an in the box creative person. But then again what creative person is a think inside the box thinker? With his creativity, along with sports expertise having played sports for a majority of his life growing up. Isaiah can bring a new and different type of radio show that will mix sports, music, and other creative content to Titan Radio.";
                     if(DJshowBio11.innerHTML !== "If you're someone who likes to push the envelope, someone who believes in pushing radio further than it already has by thinking creatively. Then look no further! On the Isaiah Ruiz show I will be playing some of the hottest hits from current and past generations, discussing all topics from sports, music, film, entertainment, etc.! And giving you the listeners, a voice on the latest headlines in our school, sports, music, you name it! Welcome to the Isaiah Ruiz Show!")
                         DJshowBio11.innerHTML = "If you're someone who likes to push the envelope, someone who believes in pushing radio further than it already has by thinking creatively. Then look no further! On the Isaiah Ruiz show I will be playing some of the hottest hits from current and past generations, discussing all topics from sports, music, film, entertainment, etc.! And giving you the listeners, a voice on the latest headlines in our school, sports, music, you name it! Welcome to the Isaiah Ruiz Show!";
-                    if (DJshowLogo11.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
+                    if (DJshowLogo11.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')";
                     break
                 case 12:
                     let text12 = "Idol Radio";
@@ -1575,8 +1575,8 @@ function DJSchedule() {
                         DJbio12.innerHTML = "The girl from real kpop country! You can't leave out kpop music in her life. She's going to tell about all about kpop things.";
                     if(DJshowBio12.innerHTML !== "All about kpop! Do yo guys interested in kpop music, dance, fashion and culture? It's good to see you smile. Also i'm going to recommend cool kpop songs depends on topic. This is big chance to hear all about kpop")
                         DJshowBio12.innerHTML = "All about kpop! Do yo guys interested in kpop music, dance, fashion and culture? It's good to see you smile. Also i'm going to recommend cool kpop songs depends on topic. This is big chance to hear all about kpop";
-                    if (DJshowLogo12.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
+                    if (DJshowLogo12.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')";
                     break
                 case 13:
                     let text13 = "Backseat Radio";
@@ -1647,8 +1647,8 @@ function DJSchedule() {
                         DJbio16.innerHTML = "Jesse-O's mission is to spread all kinds of music and sounds to the airwaves in hopes that a listener will find something new to add to their music library. He's 50% sure his show will be great and 100% sure he'll have a fun, organic, and pesticide-free time!";
                     if(DJshowBio16.innerHTML !== "O.T.R. is all about music and sound, and my connection to it. I am not someone who likes to condense things so 1 hour for a few months to showcase how music has become such an important part of my life is limiting! So I'll do my best to go with the flow and spin for weekly sounds like it's chosen from a roulette wheel.")
                         DJshowBio16.innerHTML = "O.T.R. is all about music and sound, and my connection to it. I am not someone who likes to condense things so 1 hour for a few months to showcase how music has become such an important part of my life is limiting! So I'll do my best to go with the flow and spin for weekly sounds like it's chosen from a roulette wheel.";
-                    if (DJshowLogo16.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
+                    if (DJshowLogo16.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')";
                     break
                 case 17:
                     let text17 = "The Feed";
@@ -1665,8 +1665,8 @@ function DJSchedule() {
                         DJbio17.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
                     if(DJshowBio17.innerHTML !== "Join us every week for an exciting and dynamic radio show produced entirely by our talented team here at Titan Radio. Our show features a mix of engaging conversations, great music, and thought-provoking segments on a wide range of topics, from current events to entertainment and beyond. Tune in and join the conversation as we explore the world around us and connect with our listeners on a deeper level. Don't miss out on this unique opportunity to experience the best in student-led radio programming.")
                         DJshowBio17.innerHTML = "Join us every week for an exciting and dynamic radio show produced entirely by our talented team here at Titan Radio. Our show features a mix of engaging conversations, great music, and thought-provoking segments on a wide range of topics, from current events to entertainment and beyond. Tune in and join the conversation as we explore the world around us and connect with our listeners on a deeper level. Don't miss out on this unique opportunity to experience the best in student-led radio programming.";
-                    if (DJshowLogo17.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/The-Feed-Header-Recolor.png')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/The-Feed-Header-Recolor.png')";
+                    if (DJshowLogo17.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TheFeedLogo.jpg')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TheFeedLogo.jpg')";
                     break
                 case 18:
                     let text18 = "Izzy's Inner Thoughts";
@@ -1701,8 +1701,8 @@ function DJSchedule() {
                         DJbio19.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio19.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio19.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo19.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
+                    if (DJshowLogo19.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')";
                     break
                 case 20:
                     let text20 = "The Vibe";
@@ -1928,8 +1928,8 @@ function DJSchedule() {
                         DJbio7.innerHTML = "Allen and Christopher are two brothers who share a lifelong passion for football/soccer. They are biochemistry/physics (Christopher) and Biology (Allen) majors who run Fullerton FC.";
                     if(DJshowBio7.innerHTML !== "Allen and Christopher talk all things soccer/football, with a focus on in depth tactics and performance. See and hear incredible guests and debate with us weekly on CSUF's go-to soccer/football podcast!")
                         DJshowBio7.innerHTML = "Allen and Christopher talk all things soccer/football, with a focus on in depth tactics and performance. See and hear incredible guests and debate with us weekly on CSUF's go-to soccer/football podcast!";
-                    if (DJshowLogo7.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
-                    DJshowLogo7.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
+                    if (DJshowLogo7.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')")
+                    DJshowLogo7.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')";
                     break
                 case 8:
                     let text8 = "Maxxed Out";
@@ -2109,8 +2109,8 @@ function DJSchedule() {
                         DJbio17.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
                     if(DJshowBio17.innerHTML !== "Join us every week for an exciting and dynamic radio show produced entirely by our talented team here at Titan Radio. Our show features a mix of engaging conversations, great music, and thought-provoking segments on a wide range of topics, from current events to entertainment and beyond. Tune in and join the conversation as we explore the world around us and connect with our listeners on a deeper level. Don't miss out on this unique opportunity to experience the best in student-led radio programming.")
                         DJshowBio17.innerHTML = "Join us every week for an exciting and dynamic radio show produced entirely by our talented team here at Titan Radio. Our show features a mix of engaging conversations, great music, and thought-provoking segments on a wide range of topics, from current events to entertainment and beyond. Tune in and join the conversation as we explore the world around us and connect with our listeners on a deeper level. Don't miss out on this unique opportunity to experience the best in student-led radio programming.";
-                    if (DJshowLogo17.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/The-Feed-Header-Recolor.png')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/The-Feed-Header-Recolor.png')";
+                    if (DJshowLogo17.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TheFeedLogo.jpg')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TheFeedLogo.jpg')";
                     break
                 case 18:
                     let text18 = "Ecyce Music";
@@ -2552,8 +2552,8 @@ function DJSchedule() {
                         DJbio17.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
                     if(DJshowBio17.innerHTML !== "Join us every week for an exciting and dynamic radio show produced entirely by our talented team here at Titan Radio. Our show features a mix of engaging conversations, great music, and thought-provoking segments on a wide range of topics, from current events to entertainment and beyond. Tune in and join the conversation as we explore the world around us and connect with our listeners on a deeper level. Don't miss out on this unique opportunity to experience the best in student-led radio programming.")
                         DJshowBio17.innerHTML = "Join us every week for an exciting and dynamic radio show produced entirely by our talented team here at Titan Radio. Our show features a mix of engaging conversations, great music, and thought-provoking segments on a wide range of topics, from current events to entertainment and beyond. Tune in and join the conversation as we explore the world around us and connect with our listeners on a deeper level. Don't miss out on this unique opportunity to experience the best in student-led radio programming.";
-                    if (DJshowLogo17.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/The-Feed-Header-Recolor.png')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/The-Feed-Header-Recolor.png')";
+                    if (DJshowLogo17.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TheFeedLogo.jpg')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TheFeedLogo.jpg')";
                     break
                 case 18:
                     let text18 = "Yeah It's A Vibe";
@@ -2869,8 +2869,8 @@ function DJSchedule() {
                         DJbio10.innerHTML = "DJ Sam is a DJ who likes to play music.";
                     if(DJshowBio10.innerHTML !== "DJ Sam's show is a show where he plays music.")
                         DJshowBio10.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo10.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')")
-                    DJshowLogo10.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/TRLogo_Stacked_ColorBlack.png')";
+                    if (DJshowLogo10.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')")
+                    DJshowLogo10.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')";
                     break
                 case 11:
                     let text11 = "Error 504 Radio";
