@@ -3,9 +3,10 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
 
 .player{
+  /* uncomment these two if you are pasting it on WordPress
   padding-top:15rem;
   padding-bottom:15rem;
-  
+  */
   position: relative;
   margin: auto;
   width: 380px;
