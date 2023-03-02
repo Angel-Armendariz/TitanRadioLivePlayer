@@ -5,6 +5,42 @@
 .player{
   padding-top:15rem;
   padding-bottom:15rem;
+  
+  position: relative;
+  margin: auto;
+  width: 380px;
+  height: 640px;
+  background: linear-gradient(0deg, #000, #272727);
+}
+
+.player:before, .player:after {
+	content: '';
+	position: absolute;
+	left: -2px;
+	top: -2px;
+	background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
+		#0000ff, #00ff00,#ffff00, #ff0000);
+	background-size: 400%;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	z-index: -1;
+	animation: steam 20s linear infinite;
+}
+
+@keyframes steam {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 400% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
+
+.player:after {
+	filter: blur(10px);
 }
 
 .container-wrap, .project-title {
@@ -55,13 +91,14 @@
 }
 
  .player_inner {
-  background: #3a4e47;
+  background: #100940;
   width: 380px;
   height: 640px;
   border-radius: 6px;
   perspective: 800px;
-  margin-top: 5rem;
+  /* margin-top: 5rem; */
 }
+
  .player_inner__top {
   height: 70px;
   padding: 24px;

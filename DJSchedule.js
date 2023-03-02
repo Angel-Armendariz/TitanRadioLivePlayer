@@ -1697,12 +1697,12 @@ function DJSchedule() {
                     let DJshowBio19 = document.getElementById("DJshowBio");
                     if(DJname19.innerHTML !== "Brandonius")
                         DJname19.innerHTML = "Brandonius";
-                    if(DJbio19.innerHTML !== "DJ Sam is a DJ who likes to play music.")
-                        DJbio19.innerHTML = "DJ Sam is a DJ who likes to play music.";
-                    if(DJshowBio19.innerHTML !== "DJ Sam's show is a show where he plays music.")
-                        DJshowBio19.innerHTML = "DJ Sam's show is a show where he plays music.";
-                    if (DJshowLogo19.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/Initials-on-True-Black.png')";
+                    if(DJbio19.innerHTML !== "DJ Brandonius")
+                        DJbio19.innerHTML = "DJ Brandonius";
+                    if(DJshowBio19.innerHTML !== "DJ Brandonius show bio")
+                        DJshowBio19.innerHTML = "DJ Brandonius show bio";
+                    if (DJshowLogo19.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/Tunespotting-DJ-show-logo-2022.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/Tunespotting-DJ-show-logo-2022.png')";
                     break
                 case 20:
                     let text20 = "The Vibe";
@@ -2851,8 +2851,8 @@ function DJSchedule() {
                         DJbio9.innerHTML = "What makes me unique is my eclectic taste for music. I love all types of music and I feel like I can offer a little something for everybody with my taste. Stuff they've never heard before and stuff they already love.";
                     if(DJshowBio9.innerHTML !== "Songs about being in love, out of love, puppy love, love sick and more! It will be a show spanning many different genres exploring these themes.")
                         DJshowBio9.innerHTML = "Songs about being in love, out of love, puppy love, love sick and more! It will be a show spanning many different genres exploring these themes.";
-                    if (DJshowLogo9.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023-1.jpg')")
-                    DJshowLogo9.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023-1.jpg')";
+                    if (DJshowLogo9.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/LessThan3Spring2023.png')")
+                    DJshowLogo9.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/LessThan3Spring2023.png')";
                     break
                 case 10:
                     let text10 = "10am";
@@ -3031,8 +3031,8 @@ function DJSchedule() {
                         DJbio19.innerHTML = "Shining Kimmy is a third-year Spanish major. After focusing on Latin music and music created by Latin performers, an expansion to any music that moves follows. Music should be as eclectic and diverse as the listeners tuning in.";
                     if(DJshowBio19.innerHTML !== "Although more rock heavy, Bizarro Hour is just that. Bizarre. No genre is verboten. The weirder the song set, the better.")
                         DJshowBio19.innerHTML = "Although more rock heavy, Bizarro Hour is just that. Bizarre. No genre is verboten. The weirder the song set, the better.";
-                    if (DJshowLogo19.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023-1.jpg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/TR2logoSpring2023-1.jpg')";
+                    if (DJshowLogo19.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/BizarroHourSpring2023.jpg')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/BizarroHourSpring2023.jpg')";
                     break
                 case 20:
                     let text20 = "Rock n Rowles";
