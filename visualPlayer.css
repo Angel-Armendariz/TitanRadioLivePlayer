@@ -560,6 +560,7 @@
   height: 4px;
   position: relative;
   border-radius: 10px;
+  top: 11px;
 }
  .player_inner__bottom #playbar_inner {
   position: absolute;
@@ -809,3 +810,12 @@ margin:0 auto;
 max-width:50rem;
 margin:0 auto;
 }
+
+/*
+#playerWithVolume{
+        margin:0 auto;
+        display:flex;
+        justify-content:center;
+        align items:center;
+    }
+*/
