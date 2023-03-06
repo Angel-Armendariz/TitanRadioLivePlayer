@@ -721,10 +721,10 @@ function DJSchedule() {
                     let DJshowBio14 = document.getElementById("DJshowBio");
                     if(DJname14.innerHTML !== "Sirena")
                         DJname14.innerHTML = "Sirena";
-                    if(DJbio14.innerHTML !== "DJ Teal is a DJ who likes to play music.")
-                        DJbio14.innerHTML = "DJ Teal is a DJ who likes to play music.";
-                    if(DJshowBio14.innerHTML !== "DJ Teal's show is a show where he plays music.")
-                        DJshowBio14.innerHTML = "DJ Teal's show is a show where he plays music.";
+                    if(DJbio14.innerHTML !== "Sirena is awesome")
+                        DJbio14.innerHTML = "Sirena is awesome";
+                    if(DJshowBio14.innerHTML !== "rotten to the core is an eclectic show that primarily airs hardcore punk. other subgenres of punk, as well as other genres entirely, are played on this show when sirena is in her softer moments. however, most of her airtime will consist of staying true to her rotten roots. #stayrotten")
+                        DJshowBio14.innerHTML = "rotten to the core is an eclectic show that primarily airs hardcore punk. other subgenres of punk, as well as other genres entirely, are played on this show when sirena is in her softer moments. however, most of her airtime will consist of staying true to her rotten roots. #stayrotten";
                     if (DJshowLogo14.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/03/RottenToTheCoreSpring2023.jpeg')")
                         document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/03/RottenToTheCoreSpring2023.jpeg')";
                     break
