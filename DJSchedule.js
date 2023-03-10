@@ -372,8 +372,8 @@ function DJSchedule() {
                         DJbio19.innerHTML = "DJ Jassy grew up in a family that has a deeper passion for music. With being the third DJ in the family, she has now been djing for 7 years. She likes to not only focus on one genre of music, but branch out into other genres and think of new ideas as she mixes. She's been involved with many gigs and clubs and is currently one of the DJ's for the Anaheim Ducks hockey team.";
                     if(DJshowBio19.innerHTML !== "Tune in at the Jassy Hour with DJ Jassy every (ex. Wednesdays at 2pm). Listen to a variety of genres anywhere from hip hop, all the way to classic rock. Enjoy some special themed shows where I will be focusing on individual artists and their discography, participate in weekly rankings of albums, songs, etc., and listen to decades/genre themed mixes.")
                         DJshowBio19.innerHTML = "Tune in at the Jassy Hour with DJ Jassy every (ex. Wednesdays at 2pm). Listen to a variety of genres anywhere from hip hop, all the way to classic rock. Enjoy some special themed shows where I will be focusing on individual artists and their discography, participate in weekly rankings of albums, songs, etc., and listen to decades/genre themed mixes.";
-                    if (DJshowLogo19.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/03/vMr9sj74.png')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/03/vMr9sj74.png')";
+                    if (DJshowLogo19.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/03/djJassy-2048x1431.jpeg')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/03/djJassy-2048x1431.jpeg')";
                     break
                 case 20:
                     let text20 = "Sounds from the indie scene";
@@ -390,8 +390,8 @@ function DJSchedule() {
                         DJbio20.innerHTML = "Asbiel is just a boy that grew up in orange county with a limited range and experience with the world. He found joy and happiness within the music and emotions others put out in the world enough to help enjoy day to day life. Being a DJ is a interesting way to spread music and if Asbiel can do it he'll take a crack at it with full effort (no prior DJ experience).";
                     if(DJshowBio20.innerHTML !== "A show that focuses on the indies that capture the range of creativity that music can provide. Giving focus to the different genres out in the country that have such passion behind them to spread good times and something new to possibly inspire you.")
                         DJshowBio20.innerHTML = "A show that focuses on the indies that capture the range of creativity that music can provide. Giving focus to the different genres out in the country that have such passion behind them to spread good times and something new to possibly inspire you.";
-                    if (DJshowLogo20.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/03/vMr9sj74.png')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/03/vMr9sj74.png')";
+                    if (DJshowLogo20.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/03/sftindiescene.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/03/sftindiescene.png')";
                     break
                 case 21:
                     let text21 = "9pm";
@@ -426,8 +426,8 @@ function DJSchedule() {
                         DJbio22.innerHTML = "Joel is a very personable and energetic kind of individual. Every time Joel walks into a room he finds ways to communicate with people and always is looking for a fun time. Joel also loves to talk and ask questions and is constantly finding new ways in which he can educate himself in areas he has very little or no knowledge about.";
                     if(DJshowBio22.innerHTML !== "This show would consist of multiple topics and subjects we discuss throughout the show's slot time. The show would include invited speakers from the world of sports, music, education, and pop culture. The show would also highlight special university programs and clubs and have representatives speak on what updates they have going on on campus. The show would also consist of pop music that varies from all genres.")
                         DJshowBio22.innerHTML = "This show would consist of multiple topics and subjects we discuss throughout the show's slot time. The show would include invited speakers from the world of sports, music, education, and pop culture. The show would also highlight special university programs and clubs and have representatives speak on what updates they have going on on campus. The show would also consist of pop music that varies from all genres.";
-                    if (DJshowLogo22.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/03/vMr9sj74.png')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/03/vMr9sj74.png')";
+                    if (DJshowLogo22.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/03/powerhour.jpeg')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/03/powerhour.jpeg')";
                     break
                 case 23:
                     let text23 = "Headphones Jack";
@@ -444,8 +444,8 @@ function DJSchedule() {
                         DJbio23.innerHTML = "Jack Clisbee is a freshman and a fresh man here at CSUF whose joy lies in meeting new people, putting together creative projects, and apparently talking about music with people named Jack. Genres: Hip-Hop/Rap, Alternative/Indie/Rock, Folk. Jack Hull is a Chapman-bound high school senior calling in from San Jose who practically speaks in video-essay format and goes above and beyond in screenwriting, in music, and in stature. Genres: Experimental, Underground Hip-Hop/Rap, Post-Punk & the Windmill Scene";
                     if(DJshowBio23.innerHTML !== "If you're worried about not keeping up to date with the latest and greatest in music, leave it to two guys with the same first name, Jack. Tune in as they discuss one contemporary album and one older album each week that shapes their music tastes and is sure to change yours. Along the way, they'll give their takes and input on recent news and hot topics within the music community, as well as their own rankings and lists that put their musical stances to the test. Between each segment, they'll put you onto songs related to their talking points that will surely expand the way you listen to music.")
                         DJshowBio23.innerHTML = "If you're worried about not keeping up to date with the latest and greatest in music, leave it to two guys with the same first name, Jack. Tune in as they discuss one contemporary album and one older album each week that shapes their music tastes and is sure to change yours. Along the way, they'll give their takes and input on recent news and hot topics within the music community, as well as their own rankings and lists that put their musical stances to the test. Between each segment, they'll put you onto songs related to their talking points that will surely expand the way you listen to music.";
-                    if (DJshowLogo23.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/03/vMr9sj74.png')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/03/vMr9sj74.png')";
+                    if (DJshowLogo23.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/03/headphonejack.png')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/03/headphonejack.png')";
                     break
             }
             break
@@ -1060,8 +1060,8 @@ function DJSchedule() {
                         DJbio8.innerHTML = "Operation: Electric Relaxation's host, Maryann, loves all things music! Her hobbies include collecting CDs and vinyl records of all genres and going to concerts to see her favorite musicians perform live. She loves music from all decades and all genres, and is happy to share her passion for music with other CSUF Titans!";
                     if(DJshowBio8.innerHTML !== "Welcome to Operation: Electric Relaxation - a place where everyone is invited to listen and explore various genres of music! Listen along to wind-down to diverse styles of music from the R&B, hip-hop, and indie realm.")
                         DJshowBio8.innerHTML = "Welcome to Operation: Electric Relaxation - a place where everyone is invited to listen and explore various genres of music! Listen along to wind-down to diverse styles of music from the R&B, hip-hop, and indie realm.";
-                    if (DJshowLogo8.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/03/vMr9sj74.png')")
-                    DJshowLogo8.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/03/vMr9sj74.png')";
+                    if (DJshowLogo8.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/03/oerelax-1000x1000.jpeg')")
+                    DJshowLogo8.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/03/oerelax-1000x1000.jpeg')";
                     break
                 case 9:
                     let text9 = "The Morning Show";
@@ -1521,8 +1521,8 @@ function DJSchedule() {
                         DJbio9.innerHTML = "Macy is an earth science major with various interests that all collide to create a beautiful collage of music, creativity, and positive vibes. She has been a musician since 10 years old and continues to play and listen to the artists that have inspired her journey. She is a huge movie buff and love the scores and soundtracks that make movies truly come alive.";
                     if(DJshowBio9.innerHTML !== "I play music that makes you feel alive. Ever hear a song that gave you the chills or made you feel like you could fly? Movie scores and soundtracks are especially dear to me as they translate the feelings of being human perfectly to the audience.")
                         DJshowBio9.innerHTML = "I play music that makes you feel alive. Ever hear a song that gave you the chills or made you feel like you could fly? Movie scores and soundtracks are especially dear to me as they translate the feelings of being human perfectly to the audience.";
-                    if (DJshowLogo9.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/10/djTeal.png')")
-                    DJshowLogo9.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/10/djTeal.png')";
+                    if (DJshowLogo9.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/03/vinylvibes.jpeg')")
+                    DJshowLogo9.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/03/vinylvibes.jpeg')";
                     break
                 case 10:
                     let text10 = "The Queer Code";
@@ -1737,8 +1737,8 @@ function DJSchedule() {
                         DJbio21.innerHTML = "As an anthropology major, I spend much of my time thinking about the people around me, and how they contribute to the culture of our community. The drive to discover the world fuels my shows, as I want each show created to be a love letter to the variety of ways in which humanity can look.";
                     if(DJshowBio21.innerHTML !== "Evening Tea is a talk show that includes host Emily Frank and guest appearances by a variety of fascinating students. Each guest, and their subsequent episode, is unique and unlike another, as the guest determines the overall direction of the show! This show will help showcase the variety of people, talents, and experiences lived by those around CSUFs campus!")   
                         DJshowBio21.innerHTML = "Evening Tea is a talk show that includes host Emily Frank and guest appearances by a variety of fascinating students. Each guest, and their subsequent episode, is unique and unlike another, as the guest determines the overall direction of the show! This show will help showcase the variety of people, talents, and experiences lived by those around CSUFs campus!";
-                    if (DJshowLogo21.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/afternoon-tea-DJ-show-logo-2022-1.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/afternoon-tea-DJ-show-logo-2022-1.jpeg')";
+                    if (DJshowLogo21.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/afternoon-tea-DJ-show-logo-2022-1-1024x1022.jpeg')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/afternoon-tea-DJ-show-logo-2022-1-1024x1022.jpeg')";
                     break
                 case 22:
                     let text22 = "Brain Dead Radio";
@@ -1965,8 +1965,8 @@ function DJSchedule() {
                         DJbio9.innerHTML = "Isaiah is a quiet soul, he keeps it real and simple. He doesn't try to shine brighter than others, but if there ever was a case for that to happen it would be when he plays his music. Listening to music is what makes him whole.";
                     if(DJshowBio9.innerHTML !== "This show is all about listening, a lot of times people tend to speak before even sitting down and listening to what they're hearing. I want this show to speak volumes about how important music is and how it has an infinite hold on everybody in the universe.")
                         DJshowBio9.innerHTML = "This show is all about listening, a lot of times people tend to speak before even sitting down and listening to what they're hearing. I want this show to speak volumes about how important music is and how it has an infinite hold on everybody in the universe.";
-                    if (DJshowLogo9.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/03/vMr9sj74.png')")
-                    DJshowLogo9.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/03/vMr9sj74.png')";
+                    if (DJshowLogo9.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/03/listen.jpeg')")
+                    DJshowLogo9.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/03/listen.jpeg')";
                     break
                 case 10:
                     let text10 = "The Chill Pill";
@@ -2923,8 +2923,8 @@ function DJSchedule() {
                         DJbio13.innerHTML = "Emma Pilar basically lives and breathes music without ever having learned and instrument in her life. She'll hope to crack you up, but if she fails, she'll always be able to crack herself up. Her versatility ranges from funky experimental sounds that speak to the queer youth to melancholic melodies that are sure to make you question whether modern life really is rubbish.";
                     if(DJshowBio13.innerHTML !== "The quintessential soundtrack for the modern day college student wishing they were born in a different decade ft. contemporary gems. This is The Happy House.")
                         DJshowBio13.innerHTML = "The quintessential soundtrack for the modern day college student wishing they were born in a different decade ft. contemporary gems. This is The Happy House.";
-                    if (DJshowLogo13.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/03/TheHappyHouseSpring2023.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/03/TheHappyHouseSpring2023.jpeg')";
+                    if (DJshowLogo13.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/03/happyhouse.jpeg')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/03/happyhouse.jpeg')";
                     break
                 case 14:
                     let text14 = "Garden Rock";
@@ -2941,8 +2941,8 @@ function DJSchedule() {
                         DJbio14.innerHTML = "Venturer of new music, vidward has always made it a goal to explore different genres and artists. Google is her friend, as she looks up the lyrics to every song she finds to try to understand what the hell is being said, or what story is being told.";
                     if(DJshowBio14.innerHTML !== "In depth music commentary and analysis on the technicalities musicians incorporate in their music. This show will dig into the meanings of songs that may be overlooked, as well as introducing smaller artists that deserve recognition.")
                         DJshowBio14.innerHTML = "In depth music commentary and analysis on the technicalities musicians incorporate in their music. This show will dig into the meanings of songs that may be overlooked, as well as introducing smaller artists that deserve recognition.";
-                    if (DJshowLogo14.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/03/vMr9sj74.png')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/03/vMr9sj74.png')";
+                    if (DJshowLogo14.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/GardenRockSpring2023.jpeg')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/GardenRockSpring2023.jpeg')";
                     break
                 case 15:
                     let text15 = "Earth to Space";
@@ -2995,8 +2995,8 @@ function DJSchedule() {
                         DJbio17.innerHTML = "DJ Yar and DJ Lord are childhood best friends who up until recently would say they had pretty opposite music taste. They decided to give each others music a chance and realized they actually liked all kinds of music! They are both first years at CSUF and love concerts 🙂 (Fun Fact they both saw Harry Styles on his birthday in Palm Springs <3)";
                     if(DJshowBio17.innerHTML !== "Kind of how people say from our table to yours when they cook a nice dinner this radio show is from our playlists to yours! Music is supposed to make you something so we want to take a trip through all the emotions humans are capable of feeling…through music of course 🙂")
                         DJshowBio17.innerHTML = "Kind of how people say from our table to yours when they cook a nice dinner this radio show is from our playlists to yours! Music is supposed to make you something so we want to take a trip through all the emotions humans are capable of feeling…through music of course 🙂";
-                    if (DJshowLogo17.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/03/vMr9sj74.png')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/03/vMr9sj74.png')";
+                    if (DJshowLogo17.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/03/twoghosts.jpeg')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/03/twoghosts.jpeg')";
                     break
                 case 18:
                     let text18 = "6pm Time Slot";
