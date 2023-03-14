@@ -1481,10 +1481,10 @@ function DJSchedule() {
                     let DJshowBio7 = document.getElementById("DJshowBio");  
                     if(DJname7.innerHTML !== "Paula")
                         DJname7.innerHTML = "Paula";
-                    if(DJbio7.innerHTML !== "Paula love for music stems from listening to her dads band practice on the weekends. She loves to collect records and find new artists to share with others.")
-                        DJbio7.innerHTML = "Paula love for music stems from listening to her dads band practice on the weekends. She loves to collect records and find new artists to share with others.";
-                    if(DJshowBio7.innerHTML !== "A comfortable conversation with friends to share music and insight. Come together to listen and appreciate what others have to offer.")
-                        DJshowBio7.innerHTML = "A comfortable conversation with friends to share music and insight. Come together to listen and appreciate what others have to offer.";
+                    if(DJbio7.innerHTML !== "Paula's love for music stems from listening to her dads band practice on the weekends. She will find any excuse to talk about the music she loves and attend any and every concert at her fingertips. She loves to collect records and share her favorite new and old artists with others!")
+                        DJbio7.innerHTML = "Paula's love for music stems from listening to her dads band practice on the weekends. She will find any excuse to talk about the music she loves and attend any and every concert at her fingertips. She loves to collect records and share her favorite new and old artists with others!";
+                    if(DJshowBio7.innerHTML !== "Think of muffled music you hear playing from inside of a bathroom at a party or records your parents put on at 3am with their friends while you're trying to get sleep for school the next morning. Shy eyes is a mix of indie, new wave, post punk, 80's, alternative, grunge and any song I can't seem to get out of my head that week.")
+                        DJshowBio7.innerHTML = "Think of muffled music you hear playing from inside of a bathroom at a party or records your parents put on at 3am with their friends while you're trying to get sleep for school the next morning. Shy eyes is a mix of indie, new wave, post punk, 80's, alternative, grunge and any song I can't seem to get out of my head that week.";
                     if (DJshowLogo7.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/02/shyeyes.png')")
                     DJshowLogo7.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/02/shyeyes.png')";
                     break
