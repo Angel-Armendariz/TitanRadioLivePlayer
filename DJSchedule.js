@@ -761,8 +761,8 @@ function DJSchedule() {
                         DJbio16.innerHTML = "Great combination of song choice and laughing at his own jokes between songs. Always bringing a positive vibe and brightening days.";
                     if(DJshowBio16.innerHTML !== "Hip hop and R&B to expand your music taste in either genre. Lofi rap is what I mainly play but don't be surprised when I throw in some Afro beats or Pop.")
                         DJshowBio16.innerHTML = "Hip hop and R&B to expand your music taste in either genre. Lofi rap is what I mainly play but don't be surprised when I throw in some Afro beats or Pop.";
-                    if (DJshowLogo16.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/03/vMr9sj74.png')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/03/vMr9sj74.png')";
+                    if (DJshowLogo16.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/03/StillWorkingOnItSpring2023.jpg')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/03/StillWorkingOnItSpring2023.jpg')";
                     break
                 case 17:
                     let text17 = "The Feed";
