@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="visualPlayer.css" />
     
     
-	<title>Our Funky HTML Page</title>
+	<title>Titan Radio 2 Player Page</title>
 
 </head>
 
@@ -33,7 +33,7 @@
                   </div>
                   <div class='details'>
                     <div class='details_album'></div>
-                    
+                    <embed><script src="https://embed.radio.co/embed/seaeb23442/artwork.js"></script></embed>
                   </div>
                 </div>
               </div>
@@ -41,26 +41,20 @@
           </div>
           <div class='player_inner__bottom'>
             <button class="button" id="DJ_button">
-              <h1 id="bio">DJ artist</h1>
+              <h1 id="bio">
+                <embed><script src="https://embed.radio.co/embed/seaeb23442/song.js"></script></embed>
+              </h1>
             </button>
             <div id="myModal" class="modal">
               <div class="modal-content">
                 <span class="close">&times;</span>
                 <img class="DJimg" src="https://titanradio.org/wp-content/uploads/2021/10/djTeal.png"/>
-                <h1 id="DJname">DJ Name</h1>
-                <p id="DJbio">DJ Bio</p>
-                <p id="DJshowBio">DJshowBio</p>
+                <embed>
+                  <p>Last 10 songs: </p> 
+                  <script src="https://embed.radio.co/embed/seaeb23442/history.js"></script>
+                </embed>
               </div>
             </div>           
-            <div class='playbar'>
-              <div id='playbar_inner'></div>
-              <div class='playbar_left'>
-                <div id="songTimer"></div>
-              </div>
-              <div class='playbar_right'>
-                <span>1:00:00</span>
-              </div>
-            </div>
             <embed><script src="https://embed.radio.co/player/d1a002c.js"></script></embed>
           </div>
         </div>
@@ -69,7 +63,5 @@
 </body>
 
 <script src="DJSchedule.js"></script>
-
-<script src="timer.js"></script>
 
 </html>
