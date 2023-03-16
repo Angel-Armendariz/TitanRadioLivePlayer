@@ -92,7 +92,7 @@
 }
 
  .player_inner {
-  background: #f84f85;
+  background: #7990ff;
   width: 380px;
   height: 640px;
   border-radius: 6px;
@@ -695,10 +695,10 @@
         font-weight: 700;
         color: #313133;
         background: #4FD1C5;
-        background: linear-gradient(359deg, #25afb8 0%, #25afb8 100%);
+        background: linear-gradient(359deg, #000000 0%, #000000 100%);
         border: none;
         border-radius: 1000px !important;
-        box-shadow: 0px 0px 24px 8px #ffffff;
+        /* box-shadow: 0px 0px 24px 8px #ffffff; */
         transition: all 0.3s ease-in-out 0s;
         cursor: pointer;
         outline: none;
