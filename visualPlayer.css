@@ -19,8 +19,8 @@
 	position: absolute;
 	left: -2px;
 	top: -2px;
-	background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
-		#0000ff, #00ff00,#ffff00, #ff0000);
+	background: linear-gradient(45deg, #25afb8, #25afb8, #25afb8,#25afb8, #25afb8, #25afb8, 
+        #25afb8, #25afb8,#25afb8, #25afb8);
 	background-size: 400%;
 	width: calc(100% + 4px);
 	height: calc(100% + 4px);
@@ -41,7 +41,7 @@
 }
 
 .player:after {
-	filter: blur(10px);
+	filter: blur(40px);
 }
 
 .container-wrap, .project-title {
@@ -49,7 +49,7 @@
 }
 
 .row .col img:not([srcset]) {
-        width: 50%;
+        width: 100%;
 }
 
 .bar {
@@ -92,7 +92,7 @@
 }
 
  .player_inner {
-  background: #100940;
+  background: #f84f85;
   width: 380px;
   height: 640px;
   border-radius: 6px;
@@ -695,14 +695,17 @@
         font-weight: 700;
         color: #313133;
         background: #4FD1C5;
-        background: linear-gradient(90deg, #8224E3 0%, #F84F85 100%);
+        background: linear-gradient(359deg, #25afb8 0%, #25afb8 100%);
         border: none;
         border-radius: 1000px !important;
-        box-shadow: 0px 0px 24px 8px #25afb8;
+        box-shadow: 0px 0px 24px 8px #ffffff;
         transition: all 0.3s ease-in-out 0s;
         cursor: pointer;
         outline: none;
         position: relative;
+
+        /* my attempt at fixing overflow button text*/
+        width: fit-content;
 }
 
 #DJ_button::before {
@@ -792,30 +795,3 @@ animation: ring 1.5s 5;
   text-decoration: none;
   cursor: pointer;
 }
-
-
-#songTimer{
-  color: white;
-  text-align: center; 
-  font-size: 14px; 
-  font-family: Open Sans, sans-serif;
-}
-
-#schedule{
-margin-top:10rem;
-margin:0 auto;
-}
-
-#liveStream{
-max-width:50rem;
-margin:0 auto;
-}
-
-/*
-#playerWithVolume{
-        margin:0 auto;
-        display:flex;
-        justify-content:center;
-        align items:center;
-    }
-*/
