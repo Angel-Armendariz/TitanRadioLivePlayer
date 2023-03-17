@@ -694,11 +694,10 @@
         font-family: 'Nunito', sans-serif;
         font-weight: 700;
         color: #313133;
-        background: #4FD1C5;
-        background: linear-gradient(359deg, #000000 0%, #000000 100%);
+        background: #f84f85; 
         border: none;
         border-radius: 1000px !important;
-        box-shadow: 0px 0px 24px 8px #ffffff;
+        box-shadow: 0px 0px 24px 8px #8224e3;
         transition: all 0.3s ease-in-out 0s;
         cursor: pointer;
         outline: none;
