@@ -41,7 +41,7 @@
 }
 
 .player:after {
-	filter: blur(10px);
+	filter: blur(20px);
 }
 
 .container-wrap, .project-title {
@@ -569,7 +569,7 @@
   border-radius: 10px;
   color: rgb(var(--text-color));
   border: 2px double transparent;
-  background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)), radial-gradient(circle at left top, rgb(1, 110, 218), rgb(217, 0, 192));
+  background-image: linear-gradient(rgb(1, 110, 218), rgb(217, 0, 192)), radial-gradient(circle at left top, rgb(1, 110, 218), rgb(217, 0, 192));
   background-origin: border-box;
   background-clip: padding-box, border-box;
 }
@@ -694,11 +694,11 @@
         font-family: 'Nunito', sans-serif;
         font-weight: 700;
         color: #313133;
-        background: #4FD1C5;
+        background: #3e25b8;
         background: linear-gradient(90deg, #8224E3 0%, #F84F85 100%);
         border: none;
         border-radius: 1000px !important;
-        box-shadow: 0px 0px 24px 8px #25afb8;
+        box-shadow: 0px 0px 24px 8px #3e25b8;
         transition: all 0.3s ease-in-out 0s;
         cursor: pointer;
         outline: none;
