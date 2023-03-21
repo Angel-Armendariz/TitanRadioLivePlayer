@@ -1,3 +1,6 @@
+// uncomment this script at the top and bottom of the page if you're copying and pasting
+// in a javascript module on WordPress
+
 // <script type="text/javascript"> 
 
 // Get the modal
