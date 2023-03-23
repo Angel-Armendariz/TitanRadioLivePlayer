@@ -2127,8 +2127,8 @@ function DJSchedule() {
                         DJbio18.innerHTML = "rin is coming back for another semester to bring out the best sets ranging from melodic bass to hardstyle edm. Why is he doing this show? Cuz he's doing it for fun and interact with the sickest station on campus.";
                     if(DJshowBio18.innerHTML !== "ECYCE MUSIC is the goto station to listen to or leave on as white noise. The station is known to play EDM and will continue to. It can also branch out to other genres as well as covering various topics.")
                         DJshowBio18.innerHTML = "ECYCE MUSIC is the goto station to listen to or leave on as white noise. The station is known to play EDM and will continue to. It can also branch out to other genres as well as covering various topics.";
-                    if (DJshowLogo18.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/10/Ecyce-music-DJ-show-logo-2022.jpg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/10/Ecyce-music-DJ-show-logo-2022.jpg')";
+                    if (DJshowLogo18.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/03/thumbnail_6C5276B1-976F-49B4-94A2-56DF50B66D2B.jpg')")
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/03/thumbnail_6C5276B1-976F-49B4-94A2-56DF50B66D2B.jpg')";
                     break
                 case 19:
                     let text19 = "Titan Radio After Hours";
