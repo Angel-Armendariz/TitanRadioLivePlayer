@@ -2159,7 +2159,7 @@ function DJSchedule() {
                     let DJshowBio20 = document.getElementById("DJshowBio");
                     if(DJname20.innerHTML !== "Julio Reyes")
                         DJname20.innerHTML = "Julio Reyes";
-                    if(DJbio19.innerHTML !== "From the desert to the warehouse, join me, Julio Reyes, in bringing you DJs from the underground. Come party with us at the afters that everyone is invited to. The sound from the underground - Titan Radio After Hours.")
+                    if(DJbio20.innerHTML !== "From the desert to the warehouse, join me, Julio Reyes, in bringing you DJs from the underground. Come party with us at the afters that everyone is invited to. The sound from the underground - Titan Radio After Hours.")
                         DJbio20.innerHTML = "From the desert to the warehouse, join me, Julio Reyes, in bringing you DJs from the underground. Come party with us at the afters that everyone is invited to. The sound from the underground - Titan Radio After Hours.";
                     if(DJshowBio20.innerHTML !== "Bringing you live mixes from the best DJs from the underground dance music scene")
                         DJshowBio20.innerHTML = "Bringing you live mixes from the best DJs from the underground dance music scene";
