@@ -708,7 +708,7 @@ function DJSchedule() {
                     if(DJshowBio13.innerHTML !== "My show will be me playing my favorite music from my favorite artists such as One Direction, Harry Styles, Louis Tomlinson, Niall Horan, Taylor Swift, 5 Seconds of Summer, Big Time Rush, Olivia Rodrigo, and more!! ")
                         DJshowBio13.innerHTML = "My show will be me playing my favorite music from my favorite artists such as One Direction, Harry Styles, Louis Tomlinson, Niall Horan, Taylor Swift, 5 Seconds of Summer, Big Time Rush, Olivia Rodrigo, and more!! ";
                     if (DJshowLogo13.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/03/tempfix-2048x2048.jpeg')")
-                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/03/tempfix-2048x2048.jpegg')";
+                        document.getElementById("DJshowLogo").style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/03/tempfix-2048x2048.jpeg')";
                     break
                 case 14:
                     let text14 = "Rotten To The Core";
