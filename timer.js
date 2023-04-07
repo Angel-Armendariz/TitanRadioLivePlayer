@@ -26,9 +26,6 @@ function updateTimer() {
   seconds = currentDate.getSeconds();
 }
 
-// Rest of the code...
-
-
 function calculateMinutes(){
   var todaysDate = new Date();
   var pst = todaysDate.toLocaleString('en-US', {
