@@ -38,21 +38,29 @@ function calculateMinutes(){
   seconds = todaysDate.getSeconds();
 }
 
-function updatePlaybar(){
+function updatePlaybar() {
   // The progress bar is based from 0 to 100. 100 means the bar is at 1 hour, its full green.
   // 0 means the bar is at 0 minutes 0 seconds, its full grey.
   // This function increments the variable "width" until it hits 100.
-  var element = document.getElementById('playbar_inner');   
-  var identity = setInterval(scene, 1000);     // will increase the progress bar width every second
-  function scene(){
-    if (width >= 100) {
-      width = 0;
-    } else {
-      width = width + 0.02777777777;           // don't take off any 7s! this is 99.9% perfect math
-      element.style.width = width + '%'; 
-    }
+  var element = document.getElementById("playbar_inner");
+  var identity = setInterval(scene, 1000); // will increase the progress bar width every second
+  function scene() {
+    var currentDate = new Date();
+    var currentMinutes = currentDate.getMinutes();
+    var currentSeconds = currentDate.getSeconds();
+
+    // Calculate the width based on the current minutes and seconds
+    width = (currentMinutes * 60 + currentSeconds) / 3600 * 100;
+
+    element.style.width = width + "%";
   }
 }
+
+updatePlaybar();
+calculateMinutes();
+setInterval(updatePlaybar, timeLeft); // this will reset the progress bar back to 0/100 every hour
+setInterval(calculateMinutes, timeLeft);
+
 
 updatePlaybar();    
 calculateMinutes();

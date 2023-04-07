@@ -86,7 +86,7 @@
  .player_inner__middle .cube_inner > div {
   width: 380px;
   height: 380px;
-  background: #b8b8b8;
+  background: #100940;
   position: absolute;
   transform-style: preserve-3D;
 }
