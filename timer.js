@@ -7,6 +7,8 @@ tm=window.setInterval('disp()',1000);
 
 // this function adjusts the text timer underneath the playbar
 function disp(){
+  updateTimer(); // Call updateTimer function to sync with system time
+
   // Format the output by adding 0 if it is single digit 
   if(seconds<10){var s1='0' + seconds;}
   else{var s1=seconds;}
@@ -16,19 +18,16 @@ function disp(){
   // Display the output 
   str= m1 +':' + s1 ;
   document.getElementById('songTimer').innerHTML=str;
-  // Calculate the stop watch 
-  if(seconds<59){ 
-    seconds=seconds+1;
-  }else{
-    seconds=0;
-    minutes=minutes+1;
-  if(minutes==60){
-    minutes=0;
-    seconds=0;
-  } // end if  minutes == 60
-  }// end if else seconds < 59
-  // end of calculation for next display
 }
+
+function updateTimer() {
+  var currentDate = new Date();
+  minutes = currentDate.getMinutes();
+  seconds = currentDate.getSeconds();
+}
+
+// Rest of the code...
+
 
 function calculateMinutes(){
   var todaysDate = new Date();
