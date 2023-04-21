@@ -4,28 +4,28 @@
 // <script type="text/javascript"> 
 
 // Get the modal
-var modal = document.getElementById("myModal");
+var TR2modal = document.getElementById("myTR2Modal");
 
 // Get the button that opens the modal
-var btn = document.getElementById("DJ_button");
+var TR2_btn = document.getElementById("TR2_DJ_button");
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+var TR2_span = document.getElementsByClassName("TR2close")[0];
 
 // When the user clicks the button, open the modal
-btn.addEventListener("click", popupWindow);
-function popupWindow() {
-    modal.style.display = "block";
+TR2_btn.addEventListener("click", TR2_popupWindow);
+function TR2_popupWindow() {
+    TR2modal.style.display = "block";
 }
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
+TR2_span.onclick = function() {
+  TR2modal.style.display = "none";
 }
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
+  if (event.target == TR2modal) {
+    TR2modal.style.display = "none";
   }
 }
 
