@@ -97,7 +97,7 @@
   background: #7990ff;
   width: 380px;
   height: 640px;
-  border-radius: 6px;
+  border-radius: 0px;
   perspective: 800px;
   /* margin-top: 5rem; */
 }
