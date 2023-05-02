@@ -50,7 +50,7 @@
         padding-right: 4rem;
 }
 
-.TR2_row .TR2_col img:not([srcset]) {
+.row .col img:not([srcset]) {
         width: 100%;
 }
 
