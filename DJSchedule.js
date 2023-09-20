@@ -2437,7 +2437,7 @@ function DJSchedule() {
                         DJshowLogo7.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
                         break
                     case 8:
-                        let text8 = "";
+                        let text8 = "Rent Free History";
                         // Change innerHTML of bio to text
                         if (document.getElementById("bio").innerHTML !== text8)
                             document.getElementById("bio").innerHTML = text8;
@@ -2445,17 +2445,17 @@ function DJSchedule() {
                         let DJname8 = document.getElementById("DJname");
                         let DJbio8 = document.getElementById("DJbio");
                         let DJshowBio8 = document.getElementById("DJshowBio");
-                        if (DJname8.innerHTML !== "")
-                            DJname8.innerHTML = "";
-                        if (DJbio8.innerHTML !== "")
-                            DJbio8.innerHTML = "";
-                        if (DJshowBio8.innerHTML !== "")
-                            DJshowBio8.innerHTML = "";
+                        if (DJname8.innerHTML !== "Kemdi")
+                            DJname8.innerHTML = "Kemdi";
+                        if (DJbio8.innerHTML !== "Kemdi was told from a young age that he had a face for radio and ever since, he’s set out to become the best radio DJ he could be. He’s really good at improve and is a fast thinker.")
+                            DJbio8.innerHTML = "Kemdi was told from a young age that he had a face for radio and ever since, he’s set out to become the best radio DJ he could be. He’s really good at improve and is a fast thinker.";
+                        if (DJshowBio8.innerHTML !== "A show about moments in history that live rent free in people's heads")
+                            DJshowBio8.innerHTML = "A show about moments in history that live rent free in people's heads";
                         if (DJshowLogo8.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
                             DJshowLogo8.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
                         break;
                     case 9:
-                        let text9 = "";
+                        let text9 = "Grey Space";
                         // Change innerHTML of bio to text
                         if (document.getElementById("bio").innerHTML !== text9)
                             document.getElementById("bio").innerHTML = text9;
@@ -2463,17 +2463,17 @@ function DJSchedule() {
                         let DJname9 = document.getElementById("DJname");
                         let DJbio9 = document.getElementById("DJbio");
                         let DJshowBio9 = document.getElementById("DJshowBio");
-                        if (DJname9.innerHTML !== "")
-                            DJname9.innerHTML = "";
-                        if (DJbio9.innerHTML !== "")
-                            DJbio9.innerHTML = "";
-                        if (DJshowBio9.innerHTML !== "")
-                            DJshowBio9.innerHTML = "";
+                        if (DJname9.innerHTML !== "Nook")
+                            DJname9.innerHTML = "Nook";
+                        if (DJbio9.innerHTML !== "Nook’s music journey has been nothing short of turns at every corner. Going from listening to great disco classics & alternative rock to listening to k-pop & PC music, Nook’s music palette is expansive & unique. Despite focusing on a new genre every few months, some of the mainstays on his playlists include Grentperez, Niki, Cavetown and Carly Rae Jepsen.")
+                            DJbio9.innerHTML = "Nook’s music journey has been nothing short of turns at every corner. Going from listening to great disco classics & alternative rock to listening to k-pop & PC music, Nook’s music palette is expansive & unique. Despite focusing on a new genre every few months, some of the mainstays on his playlists include Grentperez, Niki, Cavetown and Carly Rae Jepsen.";
+                        if (DJshowBio9.innerHTML !== "The limbo of juggling life as we figure out how we will be spending our adult years deserves a sweet soundtrack. Grey Space radio explores music from artists our age as they grow up alongside us and music you can sit down, have a coffee and reminisce on the days where all our struggles felt so big, but ended up being so small. Whether you need time to recollect your thoughts, decompress or just want to discover new music, join us at Grey Space radio!")
+                            DJshowBio9.innerHTML = "The limbo of juggling life as we figure out how we will be spending our adult years deserves a sweet soundtrack. Grey Space radio explores music from artists our age as they grow up alongside us and music you can sit down, have a coffee and reminisce on the days where all our struggles felt so big, but ended up being so small. Whether you need time to recollect your thoughts, decompress or just want to discover new music, join us at Grey Space radio!";
                         if (DJshowLogo9.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
                             DJshowLogo9.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
                         break;                            
                     case 10:
-                        let text10 = "";
+                        let text10 = "Soul Food";
                         // Change innerHTML of bio to text
                         if (document.getElementById("bio").innerHTML !== text10)
                             document.getElementById("bio").innerHTML = text10;
@@ -2481,18 +2481,18 @@ function DJSchedule() {
                         let DJname10 = document.getElementById("DJname");
                         let DJbio10 = document.getElementById("DJbio");
                         let DJshowBio10 = document.getElementById("DJshowBio");
-                        if (DJname10.innerHTML !== "")
-                            DJname10.innerHTML = "";
-                        if (DJbio10.innerHTML !== "")
-                            DJbio10.innerHTML = "";
-                        if (DJshowBio10.innerHTML !== "")
-                            DJshowBio10.innerHTML = "";
+                        if (DJname10.innerHTML !== "Josh B. + Gianna D")
+                            DJname10.innerHTML = "Josh B. + Gianna D";
+                        if (DJbio10.innerHTML !== "This is Josh B, he is a 2nd year psych major, and not super psyched for his upcoming classes for this semester. He enjoys gaming, listening to music, and singing. This is Gianna D, she is a 1st year Child and Adolescent Studies major! She loves drawing, painting, and singing. She’s here to make sure that Josh doesn’t make really bad setlists every week.")
+                            DJbio10.innerHTML = "This is Josh B, he is a 2nd year psych major, and not super psyched for his upcoming classes for this semester. He enjoys gaming, listening to music, and singing. This is Gianna D, she is a 1st year Child and Adolescent Studies major! She loves drawing, painting, and singing. She’s here to make sure that Josh doesn’t make really bad setlists every week.";
+                        if (DJshowBio10.innerHTML !== "Josh B. plus Gianna D. listening to some of our favorite music, splitting our setlists 50/50, and enjoying each other's company.")
+                            DJshowBio10.innerHTML = "Josh B. plus Gianna D. listening to some of our favorite music, splitting our setlists 50/50, and enjoying each other's company.";
                         if (DJshowLogo10.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
                             DJshowLogo10.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
                         break;
                     
                     case 11:
-                        let text11 = "";
+                        let text11 = "Mom Jeans and Caffeine";
                         // Change innerHTML of bio to text
                         if (document.getElementById("bio").innerHTML !== text11)
                             document.getElementById("bio").innerHTML = text11;
@@ -2500,18 +2500,18 @@ function DJSchedule() {
                         let DJname11 = document.getElementById("DJname");
                         let DJbio11 = document.getElementById("DJbio");
                         let DJshowBio11 = document.getElementById("DJshowBio");
-                        if (DJname11.innerHTML !== "")
-                            DJname11.innerHTML = "";
-                        if (DJbio11.innerHTML !== "")
-                            DJbio11.innerHTML = "";
-                        if (DJshowBio11.innerHTML !== "")
-                            DJshowBio11.innerHTML = "";
+                        if (DJname11.innerHTML !== "Queen E")
+                            DJname11.innerHTML = "Queen E";
+                        if (DJbio11.innerHTML !== "DJ Queen E is a free flowing spirit who finds comfort in listening to music. She’s a little soft spoken until you bring music or lattes into the conversation. Her perfect moment would be gloomy weather, iced latte in hand, and hanging with friends while some coming of age music is playing")
+                            DJbio11.innerHTML = "DJ Queen E is a free flowing spirit who finds comfort in listening to music. She’s a little soft spoken until you bring music or lattes into the conversation. Her perfect moment would be gloomy weather, iced latte in hand, and hanging with friends while some coming of age music is playing";
+                        if (DJshowBio11.innerHTML !== "Mom Jeans and Caffeine is your local spot to listen to indie and alternative music! Discover the new, listen to the old, and overall have a great time with feel-good music.")
+                            DJshowBio11.innerHTML = "Mom Jeans and Caffeine is your local spot to listen to indie and alternative music! Discover the new, listen to the old, and overall have a great time with feel-good music.";
                         if (DJshowLogo11.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
                             DJshowLogo11.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
                         break;
                     
                     case 12:
-                        let text12 = "";
+                        let text12 = "Black Classics";
                         // Change innerHTML of bio to text
                         if (document.getElementById("bio").innerHTML !== text12)
                             document.getElementById("bio").innerHTML = text12;
@@ -2519,12 +2519,12 @@ function DJSchedule() {
                         let DJname12 = document.getElementById("DJname");
                         let DJbio12 = document.getElementById("DJbio");
                         let DJshowBio12 = document.getElementById("DJshowBio");
-                        if (DJname12.innerHTML !== "")
-                            DJname12.innerHTML = "";
-                        if (DJbio12.innerHTML !== "")
-                            DJbio12.innerHTML = "";
-                        if (DJshowBio12.innerHTML !== "")
-                            DJshowBio12.innerHTML = "";
+                        if (DJname12.innerHTML !== "Jordan O'Garro")
+                            DJname12.innerHTML = "Jordan O'Garro";
+                        if (DJbio12.innerHTML !== "Jordan is a third-year student who was raised in a mixed household but if there’s one thing he took from the black side of his family, it’s a love for music. He has a versatile music taste and is a fan of many genres.")
+                            DJbio12.innerHTML = "Jordan is a third-year student who was raised in a mixed household but if there’s one thing he took from the black side of his family, it’s a love for music. He has a versatile music taste and is a fan of many genres.";
+                        if (DJshowBio12.innerHTML !== "Black Classics is a radio show that consists of songs that are or have been popular in the black community. The show is welcome for all to listen to but is especially a space for black students to listen to music that ranges from the Sunday morning oldies their parents used to play to hip-hop/R&B hits of the past few years.")
+                            DJshowBio12.innerHTML = "Black Classics is a radio show that consists of songs that are or have been popular in the black community. The show is welcome for all to listen to but is especially a space for black students to listen to music that ranges from the Sunday morning oldies their parents used to play to hip-hop/R&B hits of the past few years.";
                         if (DJshowLogo12.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
                             DJshowLogo12.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
                         break;
