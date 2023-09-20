@@ -594,7 +594,7 @@ function DJSchedule() {
                     DJshowLogo6.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/03/vMr9sj74.png')";
                     break
                 case 7:
-                    let text7 = "";
+                    let text7 = "Lunch Break";
                     //change innerHTML of bio to text
                     if(document.getElementById("bio").innerHTML !== text7)
                             document.getElementById("bio").innerHTML = text7;
@@ -602,17 +602,17 @@ function DJSchedule() {
                     let DJname7 = document.getElementById("DJname");
                     let DJbio7 = document.getElementById("DJbio");
                     let DJshowBio7 = document.getElementById("DJshowBio");  
-                    if(DJname7.innerHTML !== "")
-                        DJname7.innerHTML = "";
-                    if(DJbio7.innerHTML !== "")
-                            DJbio7.innerHTML = "";
-                    if(DJshowBio7.innerHTML !== "")
-                        DJshowBio7.innerHTML = "";
+                    if(DJname7.innerHTML !== "Sabrina")
+                        DJname7.innerHTML = "Sabrina";
+                    if(DJbio7.innerHTML !== "Sabrina is a fourth year CTVA student with a focus in sound production for film/TV. She enjoys going to concerts throughout California is search of new music. In her free time she enjoys learning new instruments, watching films, and going to the gym.")
+                            DJbio7.innerHTML = "Sabrina is a fourth year CTVA student with a focus in sound production for film/TV. She enjoys going to concerts throughout California is search of new music. In her free time she enjoys learning new instruments, watching films, and going to the gym.";
+                    if(DJshowBio7.innerHTML !== "Features new music for a variety of listeners open to music such as indie, pop, electronic.")
+                        DJshowBio7.innerHTML = "Features new music for a variety of listeners open to music such as indie, pop, electronic.";
                     if (DJshowLogo7.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
                     DJshowLogo7.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
                     break
                 case 8:
-                    let text8 = "";
+                    let text8 = "Good News Bears";
                     // Change innerHTML of bio to text
                     if (document.getElementById("bio").innerHTML !== text8)
                         document.getElementById("bio").innerHTML = text8;
@@ -620,17 +620,17 @@ function DJSchedule() {
                     let DJname8 = document.getElementById("DJname");
                     let DJbio8 = document.getElementById("DJbio");
                     let DJshowBio8 = document.getElementById("DJshowBio");
-                    if (DJname8.innerHTML !== "")
-                        DJname8.innerHTML = "";
-                    if (DJbio8.innerHTML !== "")
-                        DJbio8.innerHTML = "";
-                    if (DJshowBio8.innerHTML !== "")
-                        DJshowBio8.innerHTML = "";
+                    if (DJname8.innerHTML !== "Parties Of Mars")
+                        DJname8.innerHTML = "Parties Of Mars";
+                    if (DJbio8.innerHTML !== "Allan is all about good vibes and stress free environments. He loves all kinds of art and natural beauty, and has a whole bunch of hobbies. The most important thing for him is experiencing new things!")
+                        DJbio8.innerHTML = "Allan is all about good vibes and stress free environments. He loves all kinds of art and natural beauty, and has a whole bunch of hobbies. The most important thing for him is experiencing new things!";
+                    if (DJshowBio8.innerHTML !== "Good News Bears is all about spreading positivity, good news, and good music! Every time we're on we'll have some good news stories to share so that we can spread some love and positivity for Titans during this stressful semester. Between the good news, we’ll have some good music for titans on early morning Mondays!")
+                        DJshowBio8.innerHTML = "Good News Bears is all about spreading positivity, good news, and good music! Every time we're on we'll have some good news stories to share so that we can spread some love and positivity for Titans during this stressful semester. Between the good news, we’ll have some good music for titans on early morning Mondays!";
                     if (DJshowLogo8.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
                         DJshowLogo8.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
                     break;
                 case 9:
-                    let text9 = "";
+                    let text9 = "Salted's Jam n Slam";
                     // Change innerHTML of bio to text
                     if (document.getElementById("bio").innerHTML !== text9)
                         document.getElementById("bio").innerHTML = text9;
@@ -638,17 +638,17 @@ function DJSchedule() {
                     let DJname9 = document.getElementById("DJname");
                     let DJbio9 = document.getElementById("DJbio");
                     let DJshowBio9 = document.getElementById("DJshowBio");
-                    if (DJname9.innerHTML !== "")
-                        DJname9.innerHTML = "";
-                    if (DJbio9.innerHTML !== "")
-                        DJbio9.innerHTML = "";
-                    if (DJshowBio9.innerHTML !== "")
-                        DJshowBio9.innerHTML = "";
+                    if (DJname9.innerHTML !== "Salted")
+                        DJname9.innerHTML = "Salted";
+                    if (DJbio9.innerHTML !== "Salted, the guy with a thousand options and plans and hobbies but can’t decide on a single thing. Hell he couldn’t even decide if he wanted to run a music or sports channel! Whether you wanna laugh, get mad, or vibe on your own, or all at the same time, Salted’s the guy to talk to.")
+                        DJbio9.innerHTML = "Salted, the guy with a thousand options and plans and hobbies but can’t decide on a single thing. Hell he couldn’t even decide if he wanted to run a music or sports channel! Whether you wanna laugh, get mad, or vibe on your own, or all at the same time, Salted’s the guy to talk to.";
+                    if (DJshowBio9.innerHTML !== "Play a few songs, then in between give baseball updates, or if not bring in a contestant to have a wacky sports-related argument about")
+                        DJshowBio9.innerHTML = "Play a few songs, then in between give baseball updates, or if not bring in a contestant to have a wacky sports-related argument about";
                     if (DJshowLogo9.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
                         DJshowLogo9.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
                     break;                            
                 case 10:
-                    let text10 = "";
+                    let text10 = "Rocking with El Chicano";
                     // Change innerHTML of bio to text
                     if (document.getElementById("bio").innerHTML !== text10)
                         document.getElementById("bio").innerHTML = text10;
@@ -656,18 +656,18 @@ function DJSchedule() {
                     let DJname10 = document.getElementById("DJname");
                     let DJbio10 = document.getElementById("DJbio");
                     let DJshowBio10 = document.getElementById("DJshowBio");
-                    if (DJname10.innerHTML !== "")
-                        DJname10.innerHTML = "";
-                    if (DJbio10.innerHTML !== "")
-                        DJbio10.innerHTML = "";
-                    if (DJshowBio10.innerHTML !== "")
-                        DJshowBio10.innerHTML = "";
+                    if (DJname10.innerHTML !== "Silver Lupe")
+                        DJname10.innerHTML = "Silver Lupe";
+                    if (DJbio10.innerHTML !== "Silver Lupe grew up listening to oldies and has found passion in the music. His knowledge on the singers and groups of the past is as extensive as the catalog of songs that he knows. Silver Lupe knows the best of the best of the 50s and 60s.")
+                        DJbio10.innerHTML = "Silver Lupe grew up listening to oldies and has found passion in the music. His knowledge on the singers and groups of the past is as extensive as the catalog of songs that he knows. Silver Lupe knows the best of the best of the 50s and 60s.";
+                    if (DJshowBio10.innerHTML !== "A mix of songs from the 50s and early 60s. Doo wop, rock & roll, and oldies that you won't ever forget. Listeners call in to chat about pop culture from the past in our current generation.")
+                        DJshowBio10.innerHTML = "A mix of songs from the 50s and early 60s. Doo wop, rock & roll, and oldies that you won't ever forget. Listeners call in to chat about pop culture from the past in our current generation.";
                     if (DJshowLogo10.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
                         DJshowLogo10.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
                     break;
                 
                 case 11:
-                    let text11 = "";
+                    let text11 = "Indie Encounters";
                     // Change innerHTML of bio to text
                     if (document.getElementById("bio").innerHTML !== text11)
                         document.getElementById("bio").innerHTML = text11;
@@ -675,18 +675,18 @@ function DJSchedule() {
                     let DJname11 = document.getElementById("DJname");
                     let DJbio11 = document.getElementById("DJbio");
                     let DJshowBio11 = document.getElementById("DJshowBio");
-                    if (DJname11.innerHTML !== "")
-                        DJname11.innerHTML = "";
-                    if (DJbio11.innerHTML !== "")
-                        DJbio11.innerHTML = "";
-                    if (DJshowBio11.innerHTML !== "")
-                        DJshowBio11.innerHTML = "";
+                    if (DJname11.innerHTML !== "DJ Raniel")
+                        DJname11.innerHTML = "DJ Raniel";
+                    if (DJbio11.innerHTML !== "DJ Raniel (RAN-yel) is an aspiring music critic. To him, there’s no such thing as a guilty pleasure. Overall, he loves talking about whatever he’s listening to and wants to share it with others.")
+                        DJbio11.innerHTML = "DJ Raniel (RAN-yel) is an aspiring music critic. To him, there’s no such thing as a guilty pleasure. Overall, he loves talking about whatever he’s listening to and wants to share it with others.";
+                    if (DJshowBio11.innerHTML !== "A mainly modern mix of indie, alternative, pop and rock. Designed to introduce you to artists you may not have heard before, and hopefully help you get through the day.")
+                        DJshowBio11.innerHTML = "A mainly modern mix of indie, alternative, pop and rock. Designed to introduce you to artists you may not have heard before, and hopefully help you get through the day.";
                     if (DJshowLogo11.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
                         DJshowLogo11.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
                     break;
                 
                 case 12:
-                    let text12 = "";
+                    let text12 = "Next Door Neighbor Radio";
                     // Change innerHTML of bio to text
                     if (document.getElementById("bio").innerHTML !== text12)
                         document.getElementById("bio").innerHTML = text12;
@@ -694,18 +694,18 @@ function DJSchedule() {
                     let DJname12 = document.getElementById("DJname");
                     let DJbio12 = document.getElementById("DJbio");
                     let DJshowBio12 = document.getElementById("DJshowBio");
-                    if (DJname12.innerHTML !== "")
-                        DJname12.innerHTML = "";
-                    if (DJbio12.innerHTML !== "")
-                        DJbio12.innerHTML = "";
-                    if (DJshowBio12.innerHTML !== "")
-                        DJshowBio12.innerHTML = "";
+                    if (DJname12.innerHTML !== "Maya Desai")
+                        DJname12.innerHTML = "Maya Desai";
+                    if (DJbio12.innerHTML !== "Maya Desai is a senior transfer student majoring in Marketing. She hopes to utilize her marketing skills in the love music industry one day to get others as excited about music as she is. Maya has been a diehard Harry Styles fan since 2011 and a lover of music since 2001.")
+                        DJbio12.innerHTML = "Maya Desai is a senior transfer student majoring in Marketing. She hopes to utilize her marketing skills in the love music industry one day to get others as excited about music as she is. Maya has been a diehard Harry Styles fan since 2011 and a lover of music since 2001.";
+                    if (DJshowBio12.innerHTML !== "Next Door Neighbor Radio brings you music of the manic pixie dream girl next door. You’ll find music ranging from indie pop to alternative to pop rock to straight-up pop. With artists as mainstream as Harry Styles, Taylor Swift, and Phoebe Bridgers to lesser known musicians like Clairo, Ethel Cain, and The National, Next Door Neighbor Radio is here to provide you with the best sounds from the self-proclaimed cool girl’s bedroom.")
+                        DJshowBio12.innerHTML = "Next Door Neighbor Radio brings you music of the manic pixie dream girl next door. You’ll find music ranging from indie pop to alternative to pop rock to straight-up pop. With artists as mainstream as Harry Styles, Taylor Swift, and Phoebe Bridgers to lesser known musicians like Clairo, Ethel Cain, and The National, Next Door Neighbor Radio is here to provide you with the best sounds from the self-proclaimed cool girl’s bedroom.";
                     if (DJshowLogo12.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
                         DJshowLogo12.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
                     break;
                 
                 case 13:
-                    let text13 = "";
+                    let text13 = "Vic's VapoRhythms";
                     // Change innerHTML of bio to text
                     if (document.getElementById("bio").innerHTML !== text13)
                         document.getElementById("bio").innerHTML = text13;
@@ -713,18 +713,18 @@ function DJSchedule() {
                     let DJname13 = document.getElementById("DJname");
                     let DJbio13 = document.getElementById("DJbio");
                     let DJshowBio13 = document.getElementById("DJshowBio");
-                    if (DJname13.innerHTML !== "")
-                        DJname13.innerHTML = "";
-                    if (DJbio13.innerHTML !== "")
-                        DJbio13.innerHTML = "";
-                    if (DJshowBio13.innerHTML !== "")
-                        DJshowBio13.innerHTML = "";
+                    if (DJname13.innerHTML !== "DJ v")
+                        DJname13.innerHTML = "DJ v";
+                    if (DJbio13.innerHTML !== "Dj v is the sole proprietor of Vics VapoRhythm’s. Student by day, ice cream scooper by night. Allergic to peanuts and tree nuts. CDs ok.")
+                        DJbio13.innerHTML = "Dj v is the sole proprietor of Vics VapoRhythm’s. Student by day, ice cream scooper by night. Allergic to peanuts and tree nuts. CDs ok.";
+                    if (DJshowBio13.innerHTML !== "Let Vic's VapoRhythms invigorate your senses. Take a deep breath and take in this hour of Vics favorite tunes from all genres (from soft and soothing to unsettlingly unsoothing). Active ingredients: 97.4% A good time, 2.6% Menthol")
+                        DJshowBio13.innerHTML = "Let Vic's VapoRhythms invigorate your senses. Take a deep breath and take in this hour of Vics favorite tunes from all genres (from soft and soothing to unsettlingly unsoothing). Active ingredients: 97.4% A good time, 2.6% Menthol";
                     if (DJshowLogo13.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
                         DJshowLogo13.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
                     break;
 
                 case 14:
-                    let text14 = "";
+                    let text14 = "Docs and Crocs Radio";
                     // Change innerHTML of bio to text
                     if (document.getElementById("bio").innerHTML !== text14)
                         document.getElementById("bio").innerHTML = text14;
@@ -732,18 +732,18 @@ function DJSchedule() {
                     let DJname14 = document.getElementById("DJname");
                     let DJbio14 = document.getElementById("DJbio");
                     let DJshowBio14 = document.getElementById("DJshowBio");
-                    if (DJname14.innerHTML !== "")
-                        DJname14.innerHTML = "";
-                    if (DJbio14.innerHTML !== "")
-                        DJbio14.innerHTML = "";
-                    if (DJshowBio14.innerHTML !== "")
-                        DJshowBio14.innerHTML = "";
+                    if (DJname14.innerHTML !== "Tyler")
+                        DJname14.innerHTML = "Tyler";
+                    if (DJbio14.innerHTML !== "I think every week his music taste changes a little here and there and it always contributes to whatever he puts on” “Whether it’s new music or something classic I think his music taste is very centered around feeling which really resonates with the listener.")
+                        DJbio14.innerHTML = "I think every week his music taste changes a little here and there and it always contributes to whatever he puts on” “Whether it’s new music or something classic I think his music taste is very centered around feeling which really resonates with the listener.";
+                    if (DJshowBio14.innerHTML !== "We know you like to listen to a widespread range of music with your mid day cold brew, and sometimes it’s Faye Webster sometimes it’s The Cure, but no matter what the style of sound it is we listen to it because it’s good. So if you want a break from picking through your playlists for just the right song, put us on and we’ll do the picking and choosing for you. Welcome to Docs and Crocs Radio.")
+                        DJshowBio14.innerHTML = "We know you like to listen to a widespread range of music with your mid day cold brew, and sometimes it’s Faye Webster sometimes it’s The Cure, but no matter what the style of sound it is we listen to it because it’s good. So if you want a break from picking through your playlists for just the right song, put us on and we’ll do the picking and choosing for you. Welcome to Docs and Crocs Radio.";
                     if (DJshowLogo14.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
                         DJshowLogo14.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
                     break;
                 
                 case 15:
-                    let text15 = "";
+                    let text15 = "Vinyl Vibes";
                     // Change innerHTML of bio to text
                     if (document.getElementById("bio").innerHTML !== text15)
                         document.getElementById("bio").innerHTML = text15;
@@ -751,18 +751,18 @@ function DJSchedule() {
                     let DJname15 = document.getElementById("DJname");
                     let DJbio15 = document.getElementById("DJbio");
                     let DJshowBio15 = document.getElementById("DJshowBio");
-                    if (DJname15.innerHTML !== "")
-                        DJname15.innerHTML = "";
-                    if (DJbio15.innerHTML !== "")
-                        DJbio15.innerHTML = "";
-                    if (DJshowBio15.innerHTML !== "")
-                        DJshowBio15.innerHTML = "";
+                    if (DJname15.innerHTML !== "Macycrafts")
+                        DJname15.innerHTML = "Macycrafts";
+                    if (DJbio15.innerHTML !== "Macy is in her final year studying earth science. She is a musician and artist who loves to create art and go on adventures in her free time. Her show features physical media that she has collected almost exclusively through thrifting that exemplifies her unique taste ranging from jazz and symphonic to rock and pop.")
+                        DJbio15.innerHTML = "Macy is in her final year studying earth science. She is a musician and artist who loves to create art and go on adventures in her free time. Her show features physical media that she has collected almost exclusively through thrifting that exemplifies her unique taste ranging from jazz and symphonic to rock and pop.";
+                    if (DJshowBio15.innerHTML !== "Come for the vinyl. Stay for the vibes. This live show is all about physical media and the joys of listening to music that you can hold in your hands. No genres, just vibes.")
+                        DJshowBio15.innerHTML = "Come for the vinyl. Stay for the vibes. This live show is all about physical media and the joys of listening to music that you can hold in your hands. No genres, just vibes.";
                     if (DJshowLogo15.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
                         DJshowLogo15.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
                     break;
                 
                 case 16:
-                    let text16 = "";
+                    let text16 = "Ant’s Analytics";
                     // Change innerHTML of bio to text
                     if (document.getElementById("bio").innerHTML !== text16)
                         document.getElementById("bio").innerHTML = text16;
@@ -770,18 +770,18 @@ function DJSchedule() {
                     let DJname16 = document.getElementById("DJname");
                     let DJbio16 = document.getElementById("DJbio");
                     let DJshowBio16 = document.getElementById("DJshowBio");
-                    if (DJname16.innerHTML !== "")
-                        DJname16.innerHTML = "";
-                    if (DJbio16.innerHTML !== "")
-                        DJbio16.innerHTML = "";
-                    if (DJshowBio16.innerHTML !== "")
-                        DJshowBio16.innerHTML = "";
+                    if (DJname16.innerHTML !== "Anthony Manifold")
+                        DJname16.innerHTML = "Anthony Manifold";
+                    if (DJbio16.innerHTML !== "Anthony Manifold brings a new voice to talk show sports and introduces unique guest interviews.")
+                        DJbio16.innerHTML = "Anthony Manifold brings a new voice to talk show sports and introduces unique guest interviews.";
+                    if (DJshowBio16.innerHTML !== "Sports talk show")
+                        DJshowBio16.innerHTML = "Sports talk show";
                     if (DJshowLogo16.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
                         DJshowLogo16.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
                     break;
                     
                 case 17:
-                    let text17 = "";
+                    let text17 = "The Feed";
                     // Change innerHTML of bio to text
                     if (document.getElementById("bio").innerHTML !== text17)
                         document.getElementById("bio").innerHTML = text17;
@@ -789,18 +789,18 @@ function DJSchedule() {
                     let DJname17 = document.getElementById("DJname");
                     let DJbio17 = document.getElementById("DJbio");
                     let DJshowBio17 = document.getElementById("DJshowBio");
-                    if (DJname17.innerHTML !== "")
-                        DJname17.innerHTML = "";
-                    if (DJbio17.innerHTML !== "")
-                        DJbio17.innerHTML = "";
-                    if (DJshowBio17.innerHTML !== "")
-                        DJshowBio17.innerHTML = "";
+                    if (DJname17.innerHTML !== "TR Staff")
+                        DJname17.innerHTML = "TR Staff";
+                    if (DJbio17.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
+                        DJbio17.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
+                    if (DJshowBio17.innerHTML !== "The Feed is a weekly staff segment where you can hear from the staff that support the station! Tune in each week to hear about the staff and what they're up to!")
+                        DJshowBio17.innerHTML = "The Feed is a weekly staff segment where you can hear from the staff that support the station! Tune in each week to hear about the staff and what they're up to!";
                     if (DJshowLogo17.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
                         DJshowLogo17.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
                     break;
                 
                 case 18:
-                    let text18 = "";
+                    let text18 = "Recess";
                     // Change innerHTML of bio to text
                     if (document.getElementById("bio").innerHTML !== text18)
                         document.getElementById("bio").innerHTML = text18;
@@ -808,18 +808,18 @@ function DJSchedule() {
                     let DJname18 = document.getElementById("DJname");
                     let DJbio18 = document.getElementById("DJbio");
                     let DJshowBio18 = document.getElementById("DJshowBio");
-                    if (DJname18.innerHTML !== "")
-                        DJname18.innerHTML = "";
-                    if (DJbio18.innerHTML !== "")
-                        DJbio18.innerHTML = "";
-                    if (DJshowBio18.innerHTML !== "")
-                        DJshowBio18.innerHTML = "";
+                    if (DJname18.innerHTML !== "Ari")
+                        DJname18.innerHTML = "Ari";
+                    if (DJbio18.innerHTML !== "Dj Arianna is the host of Recess which airs on Mondays at 6PM.")
+                        DJbio18.innerHTML = "Dj Arianna is the host of Recess which airs on Mondays at 6PM.";
+                    if (DJshowBio18.innerHTML !== "Recess airing Mondays at 6pm is my hour to have fun and play whatever music I’m feeling that week.")
+                        DJshowBio18.innerHTML = "Recess airing Mondays at 6pm is my hour to have fun and play whatever music I’m feeling that week.";
                     if (DJshowLogo18.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
                         DJshowLogo18.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
                     break;
                 
                 case 19:
-                    let text19 = "";
+                    let text19 = "The Mouse Hole";
                     // Change innerHTML of bio to text
                     if (document.getElementById("bio").innerHTML !== text19)
                         document.getElementById("bio").innerHTML = text19;
@@ -827,18 +827,18 @@ function DJSchedule() {
                     let DJname19 = document.getElementById("DJname");
                     let DJbio19 = document.getElementById("DJbio");
                     let DJshowBio19 = document.getElementById("DJshowBio");
-                    if (DJname19.innerHTML !== "")
-                        DJname19.innerHTML = "";
-                    if (DJbio19.innerHTML !== "")
-                        DJbio19.innerHTML = "";
-                    if (DJshowBio19.innerHTML !== "")
-                        DJshowBio19.innerHTML = "";
+                    if (DJname19.innerHTML !== "DJ Peach Rat")
+                        DJname19.innerHTML = "DJ Peach Rat";
+                    if (DJbio19.innerHTML !== "DJ Peach Rat not only brings a wide variety of music to his house, but also brings a lot of thoughts and observations about the world. From the mundane to the unique, he always has observations and thoughts that are best said out loud. Life is too short to leave things unheard and unsaid.")
+                        DJbio19.innerHTML = "DJ Peach Rat not only brings a wide variety of music to his house, but also brings a lot of thoughts and observations about the world. From the mundane to the unique, he always has observations and thoughts that are best said out loud. Life is too short to leave things unheard and unsaid.";
+                    if (DJshowBio19.innerHTML !== "Enjoy a wide variety of genres? Then, walk through the door and enter this hole of musical whiplash, where there's no such thing as a stranger. Come for the music, stay for the thoughts. Everyone's welcome in this little hole.")
+                        DJshowBio19.innerHTML = "Enjoy a wide variety of genres? Then, walk through the door and enter this hole of musical whiplash, where there's no such thing as a stranger. Come for the music, stay for the thoughts. Everyone's welcome in this little hole.";
                     if (DJshowLogo19.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
                         DJshowLogo19.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
                     break;
                 
                 case 20:
-                    let text20 = "";
+                    let text20 = "The Jam";
                     // Change innerHTML of bio to text
                     if (document.getElementById("bio").innerHTML !== text20)
                         document.getElementById("bio").innerHTML = text20;
@@ -846,18 +846,18 @@ function DJSchedule() {
                     let DJname20 = document.getElementById("DJname");
                     let DJbio20 = document.getElementById("DJbio");
                     let DJshowBio20 = document.getElementById("DJshowBio");
-                    if (DJname20.innerHTML !== "")
-                        DJname20.innerHTML = "";
-                    if (DJbio20.innerHTML !== "")
-                        DJbio20.innerHTML = "";
-                    if (DJshowBio20.innerHTML !== "")
-                        DJshowBio20.innerHTML = "";
+                    if (DJname20.innerHTML !== "Reagan Gift")
+                        DJname20.innerHTML = "Reagan Gift";
+                    if (DJbio20.innerHTML !== "Reagan finds herself to be somewhat of a musical nomad. Never sitting in one genre too long, always on the hunt for a new record to call home. Maybe it’s her love for all music, maybe it’s ADD.")
+                        DJbio20.innerHTML = "Reagan finds herself to be somewhat of a musical nomad. Never sitting in one genre too long, always on the hunt for a new record to call home. Maybe it’s her love for all music, maybe it’s ADD.";
+                    if (DJshowBio20.innerHTML !== "For the self proclaimed musical sponges of the world. R&B, Alternative Rock, Reggae, Indie, Soul, Funk and so much more. Tune into the soundtrack of life.")
+                        DJshowBio20.innerHTML = "For the self proclaimed musical sponges of the world. R&B, Alternative Rock, Reggae, Indie, Soul, Funk and so much more. Tune into the soundtrack of life.";
                     if (DJshowLogo20.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
                         DJshowLogo20.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
                     break;
                                  
                 case 21:
-                    let text21 = "";
+                    let text21 = "The Kickback Hour";
                     // Change innerHTML of bio to text
                     if (document.getElementById("bio").innerHTML !== text21)
                         document.getElementById("bio").innerHTML = text21;
@@ -865,18 +865,18 @@ function DJSchedule() {
                     let DJname21 = document.getElementById("DJname");
                     let DJbio21 = document.getElementById("DJbio");
                     let DJshowBio21 = document.getElementById("DJshowBio");
-                    if (DJname21.innerHTML !== "")
-                        DJname21.innerHTML = "";
-                    if (DJbio21.innerHTML !== "")
-                        DJbio21.innerHTML = "";
-                    if (DJshowBio21.innerHTML !== "")
-                        DJshowBio21.innerHTML = "";
+                    if (DJname21.innerHTML !== "DJ K")
+                        DJname21.innerHTML = "DJ K";
+                    if (DJbio21.innerHTML !== "DJ K is a 3rd year Communications Major who enjoys many genres of music. His go to artist is blackbear, but is open to whatever recommendations come his way! He’s also a sociable person and enjoys the company of guests on his show!")
+                        DJbio21.innerHTML = "DJ K is a 3rd year Communications Major who enjoys many genres of music. His go to artist is blackbear, but is open to whatever recommendations come his way! He’s also a sociable person and enjoys the company of guests on his show!";
+                    if (DJshowBio21.innerHTML !== "The Kickback Hour is a show where all music is welcome! Each week, various genres are played through the episodes. Not only will there be music, but guests are welcome to add their own take on music and chat with DJ K himself about music, their lives, and anything else that comes to mind!")
+                        DJshowBio21.innerHTML = "The Kickback Hour is a show where all music is welcome! Each week, various genres are played through the episodes. Not only will there be music, but guests are welcome to add their own take on music and chat with DJ K himself about music, their lives, and anything else that comes to mind!";
                     if (DJshowLogo21.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
                         DJshowLogo21.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
                     break;
                 
                 case 22:
-                    let text22 = "";
+                    let text22 = "The Harrison The Goofball Show";
                     // Change innerHTML of bio to text
                     if (document.getElementById("bio").innerHTML !== text22)
                         document.getElementById("bio").innerHTML = text22;
@@ -884,18 +884,18 @@ function DJSchedule() {
                     let DJname22 = document.getElementById("DJname");
                     let DJbio22 = document.getElementById("DJbio");
                     let DJshowBio22 = document.getElementById("DJshowBio");
-                    if (DJname22.innerHTML !== "")
-                        DJname22.innerHTML = "";
-                    if (DJbio22.innerHTML !== "")
-                        DJbio22.innerHTML = "";
-                    if (DJshowBio22.innerHTML !== "")
-                        DJshowBio22.innerHTML = "";
+                    if (DJname22.innerHTML !== "Harrison The Goofball")
+                        DJname22.innerHTML = "Harrison The Goofball";
+                    if (DJbio22.innerHTML !== "I am Harrison The Goofball and I am your wacky radio dj. Tune into my show to hear all the best music from the likes of Weird Al, Cheech and Chong, Adam Sandler, and more!")
+                        DJbio22.innerHTML = "I am Harrison The Goofball and I am your wacky radio dj. Tune into my show to hear all the best music from the likes of Weird Al, Cheech and Chong, Adam Sandler, and more!";
+                    if (DJshowBio22.innerHTML !== "Comedy/novelty songs, bits, skits, and games.")
+                        DJshowBio22.innerHTML = "Comedy/novelty songs, bits, skits, and games.";
                     if (DJshowLogo22.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
                         DJshowLogo22.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
                     break;
                 
                 case 23:
-                    let text23 = "";
+                    let text23 = "Brain Damage";
                     // Change innerHTML of bio to text
                     if (document.getElementById("bio").innerHTML !== text23)
                         document.getElementById("bio").innerHTML = text23;
@@ -903,12 +903,12 @@ function DJSchedule() {
                     let DJname23 = document.getElementById("DJname");
                     let DJbio23 = document.getElementById("DJbio");
                     let DJshowBio23 = document.getElementById("DJshowBio");
-                    if (DJname23.innerHTML !== "")
-                        DJname23.innerHTML = "";
-                    if (DJbio23.innerHTML !== "")
-                        DJbio23.innerHTML = "";
-                    if (DJshowBio23.innerHTML !== "")
-                        DJshowBio23.innerHTML = "";
+                    if (DJname23.innerHTML !== "user12151920")
+                        DJname23.innerHTML = "user12151920";
+                    if (DJbio23.innerHTML !== "user12151920 loves music!!! (she has an unhealthy relationship with anything that makes sound). with her inevitable screaming and crying to the ridiculous number of songs saved onto all of her music streaming apps she hopes to be able to share and appreciate the music she loves with others.")
+                        DJbio23.innerHTML = "user12151920 loves music!!! (she has an unhealthy relationship with anything that makes sound). with her inevitable screaming and crying to the ridiculous number of songs saved onto all of her music streaming apps she hopes to be able to share and appreciate the music she loves with others.";
+                    if (DJshowBio23.innerHTML !== "music I listen to when I'm staring at my glow in the dark ceiling stars at 3 am - thought vomit and nice noise.")
+                        DJshowBio23.innerHTML = "music I listen to when I'm staring at my glow in the dark ceiling stars at 3 am - thought vomit and nice noise.";
                     if (DJshowLogo23.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
                         DJshowLogo23.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
                     break;        
