@@ -1722,10 +1722,10 @@ function DJSchedule() {
                     let DJshowBio18 = document.getElementById("DJshowBio");
                     if (DJname18.innerHTML !== "Bashcash")
                         DJname18.innerHTML = "Bashcash";
-                    if (DJbio18.innerHTML !== "")
-                        DJbio18.innerHTML = "";
-                    if (DJshowBio18.innerHTML !== "")
-                        DJshowBio18.innerHTML = "";
+                    if (DJbio18.innerHTML !== "Bashar loves music maybe a little too much. He has a song for every emotion and every scenario. He can go from genre to genre in a second. He really loves sounds. ")
+                        DJbio18.innerHTML = "Bashar loves music maybe a little too much. He has a song for every emotion and every scenario. He can go from genre to genre in a second. He really loves sounds. ";
+                    if (DJshowBio18.innerHTML !== "An eclectic mix of all my favorite songs. A little bit of everything from Beyoncé to bad brains. Just an hour of good stuff.")
+                        DJshowBio18.innerHTML = "An eclectic mix of all my favorite songs. A little bit of everything from Beyoncé to bad brains. Just an hour of good stuff.";
                     if (DJshowLogo18.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
                         DJshowLogo18.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
                     break;
@@ -2419,7 +2419,7 @@ function DJSchedule() {
                         DJshowLogo6.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/03/vMr9sj74.png')";
                         break
                     case 7:
-                        let text7 = "Titan Radio";
+                        let text7 = "Good Morning, Captain";
                         //change innerHTML of bio to text
                         if(document.getElementById("bio").innerHTML !== text7)
                                 document.getElementById("bio").innerHTML = text7;
@@ -2427,12 +2427,12 @@ function DJSchedule() {
                         let DJname7 = document.getElementById("DJname");
                         let DJbio7 = document.getElementById("DJbio");
                         let DJshowBio7 = document.getElementById("DJshowBio");  
-                        if(DJname7.innerHTML !== "TR Staff")
-                            DJname7.innerHTML = "TR Staff";
-                        if(DJbio7.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
-                                DJbio7.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
-                        if(DJshowBio7.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
-                            DJshowBio7.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.";
+                        if(DJname7.innerHTML !== "sappy")
+                            DJname7.innerHTML = "sappy";
+                        if(DJbio7.innerHTML !== "Paula is a 4th year psychology major. Her love for music stems from her parents love and passion for music and collecting records. Paula enjoys going to any concert or show at her fingertips while expanding her music taste always on the hunt for new artists.")
+                                DJbio7.innerHTML = "Paula is a 4th year psychology major. Her love for music stems from her parents love and passion for music and collecting records. Paula enjoys going to any concert or show at her fingertips while expanding her music taste always on the hunt for new artists.";
+                        if(DJshowBio7.innerHTML !== "Get ready for an hour of my favorite new and old artists to distract from the pressure of college. Shy eyes is a mix of indie, new wave, post punk, 80’s, alternative, grunge and any song I can’t seem to get out of my head that week.")
+                            DJshowBio7.innerHTML = "Get ready for an hour of my favorite new and old artists to distract from the pressure of college. Shy eyes is a mix of indie, new wave, post punk, 80’s, alternative, grunge and any song I can’t seem to get out of my head that week.";
                         if (DJshowLogo7.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
                         DJshowLogo7.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
                         break
@@ -2511,7 +2511,7 @@ function DJSchedule() {
                         break;
                     
                     case 12:
-                        let text12 = "Black Classics";
+                        let text12 = "AYEFAM";
                         // Change innerHTML of bio to text
                         if (document.getElementById("bio").innerHTML !== text12)
                             document.getElementById("bio").innerHTML = text12;
@@ -2530,7 +2530,7 @@ function DJSchedule() {
                         break;
                     
                     case 13:
-                        let text13 = "Titan Radio";
+                        let text13 = "Rockin' the 70s";
                         // Change innerHTML of bio to text
                         if (document.getElementById("bio").innerHTML !== text13)
                             document.getElementById("bio").innerHTML = text13;
@@ -2538,12 +2538,12 @@ function DJSchedule() {
                         let DJname13 = document.getElementById("DJname");
                         let DJbio13 = document.getElementById("DJbio");
                         let DJshowBio13 = document.getElementById("DJshowBio");
-                        if (DJname13.innerHTML !== "TR Staff")
-                            DJname13.innerHTML = "TR Staff";
-                        if (DJbio13.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
-                            DJbio13.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
-                        if (DJshowBio13.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
-                            DJshowBio13.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.";
+                        if (DJname13.innerHTML !== "hippie nickie")
+                            DJname13.innerHTML = "hippie nickie";
+                        if (DJbio13.innerHTML !== "With a passion for preserving the authentic sound of the 70s, Rockin' the 70s curates a musical journey that transcends generations. This DJ extraordinaire is your guide to the era of iconic bands, legendary guitar solos, and timeless rock anthems.")
+                            DJbio13.innerHTML = "With a passion for preserving the authentic sound of the 70s, Rockin' the 70s curates a musical journey that transcends generations. This DJ extraordinaire is your guide to the era of iconic bands, legendary guitar solos, and timeless rock anthems.";
+                        if (DJshowBio13.innerHTML !== "Step into a time machine of sound and energy with 'Rockin' the 70s: Classic Rock Radio. Join us as we journey back to the golden era of rock music, where guitar riffs echoed through the airwaves, and legendary bands ruled the stage. From Led Zeppelin to The Rolling Stones, and everything in between.")
+                            DJshowBio13.innerHTML = "Step into a time machine of sound and energy with 'Rockin' the 70s: Classic Rock Radio. Join us as we journey back to the golden era of rock music, where guitar riffs echoed through the airwaves, and legendary bands ruled the stage. From Led Zeppelin to The Rolling Stones, and everything in between.";
                         if (DJshowLogo13.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
                             DJshowLogo13.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
                         break;
