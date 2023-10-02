@@ -3025,7 +3025,7 @@ function DJSchedule() {
                         break;
                     
                     case 15:
-                        let text15 = "Titan Radio";
+                        let text15 = "onlytwentycharacters";
                         // Change innerHTML of bio to text
                         if (document.getElementById("bio").innerHTML !== text15)
                             document.getElementById("bio").innerHTML = text15;
@@ -3033,12 +3033,12 @@ function DJSchedule() {
                         let DJname15 = document.getElementById("DJname");
                         let DJbio15 = document.getElementById("DJbio");
                         let DJshowBio15 = document.getElementById("DJshowBio");
-                        if (DJname15.innerHTML !== "TR Staff")
-                            DJname15.innerHTML = "TR Staff";
-                        if (DJbio15.innerHTML !== "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.")
-                            DJbio15.innerHTML = "Titan Radio staff are a group of talented and dedicated individuals who work tirelessly to bring quality radio programs to their listeners. They are passionate about music and knowledgeable about the industry, and they go above and beyond to create an engaging and enjoyable listening experience for their audience. With their diverse backgrounds and personalities, the Titan Radio staff is a dynamic and creative team that never fails to impress.";
-                        if (DJshowBio15.innerHTML !== "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.")
-                            DJshowBio15.innerHTML = "TR2 is like a musical potluck where all the staff brings their favorite songs to share with the listeners. It's a great way to discover new music and learn more about the people behind the station. From classic rock to electronic dance music, the variety of genres is amazing. You never know what you're going to get, but one thing is for sure, it's always good stuff.";
+                        if (DJname15.innerHTML !== "empathytoast")
+                            DJname15.innerHTML = "empathytoast";
+                        if (DJbio15.innerHTML !== "my name is aaron! i go by empathytoast here, but i love ranting about anything and everything, as well as listening to new music, because progress is what makes the world go 'round! im a first time dj, but im hoping to learn so much in the process! i can listen to (almost) anything, or at least and i'd looove to also air the local scene!")
+                            DJbio15.innerHTML = "my name is aaron! i go by empathytoast here, but i love ranting about anything and everything, as well as listening to new music, because progress is what makes the world go 'round! im a first time dj, but im hoping to learn so much in the process! i can listen to (almost) anything, or at least and i'd looove to also air the local scene!";
+                        if (DJshowBio15.innerHTML !== "vintage clothing, aggressive music, rants about parking, its all here! we'll have so much fun in an hour it'll be crazy, but i'll be playing honestly anything (jungle? psych rock? hxc? bebop?)")
+                            DJshowBio15.innerHTML = "vintage clothing, aggressive music, rants about parking, its all here! we'll have so much fun in an hour it'll be crazy, but i'll be playing honestly anything (jungle? psych rock? hxc? bebop?)";
                         if (DJshowLogo15.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
                             DJshowLogo15.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
                         break;
