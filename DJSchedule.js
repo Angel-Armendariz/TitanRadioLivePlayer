@@ -174,8 +174,8 @@ function DJSchedule() {
                         DJbio8.innerHTML = "Kylee (Kye) Viayra has been involved with music throughout her entire life. She started writing, playing and performing since 11 years old. She is now a music enthusiast who loves to listen to songs on repeat and learn about the overall meaning of the song. She is constantly looking for new music of any and every genre to break down and listen too.  ";
                     if (DJshowBio8.innerHTML !== "This show would focus on specific albums and songs every week. I would listen to certain songs on the album and break them down for the viewers. Describe theories and ideas based on parts of each song and possibly link them to the artists other songs.")
                         DJshowBio8.innerHTML = "This show would focus on specific albums and songs every week. I would listen to certain songs on the album and break them down for the viewers. Describe theories and ideas based on parts of each song and possibly link them to the artists other songs.";
-                    if (DJshowLogo8.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
-                        DJshowLogo8.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
+                    if (DJshowLogo8.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/10/Willowing-Hour.jpg')")
+                        DJshowLogo8.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/10/Willowing-Hour.jpg')";
                     break;
                     
                 case 9:
@@ -193,8 +193,8 @@ function DJSchedule() {
                         DJbio9.innerHTML = "I wanted to become a DJ because music is something that I love. Sharing my songs is something I’ve been afraid to do but been wanting to finally pursue. I’m always open to listening to new genres and songs, although I always have my personal playlist on a loop.";
                     if (DJshowBio9.innerHTML !== "Do you tend to daydream whenever you listen to music and create little scenes? If you do that too, then Fairy Soirée is the right fit for you! Feeling small in a big world of music is something everyone experiences, and this show welcomes you!")
                         DJshowBio9.innerHTML = "Do you tend to daydream whenever you listen to music and create little scenes? If you do that too, then Fairy Soirée is the right fit for you! Feeling small in a big world of music is something everyone experiences, and this show welcomes you!";
-                    if (DJshowLogo9.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
-                        DJshowLogo9.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
+                    if (DJshowLogo9.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/10/Fairy-Soiree.jpg')")
+                        DJshowLogo9.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/10/Fairy-Soiree.jpg')";
                     break;
                     
                 case 10:
@@ -212,8 +212,8 @@ function DJSchedule() {
                         DJbio10.innerHTML = "Pey is an ambitious, creative individual who wants nothing more than to create human connections and emote positive energy into the world. She loves trying out new experiences, as well as finding new ways to explore more artistic forms of self expression. Peyton’s goal is to use her passions for film, art, and music to connect with others and build a safe community that is open to all.";
                     if (DJshowBio10.innerHTML !== "o you need more positive energy in your life? From covering current pop culture events to discussing ways to maintain healthy habits in this stress inducing world, Pey is here to host heartfelt, energetic conversations to connect listeners together.")
                         DJshowBio10.innerHTML = "o you need more positive energy in your life? From covering current pop culture events to discussing ways to maintain healthy habits in this stress inducing world, Pey is here to host heartfelt, energetic conversations to connect listeners together.";
-                    if (DJshowLogo10.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
-                        DJshowLogo10.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
+                    if (DJshowLogo10.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/10/Team-Huddle.jpg')")
+                        DJshowLogo10.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/10/Team-Huddle.jpg')";
                     break;
                     
                 case 11:
@@ -231,8 +231,8 @@ function DJSchedule() {
                         DJbio11.innerHTML = "Bigaaron100 was born inside of a Guitar Center during a forbidden Stairway to Heaven solo. He is not of this world.";
                     if (DJshowBio11.innerHTML !== "You want them, we got them, come get them.")
                         DJshowBio11.innerHTML = "You want them, we got them, come get them.";
-                    if (DJshowLogo11.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
-                        DJshowLogo11.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
+                    if (DJshowLogo11.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/10/Tasty-Waves.jpg')")
+                        DJshowLogo11.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/10/Tasty-Waves.jpg')";
                     break;
                     
                 case 12:
@@ -322,8 +322,8 @@ function DJSchedule() {
                         DJbio16.innerHTML = "Nic, or nicollette, loves all things music. she’s a singer who finds her sound in dolores o’riordan of the cranberries. she hopes you love indie and rock, because she’s got a whole lot of it!";
                     if (DJshowBio16.innerHTML !== "I love music, and I want to share my favorites to the world. so we’re starting with csuf.")
                         DJshowBio16.innerHTML = "I love music, and I want to share my favorites to the world. so we’re starting with csuf.";
-                    if (DJshowLogo16.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
-                        DJshowLogo16.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
+                    if (DJshowLogo16.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/10/nics-mix.jpg')")
+                        DJshowLogo16.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/10/nics-mix.jpg')";
                     break;
                     
                 case 17:
@@ -341,8 +341,8 @@ function DJSchedule() {
                         DJbio17.innerHTML = "I love listening and making music. I have a lot of friends who are making music and putting it out there for others to listen. I feel like our generation is using the technology we have at our disposal to create music and share it without having to have a lot of money or having a real studio. With the rise of artists using things like garage band and their phones to create works of art appreciated by so many, it’s important to expand our music collections to include these smaller artists.";
                     if (DJshowBio17.innerHTML !== "This show is a place where people can find new music from artists they might not know about yet. We are going to spotlight different artists every episode, play some of their music, and interview them on what it’s like first starting out in the music industry. This show will give small artists a chance to gain some listeners as well as give listeners a chance to find a new artist they love.")
                         DJshowBio17.innerHTML = "This show is a place where people can find new music from artists they might not know about yet. We are going to spotlight different artists every episode, play some of their music, and interview them on what it’s like first starting out in the music industry. This show will give small artists a chance to gain some listeners as well as give listeners a chance to find a new artist they love.";
-                    if (DJshowLogo17.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
-                        DJshowLogo17.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
+                    if (DJshowLogo17.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/10/Whos-on-Aux.jpg')")
+                        DJshowLogo17.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/10/Whos-on-Aux.jpg')";
                     break;
                     
                     case 18:
@@ -360,7 +360,7 @@ function DJSchedule() {
                             DJbio18.innerHTML = "Always looking for a new sound, but appreciative of the roots of a genre. Can dabble in most genres but appreciates electronic and rap the most.";
                         if (DJshowBio18.innerHTML !== "A mixture of pop, rap, noise and weird stuff.")
                             DJshowBio18.innerHTML = "A mixture of pop, rap, noise and weird stuff.";
-                        if (DJshowLogo18.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
+                        if (DJshowLogo18.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')") //missing
                             DJshowLogo18.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
                         break;
                     
@@ -379,7 +379,7 @@ function DJSchedule() {
                             DJbio19.innerHTML = "Kaynéti is a 1st year college student with a big personality, big opinions, and a lot to say. Her unique takes on popular topics and colorful music taste makes for good vibes and an extremely boisterous show!";
                         if (DJshowBio19.innerHTML !== "A fun silly little show with a fun and silly little girl! On The Kayneti Show, we talk about all kinds of things! From pop culture to politics, there’s something here for everyone. Don’t be afraid to stop by!")
                             DJshowBio19.innerHTML = "A fun silly little show with a fun and silly little girl! On The Kayneti Show, we talk about all kinds of things! From pop culture to politics, there’s something here for everyone. Don’t be afraid to stop by!";
-                        if (DJshowLogo19.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
+                        if (DJshowLogo19.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')") //missing
                             DJshowLogo19.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
                         break;
                         
@@ -398,8 +398,8 @@ function DJSchedule() {
                             DJbio20.innerHTML = "Fresh to the scene and armed with clean beats to get you time to feel seen. DJ VEVO is ready to bring the spice to the stage!";
                         if (DJshowBio20.innerHTML !== "The show to get your flow moving like Shakira. It's time to explore feel-good hits that inspire you to keep overachieving. There'll be sounds to take you way back or moments to keep you laid-back.")
                             DJshowBio20.innerHTML = "The show to get your flow moving like Shakira. It's time to explore feel-good hits that inspire you to keep overachieving. There'll be sounds to take you way back or moments to keep you laid-back.";
-                        if (DJshowLogo20.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
-                            DJshowLogo20.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
+                        if (DJshowLogo20.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/10/Sprinkle-of-Spanish.png')")
+                            DJshowLogo20.style.backgroundImage = "https://titanradio.org/wp-content/uploads/2023/10/Sprinkle-of-Spanish.png')";
                         break;                        
                     case 21:
                         let text21 = "Not A Phase";
@@ -416,8 +416,8 @@ function DJSchedule() {
                             DJbio21.innerHTML = "Growing up attending Warped Tour and local shows, Anais has always adored the sense of community and belonging this music has brought to her and those who enjoy it. Anais is eager to bring this same community and nostalgia to CSUF through her musical picks each week.";
                         if (DJshowBio21.innerHTML !== "A show for fans of Post-hardcore, pop-punk, melodic hardcore, hardcore punk, shoegaze, and emo. Current and throwback, it’s not a phase, mom!")
                             DJshowBio21.innerHTML = "A show for fans of Post-hardcore, pop-punk, melodic hardcore, hardcore punk, shoegaze, and emo. Current and throwback, it’s not a phase, mom!";
-                        if (DJshowLogo21.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
-                            DJshowLogo21.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
+                        if (DJshowLogo21.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/10/not-a-phase.jpg')")
+                            DJshowLogo21.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/10/not-a-phase.jpg')";
                         break;
                         
                     case 22:
@@ -435,7 +435,7 @@ function DJSchedule() {
                             DJbio22.innerHTML = "Gone Girl is her persona but Rachel R. is currently a Communications Marketing Major here at CSUF. She can often be described as Outspoken and a little bit eccentric. Her obsession with film makes her quite a bit of a Cinephile. Rachel’s Obsessive behavior towards pop culture and media makes her the perfect fit for 'A Little to Gone..'";
                         if (DJshowBio22.innerHTML !== "Messy, Unorganized, and Complicated. 'A Little to Gone' is the newest show here at Titan Radio that will be your daily fix for messy and complicated pop culture news, media, and movie fix. Each episode will share the latest tea. Share the latest and hottest movie recommendations. And stories that are little too gone from host DJ GG.")
                             DJshowBio22.innerHTML = "Messy, Unorganized, and Complicated. 'A Little to Gone' is the newest show here at Titan Radio that will be your daily fix for messy and complicated pop culture news, media, and movie fix. Each episode will share the latest tea. Share the latest and hottest movie recommendations. And stories that are little too gone from host DJ GG.";
-                        if (DJshowLogo22.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
+                        if (DJshowLogo22.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')") //missing
                             DJshowLogo22.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
                         break;                        
                     case 23:
@@ -453,7 +453,7 @@ function DJSchedule() {
                             DJbio23.innerHTML = "FT Student & Worker fighting for her life, but just vibin’. She has been experiencing the full experience of being a commuter, and she sees how sometimes it just isn’t talked about much. Also working as a social media is funsies and a very cool insight she’d like to share. She is funny, stubborn (prob the taurus in her), determined, ambitious, friendly, outgoing and can discuss about anything and everything";
                         if (DJshowBio23.innerHTML !== "A lil' besties chat. We will talk about the highs and lows of commuting (Parking?!?! I dont even know to park, how am i supposed to avoid 100 other cars now), working, and classes. I'd also talk about work (social media manager) and any pop culture trends. Pop culture trends would even have a guest and little banter on our thoughts and dissecting it and even adding in our lil humor into it.")
                             DJshowBio23.innerHTML = "A lil' besties chat. We will talk about the highs and lows of commuting (Parking?!?! I dont even know to park, how am i supposed to avoid 100 other cars now), working, and classes. I'd also talk about work (social media manager) and any pop culture trends. Pop culture trends would even have a guest and little banter on our thoughts and dissecting it and even adding in our lil humor into it.";
-                        if (DJshowLogo23.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
+                        if (DJshowLogo23.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')") //missing
                             DJshowLogo23.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
                         break;                        
             }
@@ -608,8 +608,8 @@ function DJSchedule() {
                             DJbio7.innerHTML = "Sabrina is a fourth year CTVA student with a focus in sound production for film/TV. She enjoys going to concerts throughout California is search of new music. In her free time she enjoys learning new instruments, watching films, and going to the gym.";
                     if(DJshowBio7.innerHTML !== "Features new music for a variety of listeners open to music such as indie, pop, electronic.")
                         DJshowBio7.innerHTML = "Features new music for a variety of listeners open to music such as indie, pop, electronic.";
-                    if (DJshowLogo7.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
-                    DJshowLogo7.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
+                    if (DJshowLogo7.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/10/Lunch-Break.jpg')")
+                    DJshowLogo7.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/10/Lunch-Break.jpg')";
                     break
                 case 8:
                     let text8 = "Good News Bears";
@@ -626,8 +626,8 @@ function DJSchedule() {
                         DJbio8.innerHTML = "Allan is all about good vibes and stress free environments. He loves all kinds of art and natural beauty, and has a whole bunch of hobbies. The most important thing for him is experiencing new things!";
                     if (DJshowBio8.innerHTML !== "Good News Bears is all about spreading positivity, good news, and good music! Every time we're on we'll have some good news stories to share so that we can spread some love and positivity for Titans during this stressful semester. Between the good news, we’ll have some good music for titans on early morning Mondays!")
                         DJshowBio8.innerHTML = "Good News Bears is all about spreading positivity, good news, and good music! Every time we're on we'll have some good news stories to share so that we can spread some love and positivity for Titans during this stressful semester. Between the good news, we’ll have some good music for titans on early morning Mondays!";
-                    if (DJshowLogo8.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
-                        DJshowLogo8.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
+                    if (DJshowLogo8.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/10/Good-News-Bears.png')")
+                        DJshowLogo8.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/10/Good-News-Bears.png')";
                     break;
                 case 9:
                     let text9 = "Salted's Jam n Slam";
@@ -644,8 +644,8 @@ function DJSchedule() {
                         DJbio9.innerHTML = "Salted, the guy with a thousand options and plans and hobbies but can’t decide on a single thing. Hell he couldn’t even decide if he wanted to run a music or sports channel! Whether you wanna laugh, get mad, or vibe on your own, or all at the same time, Salted’s the guy to talk to.";
                     if (DJshowBio9.innerHTML !== "Play a few songs, then in between give baseball updates, or if not bring in a contestant to have a wacky sports-related argument about")
                         DJshowBio9.innerHTML = "Play a few songs, then in between give baseball updates, or if not bring in a contestant to have a wacky sports-related argument about";
-                    if (DJshowLogo9.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
-                        DJshowLogo9.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
+                    if (DJshowLogo9.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/10/Salteds-Jams-and-Slams.png')")
+                        DJshowLogo9.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/10/Salteds-Jams-and-Slams.png')";
                     break;                            
                 case 10:
                     let text10 = "Rocking with El Chicano";
@@ -662,7 +662,7 @@ function DJSchedule() {
                         DJbio10.innerHTML = "Silver Lupe grew up listening to oldies and has found passion in the music. His knowledge on the singers and groups of the past is as extensive as the catalog of songs that he knows. Silver Lupe knows the best of the best of the 50s and 60s.";
                     if (DJshowBio10.innerHTML !== "A mix of songs from the 50s and early 60s. Doo wop, rock & roll, and oldies that you won't ever forget. Listeners call in to chat about pop culture from the past in our current generation.")
                         DJshowBio10.innerHTML = "A mix of songs from the 50s and early 60s. Doo wop, rock & roll, and oldies that you won't ever forget. Listeners call in to chat about pop culture from the past in our current generation.";
-                    if (DJshowLogo10.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
+                    if (DJshowLogo10.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')") //missing
                         DJshowLogo10.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
                     break;
                 
@@ -681,8 +681,8 @@ function DJSchedule() {
                         DJbio11.innerHTML = "DJ Raniel (RAN-yel) is an aspiring music critic. To him, there’s no such thing as a guilty pleasure. Overall, he loves talking about whatever he’s listening to and wants to share it with others.";
                     if (DJshowBio11.innerHTML !== "A mainly modern mix of indie, alternative, pop and rock. Designed to introduce you to artists you may not have heard before, and hopefully help you get through the day.")
                         DJshowBio11.innerHTML = "A mainly modern mix of indie, alternative, pop and rock. Designed to introduce you to artists you may not have heard before, and hopefully help you get through the day.";
-                    if (DJshowLogo11.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
-                        DJshowLogo11.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
+                    if (DJshowLogo11.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/10/Indie-Encounters.jpg')")
+                        DJshowLogo11.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/10/Indie-Encounters.jpg')";
                     break;
                 
                 case 12:
@@ -700,8 +700,8 @@ function DJSchedule() {
                         DJbio12.innerHTML = "Maya Desai is a senior transfer student majoring in Marketing. She hopes to utilize her marketing skills in the love music industry one day to get others as excited about music as she is. Maya has been a diehard Harry Styles fan since 2011 and a lover of music since 2001.";
                     if (DJshowBio12.innerHTML !== "Next Door Neighbor Radio brings you music of the manic pixie dream girl next door. You’ll find music ranging from indie pop to alternative to pop rock to straight-up pop. With artists as mainstream as Harry Styles, Taylor Swift, and Phoebe Bridgers to lesser known musicians like Clairo, Ethel Cain, and The National, Next Door Neighbor Radio is here to provide you with the best sounds from the self-proclaimed cool girl’s bedroom.")
                         DJshowBio12.innerHTML = "Next Door Neighbor Radio brings you music of the manic pixie dream girl next door. You’ll find music ranging from indie pop to alternative to pop rock to straight-up pop. With artists as mainstream as Harry Styles, Taylor Swift, and Phoebe Bridgers to lesser known musicians like Clairo, Ethel Cain, and The National, Next Door Neighbor Radio is here to provide you with the best sounds from the self-proclaimed cool girl’s bedroom.";
-                    if (DJshowLogo12.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
-                        DJshowLogo12.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
+                    if (DJshowLogo12.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/10/next-door-neighbor-radio.jpg')")
+                        DJshowLogo12.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/10/next-door-neighbor-radio.jpg')";
                     break;
                 
                 case 13:
@@ -719,7 +719,7 @@ function DJSchedule() {
                         DJbio13.innerHTML = "Dj v is the sole proprietor of Vics VapoRhythm’s. Student by day, ice cream scooper by night. Allergic to peanuts and tree nuts. CDs ok.";
                     if (DJshowBio13.innerHTML !== "Let Vic's VapoRhythms invigorate your senses. Take a deep breath and take in this hour of Vics favorite tunes from all genres (from soft and soothing to unsettlingly unsoothing). Active ingredients: 97.4% A good time, 2.6% Menthol")
                         DJshowBio13.innerHTML = "Let Vic's VapoRhythms invigorate your senses. Take a deep breath and take in this hour of Vics favorite tunes from all genres (from soft and soothing to unsettlingly unsoothing). Active ingredients: 97.4% A good time, 2.6% Menthol";
-                    if (DJshowLogo13.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
+                    if (DJshowLogo13.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')") //missing
                         DJshowLogo13.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
                     break;
 
@@ -738,8 +738,8 @@ function DJSchedule() {
                         DJbio14.innerHTML = "I think every week his music taste changes a little here and there and it always contributes to whatever he puts on” “Whether it’s new music or something classic I think his music taste is very centered around feeling which really resonates with the listener.";
                     if (DJshowBio14.innerHTML !== "We know you like to listen to a widespread range of music with your mid day cold brew, and sometimes it’s Faye Webster sometimes it’s The Cure, but no matter what the style of sound it is we listen to it because it’s good. So if you want a break from picking through your playlists for just the right song, put us on and we’ll do the picking and choosing for you. Welcome to Docs and Crocs Radio.")
                         DJshowBio14.innerHTML = "We know you like to listen to a widespread range of music with your mid day cold brew, and sometimes it’s Faye Webster sometimes it’s The Cure, but no matter what the style of sound it is we listen to it because it’s good. So if you want a break from picking through your playlists for just the right song, put us on and we’ll do the picking and choosing for you. Welcome to Docs and Crocs Radio.";
-                    if (DJshowLogo14.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
-                        DJshowLogo14.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
+                    if (DJshowLogo14.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/10/Docs-n-Crocs.png')")
+                        DJshowLogo14.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/10/Docs-n-Crocs.png')";
                     break;
                 
                 case 15:
@@ -757,7 +757,7 @@ function DJSchedule() {
                         DJbio15.innerHTML = "Macy is in her final year studying earth science. She is a musician and artist who loves to create art and go on adventures in her free time. Her show features physical media that she has collected almost exclusively through thrifting that exemplifies her unique taste ranging from jazz and symphonic to rock and pop.";
                     if (DJshowBio15.innerHTML !== "Come for the vinyl. Stay for the vibes. This live show is all about physical media and the joys of listening to music that you can hold in your hands. No genres, just vibes.")
                         DJshowBio15.innerHTML = "Come for the vinyl. Stay for the vibes. This live show is all about physical media and the joys of listening to music that you can hold in your hands. No genres, just vibes.";
-                    if (DJshowLogo15.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
+                    if (DJshowLogo15.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')") //missing
                         DJshowLogo15.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
                     break;
                 
@@ -776,8 +776,8 @@ function DJSchedule() {
                         DJbio16.innerHTML = "Anthony Manifold brings a new voice to talk show sports and introduces unique guest interviews.";
                     if (DJshowBio16.innerHTML !== "Sports talk show")
                         DJshowBio16.innerHTML = "Sports talk show";
-                    if (DJshowLogo16.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
-                        DJshowLogo16.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
+                    if (DJshowLogo16.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/10/AntsAnalyticslogo.png')")
+                        DJshowLogo16.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/10/AntsAnalyticslogo.png')";
                     break;
                     
                 case 17:
@@ -814,7 +814,7 @@ function DJSchedule() {
                         DJbio18.innerHTML = "Dj Arianna is the host of Recess which airs on Mondays at 6PM.";
                     if (DJshowBio18.innerHTML !== "Recess airing Mondays at 6pm is my hour to have fun and play whatever music I’m feeling that week.")
                         DJshowBio18.innerHTML = "Recess airing Mondays at 6pm is my hour to have fun and play whatever music I’m feeling that week.";
-                    if (DJshowLogo18.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
+                    if (DJshowLogo18.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')") //missing
                         DJshowLogo18.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
                     break;
                 
@@ -833,8 +833,8 @@ function DJSchedule() {
                         DJbio19.innerHTML = "DJ Peach Rat not only brings a wide variety of music to his house, but also brings a lot of thoughts and observations about the world. From the mundane to the unique, he always has observations and thoughts that are best said out loud. Life is too short to leave things unheard and unsaid.";
                     if (DJshowBio19.innerHTML !== "Enjoy a wide variety of genres? Then, walk through the door and enter this hole of musical whiplash, where there's no such thing as a stranger. Come for the music, stay for the thoughts. Everyone's welcome in this little hole.")
                         DJshowBio19.innerHTML = "Enjoy a wide variety of genres? Then, walk through the door and enter this hole of musical whiplash, where there's no such thing as a stranger. Come for the music, stay for the thoughts. Everyone's welcome in this little hole.";
-                    if (DJshowLogo19.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
-                        DJshowLogo19.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
+                    if (DJshowLogo19.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/10/The-Mouse-Hole.jpg')")
+                        DJshowLogo19.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/10/The-Mouse-Hole.jpg')";
                     break;
                 
                 case 20:
@@ -871,8 +871,8 @@ function DJSchedule() {
                         DJbio21.innerHTML = "DJ K is a Senior Communications major and a native to SoCal. Outside of Titan Radio, he can be seen grabbing a coffee, hanging out with friends, or hitting the beach. His show is open to all genres and invites all Titans to listen.";
                     if (DJshowBio21.innerHTML !== "The Kickback Hour is a show where all music is welcome! Each week, various genres are played through the episodes. Not only will there be music, but guests are welcome to add their own take on music and chat with DJ K himself about music, their lives, and anything else that comes to mind!")
                         DJshowBio21.innerHTML = "The Kickback Hour is a show where all music is welcome! Each week, various genres are played through the episodes. Not only will there be music, but guests are welcome to add their own take on music and chat with DJ K himself about music, their lives, and anything else that comes to mind!";
-                    if (DJshowLogo21.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
-                        DJshowLogo21.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
+                    if (DJshowLogo21.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/10/The-Kickback-Hour.jpg')")
+                        DJshowLogo21.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/10/The-Kickback-Hour.jpg')";
                     break;
                 
                 case 22:
@@ -890,8 +890,8 @@ function DJSchedule() {
                         DJbio22.innerHTML = "I am Harrison The Goofball and I am your wacky radio dj. Tune into my show to hear all the best music from the likes of Weird Al, Cheech and Chong, Adam Sandler, and more!";
                     if (DJshowBio22.innerHTML !== "Comedy/novelty songs, bits, skits, and games.")
                         DJshowBio22.innerHTML = "Comedy/novelty songs, bits, skits, and games.";
-                    if (DJshowLogo22.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
-                        DJshowLogo22.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
+                    if (DJshowLogo22.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/10/harrison-the-goofball.jpg')")
+                        DJshowLogo22.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/10/harrison-the-goofball.jpg')";
                     break;
                 
                 case 23:
@@ -909,8 +909,8 @@ function DJSchedule() {
                         DJbio23.innerHTML = "user12151920 loves music!!! (she has an unhealthy relationship with anything that makes sound). with her inevitable screaming and crying to the ridiculous number of songs saved onto all of her music streaming apps she hopes to be able to share and appreciate the music she loves with others.";
                     if (DJshowBio23.innerHTML !== "music I listen to when I'm staring at my glow in the dark ceiling stars at 3 am - thought vomit and nice noise.")
                         DJshowBio23.innerHTML = "music I listen to when I'm staring at my glow in the dark ceiling stars at 3 am - thought vomit and nice noise.";
-                    if (DJshowLogo23.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
-                        DJshowLogo23.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
+                    if (DJshowLogo23.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/10/Brain-Damage.jpg')")
+                        DJshowLogo23.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/10/Brain-Damage.jpg')";
                     break;        
             }
             break
