@@ -1100,8 +1100,8 @@ function DJSchedule() {
                         DJbio9.innerHTML = "DRYMK is a French techno dj and music producer from France. He performed mixes and lives at festivals and rave parties in Europe since 4 years. His style blends heavy underground music with remixes from popular international songs.";
                     if (DJshowBio9.innerHTML !== "I am a French student coming for a few months, sharing the underground electronic music from Europe, as it is pretty much different from the US! Join me in a journey through the endless nights of European rave parties.")
                         DJshowBio9.innerHTML = "I am a French student coming for a few months, sharing the underground electronic music from Europe, as it is pretty much different from the US! Join me in a journey through the endless nights of European rave parties.";
-                    if (DJshowLogo9.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')")
-                        DJshowLogo9.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2021/08/cropped-TRLogo_Stacked_ColorBlack.png')";
+                    if (DJshowLogo9.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/10/DRYMK.jpg')")
+                        DJshowLogo9.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/10/DRYMK.jpg')";
                     break;                            
                 case 10:
                     let text10 = "The Morning Show";
