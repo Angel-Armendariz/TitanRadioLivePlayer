@@ -24,6 +24,7 @@
         .stopped {
             background-image: url('https://titanradio.org/wp-content/uploads/2023/10/playButton.png');
         }
+
         .centered-div {
             display: flex;
             justify-content: center;
@@ -36,7 +37,6 @@
     <h2>Custom Radio Player</h2>
 
     <div class="centered-div">
-        <!-- Toggle button -->
         <button id="toggleButton" class="stopped"></button>
     </div>
     <audio id="audioPlayer" preload="none">
@@ -47,35 +47,23 @@
     <script>
         const toggleButton = document.getElementById('toggleButton');
         const audioPlayer = document.getElementById('audioPlayer');
-        const audioSource = document.getElementById('audioSource');
 
         let isPlaying = false;
 
-        // Function to restart the stream
-        function restartStream() {
-            if (isPlaying) {
-                audioPlayer.pause();
-                audioPlayer.load();  // This is necessary to re-fetch the stream
-                audioPlayer.play().catch(error => {
-                    console.log('An error occurred:', error);
-                });
-            }
+        // Function to revert to "stopped" state
+        function revertToStopped() {
+            toggleButton.className = 'stopped';
+            isPlaying = false;
         }
 
-        // Add event listeners to the audio element
-        audioPlayer.addEventListener('error', restartStream);
-        audioPlayer.addEventListener('stalled', restartStream);
-        audioPlayer.addEventListener('suspend', restartStream);
-
         // Check if audio source is available
-        fetch(audioSource.src)
+        fetch(audioPlayer.src)
         .then(response => {
             if (response.status === 200) {
                 toggleButton.addEventListener('click', () => {
                     if (isPlaying) {
                         audioPlayer.pause();
-                        isPlaying = false;
-                        toggleButton.className = 'stopped';
+                        revertToStopped();
                     } else {
                         toggleButton.className = 'loading';
                         audioPlayer.play()
@@ -83,33 +71,16 @@
                             isPlaying = true;
                             toggleButton.className = 'playing';
                         })
-                        .catch(error => {
-                            toggleButton.className = 'stopped';
-                            console.log('An error occurred:', error);
-                        });
+                        .catch(revertToStopped);
                     }
                 });
             } else {
-                alert('Audio source not available.');
+                console.log('Audio source not available.');
+                //reload the page if the audio source is not available
+                location.reload();
             }
         })
-        .catch(error => {
-            alert('An error occurred: ' + error);
-        });
-
-        // Periodic check every minute (60,000 milliseconds)
-        setInterval(() => {
-            fetch(audioSource.src)
-            .then(response => {
-                if (response.status !== 200) {
-                    restartStream();
-                }
-            })
-            .catch(error => {
-                console.log('An error occurred: ', error);
-                restartStream();
-            });
-        }, 5000);
+        .catch(revertToStopped);
     </script>
 </body>
 </html>
