@@ -39,7 +39,7 @@
     <div class="centered-div">
         <button id="toggleButton" class="stopped"></button>
     </div>
-    <audio id="audioPlayer" preload="none">
+    <audio id="audioPlayer" preload="auto">
         <source id="audioSource" src="https://s5.radio.co/scb89aab9c/listen" type="audio/mp3">
         Your browser does not support the audio element.
     </audio>
@@ -49,11 +49,22 @@
         const audioPlayer = document.getElementById('audioPlayer');
 
         let isPlaying = false;
+        let timeoutId; // for the 5-second loading timeout
 
         // Function to revert to "stopped" state
         function revertToStopped() {
+            clearTimeout(timeoutId);
             toggleButton.className = 'stopped';
             isPlaying = false;
+        }
+
+        // Function to restart the stream
+        function restartStream() {
+            if (isPlaying) {
+                audioPlayer.pause();
+                audioPlayer.load();
+                audioPlayer.play().catch(revertToStopped);
+            }
         }
 
         // Check if audio source is available
@@ -66,8 +77,14 @@
                         revertToStopped();
                     } else {
                         toggleButton.className = 'loading';
+                        timeoutId = setTimeout(() => {
+                            revertToStopped();
+                            location.reload(); // reload the page if stuck loading for more than 5 seconds
+                        }, 5000);
+
                         audioPlayer.play()
                         .then(() => {
+                            clearTimeout(timeoutId);
                             isPlaying = true;
                             toggleButton.className = 'playing';
                         })
@@ -76,11 +93,13 @@
                 });
             } else {
                 console.log('Audio source not available.');
-                //reload the page if the audio source is not available
-                location.reload();
+                location.reload(); // reload the page if the audio source is not available
             }
         })
         .catch(revertToStopped);
+
+        // Restart the stream every 10 minutes (600,000 milliseconds)
+        setInterval(restartStream, 600000);
     </script>
 </body>
 </html>
