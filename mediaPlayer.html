@@ -58,15 +58,6 @@
             isPlaying = false;
         }
 
-        // Function to restart the stream
-        function restartStream() {
-            if (isPlaying) {
-                audioPlayer.pause();
-                audioPlayer.load();
-                audioPlayer.play().catch(revertToStopped);
-            }
-        }
-
         // Check if audio source is available
         fetch(audioPlayer.src)
         .then(response => {
@@ -97,9 +88,6 @@
             }
         })
         .catch(revertToStopped);
-
-        // Restart the stream every 10 minutes (600,000 milliseconds)
-        setInterval(restartStream, 600000);
     </script>
 </body>
 </html>
