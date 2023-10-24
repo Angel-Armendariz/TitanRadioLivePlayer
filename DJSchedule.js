@@ -719,8 +719,8 @@ function DJSchedule() {
                         DJbio13.innerHTML = "Dj v is the sole proprietor of Vics VapoRhythm’s. Student by day, ice cream scooper by night. Allergic to peanuts and tree nuts. CDs ok.";
                     if (DJshowBio13.innerHTML !== "Let Vic's VapoRhythms invigorate your senses. Take a deep breath and take in this hour of Vics favorite tunes from all genres (from soft and soothing to unsettlingly unsoothing). Active ingredients: 97.4% A good time, 2.6% Menthol")
                         DJshowBio13.innerHTML = "Let Vic's VapoRhythms invigorate your senses. Take a deep breath and take in this hour of Vics favorite tunes from all genres (from soft and soothing to unsettlingly unsoothing). Active ingredients: 97.4% A good time, 2.6% Menthol";
-                    if (DJshowLogo13.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/09/TItan_Radio_Mobile_Logo_1024x1024.png')") //missing
-                        DJshowLogo13.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/09/TItan_Radio_Mobile_Logo_1024x1024.png')";
+                    if (DJshowLogo13.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/10/vicsvaporhythms.png')") //missing
+                        DJshowLogo13.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/10/vicsvaporhythms.png')";
                     break;
 
                 case 14:
@@ -814,8 +814,8 @@ function DJSchedule() {
                         DJbio18.innerHTML = "Dj Arianna is the host of Recess which airs on Mondays at 6PM.";
                     if (DJshowBio18.innerHTML !== "Recess airing Mondays at 6pm is my hour to have fun and play whatever music I’m feeling that week.")
                         DJshowBio18.innerHTML = "Recess airing Mondays at 6pm is my hour to have fun and play whatever music I’m feeling that week.";
-                    if (DJshowLogo18.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/09/TItan_Radio_Mobile_Logo_1024x1024.png')") //missing
-                        DJshowLogo18.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/09/TItan_Radio_Mobile_Logo_1024x1024.png')";
+                    if (DJshowLogo18.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/10/recess.jpg')") //missing
+                        DJshowLogo18.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/10/recess.jpg')";
                     break;
                 
                 case 19:
@@ -2087,8 +2087,8 @@ function DJSchedule() {
                         DJbio13.innerHTML = "Meg has been part of Titan Radio since the spring of 2020! She is going to be done with her degree in December 2023, so needless to say she’s ready to get going!";
                     if (DJshowBio13.innerHTML !== "Victory lap is all about finishing college and playing whatever music matches the mood for the day. Meg’s final semester is quickly coming to a close, time for a victory lap!")
                         DJshowBio13.innerHTML = "Victory lap is all about finishing college and playing whatever music matches the mood for the day. Meg’s final semester is quickly coming to a close, time for a victory lap!";
-                    if (DJshowLogo13.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/09/TItan_Radio_Mobile_Logo_1024x1024.png')")
-                        DJshowLogo13.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/09/TItan_Radio_Mobile_Logo_1024x1024.png')";
+                    if (DJshowLogo13.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/10/thumbnail_victory-lap-w-meg-logo.jpg')")
+                        DJshowLogo13.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/10/thumbnail_victory-lap-w-meg-logo.jpg')";
                     break;
 
                 case 14:
