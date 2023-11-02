@@ -346,7 +346,7 @@ function DJSchedule() {
                     break;
                     
                     case 18:
-                        let text18 = "annwarps";
+                        let text18 = "Lunch Break";
                         // Change innerHTML of bio to text
                         if (document.getElementById("bio").innerHTML !== text18)
                             document.getElementById("bio").innerHTML = text18;
@@ -354,15 +354,15 @@ function DJSchedule() {
                         let DJname18 = document.getElementById("DJname");
                         let DJbio18 = document.getElementById("DJbio");
                         let DJshowBio18 = document.getElementById("DJshowBio");
-                        if (DJname18.innerHTML !== "annwarp")
-                            DJname18.innerHTML = "annwarp";
-                        if (DJbio18.innerHTML !== "Always looking for a new sound, but appreciative of the roots of a genre. Can dabble in most genres but appreciates electronic and rap the most.")
-                            DJbio18.innerHTML = "Always looking for a new sound, but appreciative of the roots of a genre. Can dabble in most genres but appreciates electronic and rap the most.";
-                        if (DJshowBio18.innerHTML !== "A mixture of pop, rap, noise and weird stuff.")
-                            DJshowBio18.innerHTML = "A mixture of pop, rap, noise and weird stuff.";
-                        if (DJshowLogo18.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2022/09/TItan_Radio_Mobile_Logo_1024x1024.png')") //missing
-                            DJshowLogo18.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2022/09/TItan_Radio_Mobile_Logo_1024x1024.png')";
-                        break;
+                        if (DJname18.innerHTML !== "Sabrina")
+                            DJname18.innerHTML = "Sabrina";
+                        if (DJbio18.innerHTML !== "Sabrina is a fourth year CTVA student with a focus in sound production for film/TV. She enjoys going to concerts throughout California is search of new music. In her free time she enjoys learning new instruments, watching films, and going to the gym.")
+                            DJbio18.innerHTML = "Sabrina is a fourth year CTVA student with a focus in sound production for film/TV. She enjoys going to concerts throughout California is search of new music. In her free time she enjoys learning new instruments, watching films, and going to the gym.";
+                        if (DJshowBio18.innerHTML !== "Features new music for a variety of listeners open to music such as indie, pop, electronic.")
+                            DJshowBio18.innerHTML = "Features new music for a variety of listeners open to music such as indie, pop, electronic.";
+                        if (DJshowLogo18.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/10/Lunch-Break.jpg')")
+                            DJshowLogo18.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/10/Lunch-Break.jpg')";
+                        break;                    
                     
                     case 19:
                         let text19 = "The Kaynéti Show";
@@ -667,7 +667,7 @@ function DJSchedule() {
                     break;
                 
                 case 11:
-                    let text11 = "Indie Encounters";
+                    let text11 = "Senior Skip Day";
                     // Change innerHTML of bio to text
                     if (document.getElementById("bio").innerHTML !== text11)
                         document.getElementById("bio").innerHTML = text11;
@@ -675,14 +675,14 @@ function DJSchedule() {
                     let DJname11 = document.getElementById("DJname");
                     let DJbio11 = document.getElementById("DJbio");
                     let DJshowBio11 = document.getElementById("DJshowBio");
-                    if (DJname11.innerHTML !== "DJ Raniel")
-                        DJname11.innerHTML = "DJ Raniel";
-                    if (DJbio11.innerHTML !== "DJ Raniel (RAN-yel) is an aspiring music critic. To him, there’s no such thing as a guilty pleasure. Overall, he loves talking about whatever he’s listening to and wants to share it with others.")
-                        DJbio11.innerHTML = "DJ Raniel (RAN-yel) is an aspiring music critic. To him, there’s no such thing as a guilty pleasure. Overall, he loves talking about whatever he’s listening to and wants to share it with others.";
-                    if (DJshowBio11.innerHTML !== "A mainly modern mix of indie, alternative, pop and rock. Designed to introduce you to artists you may not have heard before, and hopefully help you get through the day.")
-                        DJshowBio11.innerHTML = "A mainly modern mix of indie, alternative, pop and rock. Designed to introduce you to artists you may not have heard before, and hopefully help you get through the day.";
-                    if (DJshowLogo11.style.backgroundImage !== "url('https://titanradio.org/wp-content/uploads/2023/10/Indie-Encounters.jpg')")
-                        DJshowLogo11.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/10/Indie-Encounters.jpg')";
+                    if (DJname11.innerHTML !== "nala")
+                        DJname11.innerHTML = "nala";
+                    if (DJbio11.innerHTML !== "Nala's passion for music knows no bounds, encompassing a wide array of genres. Lately, she has immersed herself in the vibrant realm of house music. Off-campus, you'll find her DJing her friends' house parties. ")
+                        DJbio11.innerHTML = "Nala's passion for music knows no bounds, encompassing a wide array of genres. Lately, she has immersed herself in the vibrant realm of house music. Off-campus, you'll find her DJing her friends' house parties. ";
+                    if (DJshowBio11.innerHTML !== "Senior Skip Day isn't just a radio show; it's a journey through music's past, present, and future. Nala curates a unique blend that takes you on a sonic odyssey. From the vintage synths of the '80s to the cutting-edge beats of today's underground scene, every episode is a musical time machine.")
+                        DJshowBio11.innerHTML = "Senior Skip Day isn't just a radio show; it's a journey through music's past, present, and future. Nala curates a unique blend that takes you on a sonic odyssey. From the vintage synths of the '80s to the cutting-edge beats of today's underground scene, every episode is a musical time machine.";
+                    if (DJshowLogo11.style.backgroundImage !== "url('')")
+                        DJshowLogo11.style.backgroundImage = "url('')";
                     break;
                 
                 case 12:
