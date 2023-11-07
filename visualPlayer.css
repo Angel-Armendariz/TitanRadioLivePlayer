@@ -2,11 +2,27 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:600");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
 
+.audioPlayers{
+    margin-bottom: 3rem !important;
+    margin-top:3rem;
+}
+
+@media (max-width: 768px){
+    .audioPlayers{
+        padding-right:auto;
+    }
+}
+
+.container-wrap, .project-title {
+    padding-right: initial !important;
+}
+
 .player{
-  /* uncomment these two if you are pasting it on WordPress
-  padding-top:15rem;
-  padding-bottom:15rem;
-  */
+  /* uncomment these two if you are pasting it on WordPress */
+  /* padding-top:15rem; */
+  /* padding-bottom:15rem; */
+  border-radius: 20px;  /* Rounded corners */
+  border: 7px solid #25afb8;  /* border */
   position: relative;
   margin: auto;
   width: 380px;
@@ -14,18 +30,12 @@
   background: linear-gradient(0deg, #000, #272727);
 }
 
-.player:before, .player:after {
-	content: '';
-	position: absolute;
-	left: -2px;
-	top: -2px;
-	background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
-		#0000ff, #00ff00,#ffff00, #ff0000);
-	background-size: 400%;
-	width: calc(100% + 4px);
-	height: calc(100% + 4px);
-	z-index: -1;
-	animation: steam 20s linear infinite;
+.scroll-text{
+    text-align:center;
+    color:white;
+    font-family: 'Nunito', sans-serif;
+    padding-top: .5rem;
+
 }
 
 @keyframes steam {
@@ -52,28 +62,6 @@
         width: 50%;
 }
 
-.bar {
-  background: white;
-  background: rgb(255, 255, 255);
-  position: fixed;
-  bottom: -50px;
-  -webkit-animation: up 300ms 500ms forwards;
-          animation: up 300ms 500ms forwards;
-  width: 100%;
-  height: 48px;
-  -webkit-user-select: none;
-  /* Chrome all / Safari all */
-  -moz-user-select: none;
-  /* Firefox all */
-  -ms-user-select: none;
-  /* IE 10+ */
-  user-select: none;
-  font-weight: 600;
-  font-family: "Nunito", sans-serif;
-  font-size: 14px;
-  z-index: 2;
-}
-
  .player_inner__middle .cube,  .player_inner {
   position: absolute;
   top: 50%;
@@ -84,8 +72,8 @@
 }
 
  .player_inner__middle .cube_inner > div {
-  width: 380px;
-  height: 380px;
+  width: 100%;
+  height: 100%;
   background: #100940;
   position: absolute;
   transform-style: preserve-3D;
@@ -93,9 +81,10 @@
 
  .player_inner {
   background: #100940;
-  width: 380px;
-  height: 640px;
-  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;  /* Rounded corners */
+  
   perspective: 800px;
   /* margin-top: 5rem; */
 }
@@ -112,7 +101,7 @@
  .player_inner__middle {
   position: relative;
   height: 380px;
-  background: #40555f;
+  background: #FFFFFF;
   box-shadow: 0px 0px 110px #181f23 inset;
 }
 
@@ -120,21 +109,7 @@
   height: 380px;
   transform-style: preserve-3D;
 }
- .player_inner__middle .cube_inner__front .bars {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  transform: rotatez(180deg);
-  width: 100%;
-  z-index: 1;
-}
- .player_inner__middle .cube_inner__front .bars_bar {
-  width: 10px;
-  background: white;
-  opacity: 0.1;
-  float: left;
-  width: 10%;
-}
+
 .cube_inner__front {
   background-size: 100% !important; 
   background-repeat: no-repeat !important;
@@ -142,7 +117,6 @@
   background-attachment: fixed !important;
   /* background-size: contain !important; */
   
-  /* background-position-y: -71px !important; */
 }
 
  .player_inner__bottom {
@@ -187,48 +161,12 @@
   font-size: 15px;
 }
 
-@-webkit-keyframes eq {
-  0% {
-    height: 30px;
-  }
-  50% {
-    height: 100px;
-  }
-  100% {
-    height: 30px;
-  }
-}
-
-@keyframes eq {
-  0% {
-    height: 30px;
-  }
-  50% {
-    height: 100px;
-  }
-  100% {
-    height: 30px;
-  }
-}
 #scroll-container {
   border: 0px solid black;
   border-radius: 5px;
   overflow: hidden;
   width: 380px;
 
-}
-
-.scroll-text {
-  text-align: right;
-  color: white;
-  /* animation properties */
-  -moz-transform: translateX(100%);
-  -webkit-transform: translateX(100%);
-  transform: translateX(100%);
-  
-  -moz-animation: my-animation 7s linear infinite;
-  -webkit-animation: my-animation 7s linear infinite;
-  animation: my-animation 7s linear infinite;
 }
 
 #bio {
@@ -258,30 +196,7 @@
   margin:0.5rem;
   font-family: "Nunito", sans-serif;
 }
-/* for Firefox */
-@-moz-keyframes my-animation {
-  from { -moz-transform: translateX(100%); }
-  to { -moz-transform: translateX(-100%); }
-}
 
-/* for Chrome */
-@-webkit-keyframes my-animation {
-  from { -webkit-transform: translateX(100%); }
-  to { -webkit-transform: translateX(-100%); }
-}
-
-@keyframes my-animation {
-  from {
-    -moz-transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
-  }
-  to {
-    -moz-transform: translateX(-100%);
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%);
-  }
-}
 #DJ_button {
         display: flex;
         flex-direction: column;
@@ -294,7 +209,7 @@
         font-family: 'Nunito', sans-serif;
         font-weight: 700;
         color: #313133;
-        background: #3e25b8;
+        background: #4FD1C5;
         background: linear-gradient(90deg, #8224E3 0%, #F84F85 100%);
         border: none;
         border-radius: 1000px !important;
@@ -325,37 +240,6 @@ transform: translateY(-6px);
 
 #DJ_button:hover::before, #DJ_button:focus::before {
 opacity: 1;
-}
-
-#DJ_button::after {
-content: '';
-width: 30px; height: 30px;
-border-radius: 100%;
-border: 6px solid #00FFCB;
-position: absolute;
-z-index: -1;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-animation: ring 1.5s 5;
-}
-
-#DJ_button:hover::after, #DJ_button:focus::after {
- animation: none;
- display: none;
- }
-
- @keyframes ring {
- 0% {
-        width: 30px;
-        height: 30px;
-        opacity: 1;
- }
- 100% {
-        width: 300px;
-        height: 300px;
-        opacity: 0;
- }
 }
 
 .modal {
@@ -401,21 +285,120 @@ animation: ring 1.5s 5;
   font-family: Open Sans, sans-serif;
 }
 
-#schedule{
-margin-top:10rem;
-margin:0 auto;
+.fade-in-image{
+    max-height:500px;
+    max-width:500px;
 }
 
-#liveStream{
-max-width:50rem;
-margin:0 auto;
+.fade-in-image {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
 }
 
-/*
-#playerWithVolume{
-        margin:0 auto;
-        display:flex;
-        justify-content:center;
-        align items:center;
-    }
-*/
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.fade-in-text {
+  font-family: Arial;
+  font-size: 25px;
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+
+}
+
+.instagram-embed-wrapper {
+  display: flex;
+  justify-content: center;  /* Horizontally center the content */
+  align-items: center;      /* Vertically center the content */
+}
+/* Mobile size by default */
+.instagram-media {
+  max-width: 90%;
+  min-width: 300px !important;
+  width: auto;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+  .instagram-media {
+    max-width: 70%;
+    min-width: 500px !important;
+    width: auto;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+  .instagram-media {
+    max-width: 60%;
+    min-width: 650px !important;
+    width: auto;
+  }
+}
+
+.recentTitle{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    
+}
+
+
+#DJbio{
+    font-family: 'Nunito', sans-serif;
+}
+
+#toggleButton {
+    background-size: cover;
+    width: 6rem;
+    height: 5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.centered-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+}
+
+.loading {
+    background-image: url('https://titanradio.org/wp-content/uploads/2023/10/loadingButton.png');
+}
+
+.playing {
+    background-image: url('https://titanradio.org/wp-content/uploads/2023/10/stopButton.png');
+}
+
+.stopped {
+    background-image: url('https://titanradio.org/wp-content/uploads/2023/10/playButton.png');
+}
