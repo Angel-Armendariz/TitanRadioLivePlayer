@@ -2,11 +2,27 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:600");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
 
+.audioPlayers{
+    margin-bottom: 3rem !important;
+    margin-top:3rem;
+}
+
+@media (max-width: 768px){
+    .audioPlayers{
+        padding-right:auto;
+    }
+}
+
+.container-wrap, .project-title {
+    padding-right: initial !important;
+}
+
 .player{
-  /* uncomment these two if you are pasting it on WordPress
-  padding-top:15rem;
-  padding-bottom:15rem;
-  */
+  /* uncomment these two if you are pasting it on WordPress */
+  /* padding-top:15rem; */
+  /* padding-bottom:15rem; */
+  border-radius: 20px;  /* Rounded corners */
+  border: 7px solid #25afb8;  /* border */
   position: relative;
   margin: auto;
   width: 380px;
@@ -14,18 +30,12 @@
   background: linear-gradient(0deg, #000, #272727);
 }
 
-.player:before, .player:after {
-	content: '';
-	position: absolute;
-	left: -2px;
-	top: -2px;
-	background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
-		#0000ff, #00ff00,#ffff00, #ff0000);
-	background-size: 400%;
-	width: calc(100% + 4px);
-	height: calc(100% + 4px);
-	z-index: -1;
-	animation: steam 20s linear infinite;
+.scroll-text{
+    text-align:center;
+    color:white;
+    font-family: 'Nunito', sans-serif;
+    padding-top: .5rem;
+
 }
 
 @keyframes steam {
@@ -52,28 +62,6 @@
         width: 50%;
 }
 
-.bar {
-  background: white;
-  background: rgb(255, 255, 255);
-  position: fixed;
-  bottom: -50px;
-  -webkit-animation: up 300ms 500ms forwards;
-          animation: up 300ms 500ms forwards;
-  width: 100%;
-  height: 48px;
-  -webkit-user-select: none;
-  /* Chrome all / Safari all */
-  -moz-user-select: none;
-  /* Firefox all */
-  -ms-user-select: none;
-  /* IE 10+ */
-  user-select: none;
-  font-weight: 600;
-  font-family: "Nunito", sans-serif;
-  font-size: 14px;
-  z-index: 2;
-}
-
  .player_inner__middle .cube,  .player_inner {
   position: absolute;
   top: 50%;
@@ -84,8 +72,8 @@
 }
 
  .player_inner__middle .cube_inner > div {
-  width: 380px;
-  height: 380px;
+  width: 100%;
+  height: 100%;
   background: #100940;
   position: absolute;
   transform-style: preserve-3D;
@@ -93,9 +81,10 @@
 
  .player_inner {
   background: #100940;
-  width: 380px;
-  height: 640px;
-  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;  /* Rounded corners */
+  
   perspective: 800px;
   /* margin-top: 5rem; */
 }
@@ -112,7 +101,7 @@
  .player_inner__middle {
   position: relative;
   height: 380px;
-  background: #40555f;
+  background: #FFFFFF;
   box-shadow: 0px 0px 110px #181f23 inset;
 }
 
@@ -120,21 +109,7 @@
   height: 380px;
   transform-style: preserve-3D;
 }
- .player_inner__middle .cube_inner__front .bars {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  transform: rotatez(180deg);
-  width: 100%;
-  z-index: 1;
-}
- .player_inner__middle .cube_inner__front .bars_bar {
-  width: 10px;
-  background: white;
-  opacity: 0.1;
-  float: left;
-  width: 10%;
-}
+
 .cube_inner__front {
   background-size: 100% !important; 
   background-repeat: no-repeat !important;
@@ -142,409 +117,7 @@
   background-attachment: fixed !important;
   /* background-size: contain !important; */
   
-  /* background-position-y: -71px !important; */
 }
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(1) {
-  -webkit-animation: eq 1s 16ms infinite ease-in-out;
-          animation: eq 1s 16ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(2) {
-  -webkit-animation: eq 1s 44ms infinite ease-in-out;
-          animation: eq 1s 44ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(3) {
-  -webkit-animation: eq 1s 36ms infinite ease-in-out;
-          animation: eq 1s 36ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(4) {
-  -webkit-animation: eq 1s 28ms infinite ease-in-out;
-          animation: eq 1s 28ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(5) {
-  -webkit-animation: eq 1s 35ms infinite ease-in-out;
-          animation: eq 1s 35ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(6) {
-  -webkit-animation: eq 1s 186ms infinite ease-in-out;
-          animation: eq 1s 186ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(7) {
-  -webkit-animation: eq 1s 210ms infinite ease-in-out;
-          animation: eq 1s 210ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(8) {
-  -webkit-animation: eq 1s 232ms infinite ease-in-out;
-          animation: eq 1s 232ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(9) {
-  -webkit-animation: eq 1s 297ms infinite ease-in-out;
-          animation: eq 1s 297ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(10) {
-  -webkit-animation: eq 1s 140ms infinite ease-in-out;
-          animation: eq 1s 140ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(11) {
-  -webkit-animation: eq 1s 253ms infinite ease-in-out;
-          animation: eq 1s 253ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(12) {
-  -webkit-animation: eq 1s 72ms infinite ease-in-out;
-          animation: eq 1s 72ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(13) {
-  -webkit-animation: eq 1s 247ms infinite ease-in-out;
-          animation: eq 1s 247ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(14) {
-  -webkit-animation: eq 1s 448ms infinite ease-in-out;
-          animation: eq 1s 448ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(15) {
-  -webkit-animation: eq 1s 15ms infinite ease-in-out;
-          animation: eq 1s 15ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(16) {
-  -webkit-animation: eq 1s 352ms infinite ease-in-out;
-          animation: eq 1s 352ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(17) {
-  -webkit-animation: eq 1s 85ms infinite ease-in-out;
-          animation: eq 1s 85ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(18) {
-  -webkit-animation: eq 1s 486ms infinite ease-in-out;
-          animation: eq 1s 486ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(19) {
-  -webkit-animation: eq 1s 494ms infinite ease-in-out;
-          animation: eq 1s 494ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(20) {
-  -webkit-animation: eq 1s 400ms infinite ease-in-out;
-          animation: eq 1s 400ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(21) {
-  -webkit-animation: eq 1s 126ms infinite ease-in-out;
-          animation: eq 1s 126ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(22) {
-  -webkit-animation: eq 1s 792ms infinite ease-in-out;
-          animation: eq 1s 792ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(23) {
-  -webkit-animation: eq 1s 138ms infinite ease-in-out;
-          animation: eq 1s 138ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(24) {
-  -webkit-animation: eq 1s 72ms infinite ease-in-out;
-          animation: eq 1s 72ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(25) {
-  -webkit-animation: eq 1s 325ms infinite ease-in-out;
-          animation: eq 1s 325ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(26) {
-  -webkit-animation: eq 1s 1014ms infinite ease-in-out;
-          animation: eq 1s 1014ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(27) {
-  -webkit-animation: eq 1s 756ms infinite ease-in-out;
-          animation: eq 1s 756ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(28) {
-  -webkit-animation: eq 1s 560ms infinite ease-in-out;
-          animation: eq 1s 560ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(29) {
-  -webkit-animation: eq 1s 899ms infinite ease-in-out;
-          animation: eq 1s 899ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(30) {
-  -webkit-animation: eq 1s 1140ms infinite ease-in-out;
-          animation: eq 1s 1140ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(31) {
-  -webkit-animation: eq 1s 806ms infinite ease-in-out;
-          animation: eq 1s 806ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(32) {
-  -webkit-animation: eq 1s 192ms infinite ease-in-out;
-          animation: eq 1s 192ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(33) {
-  -webkit-animation: eq 1s 792ms infinite ease-in-out;
-          animation: eq 1s 792ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(34) {
-  -webkit-animation: eq 1s 306ms infinite ease-in-out;
-          animation: eq 1s 306ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(35) {
-  -webkit-animation: eq 1s 1365ms infinite ease-in-out;
-          animation: eq 1s 1365ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(36) {
-  -webkit-animation: eq 1s 36ms infinite ease-in-out;
-          animation: eq 1s 36ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(37) {
-  -webkit-animation: eq 1s 518ms infinite ease-in-out;
-          animation: eq 1s 518ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(38) {
-  -webkit-animation: eq 1s 1254ms infinite ease-in-out;
-          animation: eq 1s 1254ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(39) {
-  -webkit-animation: eq 1s 975ms infinite ease-in-out;
-          animation: eq 1s 975ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(40) {
-  -webkit-animation: eq 1s 200ms infinite ease-in-out;
-          animation: eq 1s 200ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(41) {
-  -webkit-animation: eq 1s 1025ms infinite ease-in-out;
-          animation: eq 1s 1025ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(42) {
-  -webkit-animation: eq 1s 630ms infinite ease-in-out;
-          animation: eq 1s 630ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(43) {
-  -webkit-animation: eq 1s 1634ms infinite ease-in-out;
-          animation: eq 1s 1634ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(44) {
-  -webkit-animation: eq 1s 396ms infinite ease-in-out;
-          animation: eq 1s 396ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(45) {
-  -webkit-animation: eq 1s 1395ms infinite ease-in-out;
-          animation: eq 1s 1395ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(46) {
-  -webkit-animation: eq 1s 874ms infinite ease-in-out;
-          animation: eq 1s 874ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(47) {
-  -webkit-animation: eq 1s 658ms infinite ease-in-out;
-          animation: eq 1s 658ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(48) {
-  -webkit-animation: eq 1s 1632ms infinite ease-in-out;
-          animation: eq 1s 1632ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(49) {
-  -webkit-animation: eq 1s 1029ms infinite ease-in-out;
-          animation: eq 1s 1029ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(50) {
-  -webkit-animation: eq 1s 600ms infinite ease-in-out;
-          animation: eq 1s 600ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(51) {
-  -webkit-animation: eq 1s 357ms infinite ease-in-out;
-          animation: eq 1s 357ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(52) {
-  -webkit-animation: eq 1s 1664ms infinite ease-in-out;
-          animation: eq 1s 1664ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(53) {
-  -webkit-animation: eq 1s 954ms infinite ease-in-out;
-          animation: eq 1s 954ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(54) {
-  -webkit-animation: eq 1s 1512ms infinite ease-in-out;
-          animation: eq 1s 1512ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(55) {
-  -webkit-animation: eq 1s 825ms infinite ease-in-out;
-          animation: eq 1s 825ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(56) {
-  -webkit-animation: eq 1s 392ms infinite ease-in-out;
-          animation: eq 1s 392ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(57) {
-  -webkit-animation: eq 1s 627ms infinite ease-in-out;
-          animation: eq 1s 627ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(58) {
-  -webkit-animation: eq 1s 2204ms infinite ease-in-out;
-          animation: eq 1s 2204ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(59) {
-  -webkit-animation: eq 1s 1770ms infinite ease-in-out;
-          animation: eq 1s 1770ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(60) {
-  -webkit-animation: eq 1s 2280ms infinite ease-in-out;
-          animation: eq 1s 2280ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(61) {
-  -webkit-animation: eq 1s 793ms infinite ease-in-out;
-          animation: eq 1s 793ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(62) {
-  -webkit-animation: eq 1s 310ms infinite ease-in-out;
-          animation: eq 1s 310ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(63) {
-  -webkit-animation: eq 1s 1638ms infinite ease-in-out;
-          animation: eq 1s 1638ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(64) {
-  -webkit-animation: eq 1s 1152ms infinite ease-in-out;
-          animation: eq 1s 1152ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(65) {
-  -webkit-animation: eq 1s 1430ms infinite ease-in-out;
-          animation: eq 1s 1430ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(66) {
-  -webkit-animation: eq 1s 792ms infinite ease-in-out;
-          animation: eq 1s 792ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(67) {
-  -webkit-animation: eq 1s 2010ms infinite ease-in-out;
-          animation: eq 1s 2010ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(68) {
-  -webkit-animation: eq 1s 1564ms infinite ease-in-out;
-          animation: eq 1s 1564ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(69) {
-  -webkit-animation: eq 1s 2760ms infinite ease-in-out;
-          animation: eq 1s 2760ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(70) {
-  -webkit-animation: eq 1s 350ms infinite ease-in-out;
-          animation: eq 1s 350ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(71) {
-  -webkit-animation: eq 1s 1633ms infinite ease-in-out;
-          animation: eq 1s 1633ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(72) {
-  -webkit-animation: eq 1s 72ms infinite ease-in-out;
-          animation: eq 1s 72ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(73) {
-  -webkit-animation: eq 1s 2628ms infinite ease-in-out;
-          animation: eq 1s 2628ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(74) {
-  -webkit-animation: eq 1s 370ms infinite ease-in-out;
-          animation: eq 1s 370ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(75) {
-  -webkit-animation: eq 1s 2025ms infinite ease-in-out;
-          animation: eq 1s 2025ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(76) {
-  -webkit-animation: eq 1s 684ms infinite ease-in-out;
-          animation: eq 1s 684ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(77) {
-  -webkit-animation: eq 1s 1771ms infinite ease-in-out;
-          animation: eq 1s 1771ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(78) {
-  -webkit-animation: eq 1s 2574ms infinite ease-in-out;
-          animation: eq 1s 2574ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(79) {
-  -webkit-animation: eq 1s 1738ms infinite ease-in-out;
-          animation: eq 1s 1738ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(80) {
-  -webkit-animation: eq 1s 1840ms infinite ease-in-out;
-          animation: eq 1s 1840ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(81) {
-  -webkit-animation: eq 1s 1377ms infinite ease-in-out;
-          animation: eq 1s 1377ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(82) {
-  -webkit-animation: eq 1s 1558ms infinite ease-in-out;
-          animation: eq 1s 1558ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(83) {
-  -webkit-animation: eq 1s 1079ms infinite ease-in-out;
-          animation: eq 1s 1079ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(84) {
-  -webkit-animation: eq 1s 2856ms infinite ease-in-out;
-          animation: eq 1s 2856ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(85) {
-  -webkit-animation: eq 1s 1700ms infinite ease-in-out;
-          animation: eq 1s 1700ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(86) {
-  -webkit-animation: eq 1s 2236ms infinite ease-in-out;
-          animation: eq 1s 2236ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(87) {
-  -webkit-animation: eq 1s 2088ms infinite ease-in-out;
-          animation: eq 1s 2088ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(88) {
-  -webkit-animation: eq 1s 2992ms infinite ease-in-out;
-          animation: eq 1s 2992ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(89) {
-  -webkit-animation: eq 1s 3204ms infinite ease-in-out;
-          animation: eq 1s 3204ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(90) {
-  -webkit-animation: eq 1s 1440ms infinite ease-in-out;
-          animation: eq 1s 1440ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(91) {
-  -webkit-animation: eq 1s 910ms infinite ease-in-out;
-          animation: eq 1s 910ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(92) {
-  -webkit-animation: eq 1s 1656ms infinite ease-in-out;
-          animation: eq 1s 1656ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(93) {
-  -webkit-animation: eq 1s 3348ms infinite ease-in-out;
-          animation: eq 1s 3348ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(94) {
-  -webkit-animation: eq 1s 1786ms infinite ease-in-out;
-          animation: eq 1s 1786ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(95) {
-  -webkit-animation: eq 1s 1045ms infinite ease-in-out;
-          animation: eq 1s 1045ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(96) {
-  -webkit-animation: eq 1s 2112ms infinite ease-in-out;
-          animation: eq 1s 2112ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(97) {
-  -webkit-animation: eq 1s 1649ms infinite ease-in-out;
-          animation: eq 1s 1649ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(98) {
-  -webkit-animation: eq 1s 3136ms infinite ease-in-out;
-          animation: eq 1s 3136ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(99) {
-  -webkit-animation: eq 1s 3366ms infinite ease-in-out;
-          animation: eq 1s 3366ms infinite ease-in-out;
-}
- .player_inner__middle .cube_inner__front .bars_bar:nth-of-type(100) {
-  -webkit-animation: eq 1s 3500ms infinite ease-in-out;
-          animation: eq 1s 3500ms infinite ease-in-out;
-}
-
 
  .player_inner__bottom {
   height: 190px;
@@ -588,29 +161,6 @@
   font-size: 15px;
 }
 
-@-webkit-keyframes eq {
-  0% {
-    height: 30px;
-  }
-  50% {
-    height: 100px;
-  }
-  100% {
-    height: 30px;
-  }
-}
-
-@keyframes eq {
-  0% {
-    height: 30px;
-  }
-  50% {
-    height: 100px;
-  }
-  100% {
-    height: 30px;
-  }
-}
 #scroll-container {
   border: 0px solid black;
   border-radius: 5px;
@@ -619,22 +169,10 @@
 
 }
 
-.scroll-text {
-  text-align: right;
-  color: white;
-  /* animation properties */
-  -moz-transform: translateX(100%);
-  -webkit-transform: translateX(100%);
-  transform: translateX(100%);
-  
-  -moz-animation: my-animation 7s linear infinite;
-  -webkit-animation: my-animation 7s linear infinite;
-  animation: my-animation 7s linear infinite;
-}
-
 #bio {
   text-align: center;
   font-size: large;
+  line-height: 1.5rem;
   margin:0.5rem;
   font-family: "Nunito", sans-serif;
   color: #ffffffff;
@@ -658,30 +196,7 @@
   margin:0.5rem;
   font-family: "Nunito", sans-serif;
 }
-/* for Firefox */
-@-moz-keyframes my-animation {
-  from { -moz-transform: translateX(100%); }
-  to { -moz-transform: translateX(-100%); }
-}
 
-/* for Chrome */
-@-webkit-keyframes my-animation {
-  from { -webkit-transform: translateX(100%); }
-  to { -webkit-transform: translateX(-100%); }
-}
-
-@keyframes my-animation {
-  from {
-    -moz-transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
-  }
-  to {
-    -moz-transform: translateX(-100%);
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%);
-  }
-}
 #DJ_button {
         display: flex;
         flex-direction: column;
@@ -694,7 +209,7 @@
         font-family: 'Nunito', sans-serif;
         font-weight: 700;
         color: #313133;
-        background: #3e25b8;
+        background: #4FD1C5;
         background: linear-gradient(90deg, #8224E3 0%, #F84F85 100%);
         border: none;
         border-radius: 1000px !important;
@@ -725,37 +240,6 @@ transform: translateY(-6px);
 
 #DJ_button:hover::before, #DJ_button:focus::before {
 opacity: 1;
-}
-
-#DJ_button::after {
-content: '';
-width: 30px; height: 30px;
-border-radius: 100%;
-border: 6px solid #00FFCB;
-position: absolute;
-z-index: -1;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-animation: ring 1.5s 5;
-}
-
-#DJ_button:hover::after, #DJ_button:focus::after {
- animation: none;
- display: none;
- }
-
- @keyframes ring {
- 0% {
-        width: 30px;
-        height: 30px;
-        opacity: 1;
- }
- 100% {
-        width: 300px;
-        height: 300px;
-        opacity: 0;
- }
 }
 
 .modal {
@@ -801,21 +285,120 @@ animation: ring 1.5s 5;
   font-family: Open Sans, sans-serif;
 }
 
-#schedule{
-margin-top:10rem;
-margin:0 auto;
+.fade-in-image{
+    max-height:500px;
+    max-width:500px;
 }
 
-#liveStream{
-max-width:50rem;
-margin:0 auto;
+.fade-in-image {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
 }
 
-/*
-#playerWithVolume{
-        margin:0 auto;
-        display:flex;
-        justify-content:center;
-        align items:center;
-    }
-*/
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.fade-in-text {
+  font-family: Arial;
+  font-size: 25px;
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+
+}
+
+.instagram-embed-wrapper {
+  display: flex;
+  justify-content: center;  /* Horizontally center the content */
+  align-items: center;      /* Vertically center the content */
+}
+/* Mobile size by default */
+.instagram-media {
+  max-width: 90%;
+  min-width: 300px !important;
+  width: auto;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+  .instagram-media {
+    max-width: 70%;
+    min-width: 500px !important;
+    width: auto;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+  .instagram-media {
+    max-width: 60%;
+    min-width: 650px !important;
+    width: auto;
+  }
+}
+
+.recentTitle{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    
+}
+
+
+#DJbio{
+    font-family: 'Nunito', sans-serif;
+}
+
+#toggleButton {
+    background-size: cover;
+    width: 6rem;
+    height: 5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.centered-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+}
+
+.loading {
+    background-image: url('https://titanradio.org/wp-content/uploads/2023/10/loadingButton.png');
+}
+
+.playing {
+    background-image: url('https://titanradio.org/wp-content/uploads/2023/10/stopButton.png');
+}
+
+.stopped {
+    background-image: url('https://titanradio.org/wp-content/uploads/2023/10/playButton.png');
+}

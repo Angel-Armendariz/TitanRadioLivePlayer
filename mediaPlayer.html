@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Custom Radio Player</title>
+    <style>
+        #toggleButton {
+            background-size: cover;
+            width: 6rem;
+            height: 5rem;
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
+
+        .loading {
+            background-image: url('https://titanradio.org/wp-content/uploads/2023/10/loadingButton.png');
+        }
+
+        .playing {
+            background-image: url('https://titanradio.org/wp-content/uploads/2023/10/stopButton.png');
+        }
+
+        .stopped {
+            background-image: url('https://titanradio.org/wp-content/uploads/2023/10/playButton.png');
+        }
+
+        .centered-div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 7rem;
+        }
+    </style>
+</head>
+<body>
+    <h2>Custom Radio Player</h2>
+
+    <div class="centered-div">
+        <button id="toggleButton" class="stopped"></button>
+    </div>
+    <audio id="audioPlayer" preload="none">
+        <source id="audioSource" src="https://s5.radio.co/scb89aab9c/listen" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script>
+        const toggleButton = document.getElementById('toggleButton');
+        const audioPlayer = document.getElementById('audioPlayer');
+        const audioSource = document.getElementById('audioSource');
+    
+        let isPlaying = false;
+        let timeoutId; // for the 5-second loading timeout
+        let restartIntervalId; // for the 10-minute restart interval
+    
+        // Function to change the audio source and load the stream
+        function changeAudioSource() {
+            audioPlayer.pause();
+            audioSource.src = audioSource.src.split('?')[0] + '?' + new Date().getTime();
+            audioPlayer.load();
+        }
+    
+        // Function to revert to "stopped" state
+        function revertToStopped() {
+            clearTimeout(timeoutId);
+            toggleButton.className = 'stopped';
+            isPlaying = false;
+        }
+    
+        // Function to play the stream
+        function playStream() {
+            changeAudioSource(); // Change the source to force a fresh stream
+            toggleButton.className = 'loading';
+            timeoutId = setTimeout(() => {
+                revertToStopped();
+                location.reload(); // reload the page if stuck loading for more than 5 seconds
+            }, 5000);
+    
+            audioPlayer.play()
+            .then(() => {
+                clearTimeout(timeoutId);
+                isPlaying = true;
+                toggleButton.className = 'playing';
+            })
+            .catch(revertToStopped);
+        }
+    
+        // Function to restart the stream every 10 minutes
+        function setupStreamRestart() {
+            clearInterval(restartIntervalId); // Clear existing interval if any
+            restartIntervalId = setInterval(() => {
+                if (isPlaying) {
+                    changeAudioSource();
+                    playStream();
+                }
+            }, 10 * 60 * 1000); // 10 minutes
+        }
+    
+        // Event listener for the play/pause toggle
+        toggleButton.addEventListener('click', () => {
+            if (isPlaying) {
+                audioPlayer.pause();
+                revertToStopped();
+            } else {
+                playStream();
+                setupStreamRestart();
+            }
+        });
+    
+        // Initialize the stream restart when the page loads
+        window.onload = setupStreamRestart;
+    </script>
+    
+</body>
+</html>

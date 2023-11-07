@@ -1,0 +1,358 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Nunito:600");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+
+.fade-in-image{
+    max-height:500px;
+    max-width:500px;
+}
+
+.fade-in-image {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.fade-in-text {
+  font-family: Arial;
+  font-size: 25px;
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+
+}
+
+/* The player is the actual rectular visual you see */
+.player{
+  /* uncomment these two if you are pasting it on WordPress
+  padding-top:15rem;
+  padding-bottom:15rem;
+  */
+  position: relative;
+  margin: auto;
+  width: 380px;
+  height: 640px;
+  border-radius: 20px;  /* Rounded corners */
+
+}
+
+.player:after {
+	filter: blur(40px);
+}
+
+.container-wrap, .project-title {
+        padding-right: 4rem;
+}
+
+.row .col img:not([srcset]) {
+        width: 100%;
+}
+
+ .player_inner__middle .cube,  .player_inner {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+ .player_inner__middle .cube_inner > div {
+  width: 380px;
+  height: 380px;
+  background: #08051c;
+  position: absolute;
+  transform-style: preserve-3D;
+}
+
+ .player_inner {
+  background: #7990ff;
+  width: 380px;
+  height: 640px;
+  perspective: 800px;
+  box-sizing: border-box; 
+  border: 7px solid #DCD0FF;
+  border-radius: 20px; 
+}
+
+ .player_inner__top {
+  height: 70px;
+  padding: 24px;
+  background-size: 103% !important;
+  margin-bottom: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+ .player_inner__middle {
+  position: relative;
+  height: 380px;
+  background: #08051c;
+  box-shadow: 0px 0px 110px #181f23 inset;
+}
+
+ .player_inner__middle .cube_inner {
+  height: 386px;
+  transform-style: preserve-3D;
+}
+
+.player_inner__middle .cube_inner > div {
+    width: 100%;
+    height: 100%;
+    background: #7890ff;
+    position: absolute;
+    transform-style: preserve-3D;
+}
+
+.cube_inner__front {
+    background-size: cover; /* or contain */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+ .player_inner__bottom {
+  height: 190px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+ .player_inner__bottom .playbar {
+  width: 100%;
+  background: #2c3e38;
+  height: 4px;
+  position: relative;
+  border-radius: 10px;
+  top: 11px;
+}
+ .player_inner__bottom #playbar_inner {
+  position: absolute;
+  width: 1%;
+  height: 100%;
+  border-radius: 10px;
+  color: rgb(var(--text-color));
+  border: 2px double transparent;
+  background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)), radial-gradient(circle at left top, rgb(1, 110, 218), rgb(217, 0, 192));
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+ .player_inner__bottom .playbar_left {
+  float: left;
+  position: relative;
+  top: 8px;
+}
+ .player_inner__bottom .playbar_right {
+  position: relative;
+  top: 8px;
+  float: right;
+}
+ .player_inner__bottom .playbar span {
+  color: white;
+  font-size: 15px;
+}
+
+@-webkit-keyframes eq {
+  0% {
+    height: 30px;
+  }
+  50% {
+    height: 100px;
+  }
+  100% {
+    height: 30px;
+  }
+}
+
+@keyframes eq {
+  0% {
+    height: 30px;
+  }
+  50% {
+    height: 100px;
+  }
+  100% {
+    height: 30px;
+  }
+}
+#scroll-container {
+  border: 0px solid black;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 380px;
+  text-align:center;
+  padding: 0.5rem;
+}
+
+#bio {
+  text-align: center;
+  font-size: large;
+  margin:0.5rem;
+  line-height: 1.5rem;
+  font-family: "Nunito", sans-serif;
+  color: #ffffffff;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from { -moz-transform: translateX(100%); }
+  to { -moz-transform: translateX(-100%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateX(100%); }
+  to { -webkit-transform: translateX(-100%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+
+/* Button that displays the currently playing song, when clicked opens the modal */
+
+#DJ_button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-bottom: 0.5rem;
+        min-width: 19.5rem;
+        height: 5rem;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 700;
+        color: #313133;
+        background: #f84f85; 
+        border: none;
+        border-radius: 1000px !important;
+        box-shadow: 0px 0px 24px 8px #8224e3;
+        transition: all 0.3s ease-in-out 0s;
+        cursor: pointer;
+        outline: none;
+        position: relative;
+        overflow: hidden;
+}
+
+#DJ_button::before {
+content: '';
+  border-radius: 1000px;
+  min-width: calc(300px + 12px);
+  min-height: calc(60px + 12px);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all .3s ease-in-out 0s;
+}
+
+#DJ_button:hover, #DJ_button:focus {
+color: #313133;
+transform: translateY(-6px);
+}
+
+#DJ_button:hover::before, #DJ_button:focus::before {
+opacity: 1;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#toggleButton {
+    background-size: cover;
+    width: 6rem;
+    height: 5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.loading {
+    background-image: url('https://titanradio.org/wp-content/uploads/2023/10/TR2-Loading.png');
+}
+
+.playing {
+    background-image: url('https://titanradio.org/wp-content/uploads/2023/10/TR2-Stop.png');
+}
+
+.stopped {
+    background-image: url('https://titanradio.org/wp-content/uploads/2023/10/TR2-Play.png');
+}
+
+.centered-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+}
